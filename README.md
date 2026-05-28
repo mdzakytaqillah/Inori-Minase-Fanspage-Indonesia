@@ -1,3 +1,28 @@
+# Inori Minase Fanspage Indonesia
+
+Sebuah platform penggemar berbasis website yang didedikasikan untuk pengisi suara (seiyuu) dan penyanyi asal Jepang, **Inori Minase (水瀬いのり)**. Website ini berfungsi sebagai wadah bagi saya sebagai fans untuk membahas dan membagikan informasi tentang Inori Minase dari berbagai sumber.
+
+## Fitur Utama
+
+- **Arsitektur Data Lokal:** Seluruh data konten pada website ini disimpan dalam satu file lokal `data.json` untuk efisiensi dan kemudahan dalam melakukan pembaruan data.
+- **Halaman Beranda:** Menampilkan lini masa (timeline) vertikal interaktif perjalanan karir Inori Minase, disandingkan dengan kumpulan tautan resmi dan forum komunitas yang relevan.
+- **Halaman Diskografi:** Menampilkan daftar lengkap lagu yang dimiliki Inori Minase.
+  - Kalkulasi jumlah lagu dengan menghindari perhitungan redudansi pada lagu yang dirilis dua kali atau lebih.
+  - Fitur filter kategori dinamis untuk memisahkan tampilan antara **Semua Rilisan**, **Album**, dan **Single**.
+  - Manajemen daftar lagu (tracklist) yang dilengkapi sistem **Kredit Kreator** untuk melacak riwayat komposer, penulis lirik, dan aransemen secara akurat.
+- **Halaman Blog:** Menyajikan blog dengan kontrol navigasi halaman (pagination) serta integrasi skrip pihak ketiga yang adaptif untuk merender embed YouTube, Facebook, Twitter, TikTok, dan Instagram.
+
+## Komponen Teknologi (Tech Stack)
+
+- **Framework:** Next.js (App Router)
+- **Bahasa Pemrograman:** TypeScript
+- **Styling:** Tailwind CSS
+- **Sumber Data (Database):** Berbasis File JSON Lokal (`data.json`)
+
+Anda dapat mengaksesnya [disini](https://inorifans-id.vercel.app)
+
+## Memulai Proyek
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -15,8 +40,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
