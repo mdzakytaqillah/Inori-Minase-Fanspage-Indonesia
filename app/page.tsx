@@ -1,7 +1,26 @@
 import data from "@/data.json";
 import Link from "next/link";
+import { getInoriProfile } from "@/lib/jikan";
 
-export default function ProfilePage() {
+export default async function ProfilePage() {
+  // Foto Profil dari Jikan API
+  const jikanData = await getInoriProfile();
+  const imageUrl = jikanData?.data?.images?.jpg?.image_url || "";
+
+  // Logika Hitung Mundur Ulang Tahun (2 Desember)
+  const today = new Date();
+  const currentYear = today.getFullYear();
+  let nextBday = new Date(currentYear, 11, 2); // Bulan 11 = Desember (0-indexed)
+
+  if (today > new Date(currentYear, 11, 3)) {
+    nextBday = new Date(currentYear + 1, 11, 2);
+  }
+
+  const diffTime = nextBday.getTime() - today.getTime();
+  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+  // Tampilkan hanya jika jaraknya <= 90 hari (sekitar 3 bulan)
+  const isBdaySeason = diffDays <= 90 && diffDays >= 0;
+
   // Kelompokkan Official Links berdasarkan tipe
   const officialLinks = data.official_links.reduce<
     Record<string, typeof data.official_links>
@@ -13,7 +32,77 @@ export default function ProfilePage() {
 
   return (
     <div className="space-y-12">
-      {/* SECTION 1: STORY (TIMELINE) */}
+      {/* SECTION 1: PROFILE */}
+      <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row gap-8 items-center md:items-start">
+        {/* Foto Profil dari Jikan */}
+        <div className="relative h-40 md:h-48 shadow-md border-4 border-sky-50 flex-shrink-0 bg-slate-100">
+          {imageUrl && (
+            <img src={imageUrl} alt="Minase Inori" className="w-full h-full" />
+          )}
+        </div>
+
+        {/* Informasi Pribadi */}
+        <div className="flex-1 text-center md:text-left space-y-4">
+          <div>
+            <h2 className="text-3xl font-extrabold text-gray-800">
+              水瀬いのり
+            </h2>
+            <h3 className="text-xl font-bold text-sky-600">Minase Inori</h3>
+            <p className="text-sm text-gray-500 font-medium mt-1">
+              Panggilan: いのりん / Inorin
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-600">
+            <div className="bg-slate-50 p-3 rounded-lg border border-slate-100">
+              <span className="block text-xs font-bold text-gray-400 uppercase">
+                Tanggal Lahir
+              </span>
+              <span className="font-semibold text-gray-800">
+                2 Desember 1995
+              </span>
+              {isBdaySeason && (
+                <span className="block mt-1 text-xs font-bold text-pink-500 bg-pink-50 px-2 py-1 rounded inline-block animate-pulse">
+                  🎉{" "}
+                  {diffDays === 0
+                    ? "Hari ini Ulang Tahun!"
+                    : `${diffDays} Hari menuju Ulang Tahun`}
+                </span>
+              )}
+            </div>
+            <div className="bg-slate-50 p-3 rounded-lg border border-slate-100">
+              <span className="block text-xs font-bold text-gray-400 uppercase">
+                Fisik
+              </span>
+              <span className="font-semibold text-gray-800">
+                154 cm • Gol. Darah B
+              </span>
+            </div>
+            <div className="bg-slate-50 p-3 rounded-lg border border-slate-100">
+              <span className="block text-xs font-bold text-gray-400 uppercase">
+                Agensi
+              </span>
+              <span className="font-semibold text-gray-800 block">
+                AxlOne (2017 - Sekarang)
+              </span>
+              <span className="text-xs text-gray-500">
+                Sony Music Artists (2010 - 2017)
+              </span>
+            </div>
+            <div className="bg-slate-50 p-3 rounded-lg border border-slate-100">
+              <span className="block text-xs font-bold text-gray-400 uppercase">
+                Label Musik
+              </span>
+              <span className="font-semibold text-gray-800 block">
+                King Amusement Creative
+              </span>
+              <span className="text-xs text-gray-500">(2015 - Sekarang)</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 2: STORY (TIMELINE) */}
       <section>
         <div className="flex items-center gap-2 mb-8">
           <div className="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center">
@@ -53,7 +142,7 @@ export default function ProfilePage() {
         </div>
       </section>
 
-      {/* SECTION 2: OFFICIAL LINKS */}
+      {/* SECTION 3: OFFICIAL LINKS */}
       <section>
         <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-6 border-b pb-2">
           Tautan Resmi
@@ -84,7 +173,7 @@ export default function ProfilePage() {
         </div>
       </section>
 
-      {/* SECTION 3: COMMUNITY LINKS */}
+      {/* SECTION 4: COMMUNITY LINKS */}
       <section>
         <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-6 border-b pb-2">
           Tautan Komunitas

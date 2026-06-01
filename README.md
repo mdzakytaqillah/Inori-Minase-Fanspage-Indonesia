@@ -4,20 +4,21 @@ Sebuah platform penggemar berbasis website yang didedikasikan untuk pengisi suar
 
 ## Fitur Utama
 
-- **Arsitektur Data Lokal:** Seluruh data konten pada website ini disimpan dalam satu file lokal `data.json` untuk efisiensi dan kemudahan dalam melakukan pembaruan data.
-- **Halaman Beranda:** Menampilkan lini masa (timeline) vertikal interaktif perjalanan karir Inori Minase, disandingkan dengan kumpulan tautan resmi dan forum komunitas yang relevan.
+- **Arsitektur Data Lokal:** Sebagian besar data konten pada website ini disimpan dalam satu file lokal `data.json` untuk efisiensi dan kemudahan dalam melakukan pembaruan data.
+- **Halaman Beranda:** Menampilkan foto Inori Minase, informasi pribadi Inori Minase, lini masa (timeline) vertikal interaktif perjalanan karir Inori Minase, disandingkan dengan kumpulan tautan resmi dan forum komunitas yang relevan. Terdapat pula fitur countdown hari ulang tahun Inori Minase yang aktif ketika mendekati hari ulang tahunnya (<= 90 hari)
 - **Halaman Diskografi:** Menampilkan daftar lengkap lagu yang dimiliki Inori Minase.
   - Kalkulasi jumlah lagu dengan menghindari perhitungan redudansi pada lagu yang dirilis dua kali atau lebih.
   - Fitur filter kategori dinamis untuk memisahkan tampilan antara **Semua Rilisan**, **Album**, dan **Single**.
   - Manajemen daftar lagu (tracklist) yang dilengkapi sistem **Kredit Kreator** untuk melacak riwayat komposer, penulis lirik, dan aransemen secara akurat.
 - **Halaman Blog:** Menyajikan blog dengan kontrol navigasi halaman (pagination) serta integrasi skrip pihak ketiga yang adaptif untuk merender embed YouTube, Facebook, Twitter, TikTok, dan Instagram.
+- **Halaman Voicing:** Menampilkan informasi terkait peran karakter Inori Minase yang sedang dan/atau akan tayang, informasi nama dan foto karakter serta nama dan waktu penayangan anime tersebut. Data berasal dari platform [MyAnimeList (MAL)](https://myanimelist.net) yang diperoleh menggunakan unofficial MAL API, [Jikan API](https://jikan.moe).
 
 ## Komponen Teknologi (Tech Stack)
 
 - **Framework:** Next.js (App Router)
 - **Bahasa Pemrograman:** TypeScript
 - **Styling:** Tailwind CSS
-- **Sumber Data (Database):** Berbasis File JSON Lokal (`data.json`)
+- **Sumber Data:** File JSON Lokal (`data.json`) + [Jikan API](https://github.com/jikan-me/jikan-rest) (untuk foto dan data halaman voicing)
 
 Anda dapat mengaksesnya [disini](https://inorifans-id.vercel.app)
 
