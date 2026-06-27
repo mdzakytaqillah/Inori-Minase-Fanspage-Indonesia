@@ -1,37 +1,43 @@
 import { Metadata } from "next";
-import { Suspense } from "react";
+import Link from "next/link";
 import {
-  getInoriVoices,
-  getAiringAnime,
-  getUpcomingAnime,
-  VoiceRole,
-  JikanAnime,
-} from "@/lib/jikan";
-import RefreshButton from "./RefreshButton";
-import { refreshAiringData, refreshUpcomingData } from "./actions";
+  getDashboardData,
+  CachedAnime,
+  ScrapedVoiceRole,
+  TopSeiyuu,
+} from "@/lib/syncBlob";
 
 export const metadata: Metadata = { title: "Voicing Data" };
 
 // --- INTERFACES & HELPER COMPONENTS ---
-interface JikanVoicesResponse {
-  data: VoiceRole[];
-}
-interface JikanAnimeResponse {
-  data: JikanAnime[];
-}
+
 interface MappedAnimeRole {
   title: string;
   role: string;
   id: number;
 }
+
+interface MappedAnimeBanner {
+  title: string;
+  season: string | null;
+  year: number | null;
+  start_date: string | null;
+  end_date: string | null;
+  images: {
+    jpg: {
+      small_image_url: string;
+    };
+  };
+}
+
 interface MappedCharacter {
   id: number;
   name: string;
   image: string;
   url: string;
   animes: MappedAnimeRole[];
-  airingAnime?: JikanAnime;
-  upcomingAnime?: JikanAnime;
+  airingAnime?: MappedAnimeBanner;
+  upcomingAnime?: MappedAnimeBanner;
 }
 
 const CharacterCard = ({
@@ -40,31 +46,79 @@ const CharacterCard = ({
   sectionType,
 }: {
   char: MappedCharacter;
-  animeBanner?: JikanAnime;
+  animeBanner?: MappedAnimeBanner;
   sectionType?: "airing" | "upcoming";
 }) => {
   let releaseText = "";
+
+  if (animeBanner && animeBanner.start_date) {
+    const months = [
+      "Januari",
+      "Februari",
+      "Maret",
+      "April",
+      "Mei",
+      "Juni",
+      "Juli",
+      "Agustus",
+      "September",
+      "Oktober",
+      "November",
+      "Desember",
+    ];
+
+    // Fungsi kecil untuk memecah string YYYY-MM-DD dengan aman
+    const parseDate = (dateStr: string) => {
+      const parts = dateStr.split("-");
+      return {
+        y: parts[0],
+        m: parts[1] ? months[parseInt(parts[1], 10) - 1] : "",
+        d: parts[2] ? parseInt(parts[2], 10).toString() : "", // ParseInt membuang angka 0 di depan (05 -> 5)
+      };
+    };
+
+    const start = parseDate(animeBanner.start_date);
+
+    // Hanya proses jika data tanggalnya benar-benar lengkap (Tahun, Bulan, Hari)
+    if (start.y && start.m && start.d) {
+      if (animeBanner.end_date) {
+        const end = parseDate(animeBanner.end_date);
+
+        if (end.y && end.m && end.d) {
+          if (start.y === end.y && start.m === end.m && start.d === end.d) {
+            // Kasus 1: Film, Start dan End lengkap dan persis sama
+            releaseText = `${start.d} ${start.m} ${start.y}`;
+          } else if (start.y === end.y) {
+            // Kasus 2: Start dan End lengkap dan pada tahun yang sama
+            releaseText = `${start.d} ${start.m} - ${end.d} ${end.m} ${start.y}`;
+          } else {
+            // Kasus 3: Start dan End lengkap tapi beda tahun
+            releaseText = `${start.d} ${start.m} ${start.y} - ${end.d} ${end.m} ${end.y}`;
+          }
+        }
+      }
+
+      // Kasus 4: Jika end_date tidak ada (atau tidak lengkap), tapi start_date lengkap
+      if (!releaseText) {
+        releaseText = `${start.d} ${start.m} ${start.y}`;
+      }
+    }
+  }
 
   if (animeBanner) {
     if (sectionType === "upcoming") {
       const season = animeBanner.season;
       const year = animeBanner.year;
-      const airedString = animeBanner.aired?.string;
+      const airedString = releaseText;
 
-      if (season && year) {
+      if (season && year && airedString.length > 0) {
+        releaseText = `${season.charAt(0).toUpperCase() + season.slice(1)} ${year} (${airedString})`;
+      } else if (season && year) {
         releaseText = `${season.charAt(0).toUpperCase() + season.slice(1)} ${year}`;
       } else if (year) {
         releaseText = year.toString();
-      } else if (airedString && /\d/.test(airedString)) {
-        releaseText = airedString;
       } else {
         releaseText = "TBA";
-      }
-    } else if (sectionType === "airing") {
-      const airedString = animeBanner.aired?.string;
-
-      if (airedString && /\d/.test(airedString)) {
-        releaseText = airedString;
       }
     }
   }
@@ -127,220 +181,186 @@ const CharacterCard = ({
   );
 };
 
-function SectionSkeleton({ title }: { title: string }) {
-  return (
-    <section>
-      <div className="flex justify-between items-center border-b pb-2 mb-6">
-        <h3 className="text-xl font-bold text-gray-800">{title}</h3>
-        <div className="h-8 w-24 bg-slate-200 animate-pulse rounded-lg"></div>
-      </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-5">
-        {Array.from({ length: 5 }).map((_, i) => (
-          <div
-            key={i}
-            className="flex flex-col bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden h-full"
-          >
-            <div className="w-full aspect-[3/4] bg-slate-200 animate-pulse flex-shrink-0"></div>
-            <div className="p-3 flex flex-col flex-1">
-              <div className="h-4 w-3/4 bg-slate-200 animate-pulse rounded mb-2"></div>
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-}
-
-// --- KOMPONEN DINAMIS 1: AIRING ANIME ---
-async function AiringSection({
-  fetchPromise,
-}: {
-  fetchPromise: Promise<[JikanVoicesResponse, JikanAnimeResponse]>;
-}) {
-  // Menerima Promise dari luar dan mengeksekusinya
-  const [voicesData, nowData] = await fetchPromise;
-
-  const voices: VoiceRole[] = voicesData?.data || [];
-  const airingAnimeIds = new Set<number>(
-    nowData?.data?.map((a: JikanAnime) => a.mal_id) || [],
-  );
-
-  // Filter peran yang masuk ke musim tayang saat ini
-  const airingVoices = voices.filter((v) => airingAnimeIds.has(v.anime.mal_id));
-  const airingCharacterIds = new Set(
-    airingVoices.map((v) => v.character.mal_id),
-  );
-
-  // Kumpulkan data karakter dan seluruh riwayat animenya
-  const charsMap = new Map<number, MappedCharacter>();
-
-  voices.forEach((v) => {
-    // Cek apakah karakter ini termasuk karakter yang sedang tayang
-    if (airingCharacterIds.has(v.character.mal_id)) {
-      if (!charsMap.has(v.character.mal_id)) {
-        const voiceAnimeId = airingVoices.find(
-          (av) => av.character.mal_id === v.character.mal_id,
-        )?.anime.mal_id;
-        const bannerAnime = nowData.data.find(
-          (a: JikanAnime) => a.mal_id === voiceAnimeId,
-        );
-
-        charsMap.set(v.character.mal_id, {
-          id: v.character.mal_id,
-          name: v.character.name,
-          image: v.character.images.jpg.image_url,
-          url: v.character.url,
-          animes: [],
-          airingAnime: bannerAnime,
-        });
-      }
-      // Masukkan semua anime yang pernah ada karakter ini ke dalam list
-      charsMap.get(v.character.mal_id)!.animes.push({
-        title: v.anime.title,
-        role: v.role,
-        id: v.anime.mal_id,
-      });
-    }
-  });
-
-  const chars = Array.from(charsMap.values());
-
-  let sectionTitle = "Sedang Tayang";
-  const firstValidAnime = nowData?.data?.find(
-    (a: JikanAnime) => a.season && a.year,
-  );
-  if (firstValidAnime && firstValidAnime.season) {
-    const seasonCapitalized =
-      firstValidAnime.season.charAt(0).toUpperCase() +
-      firstValidAnime.season.slice(1);
-    sectionTitle = `Sedang Tayang - ${seasonCapitalized} ${firstValidAnime.year}`;
-  }
-
-  return (
-    <section>
-      <div className="flex justify-between items-center border-b pb-2 mb-6">
-        <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">
-          {sectionTitle}
-        </h3>
-        <RefreshButton action={refreshAiringData} label="Refresh" />
-      </div>
-      {chars.length > 0 ? (
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-5">
-          {chars.map((char) => (
-            <CharacterCard
-              key={char.id}
-              char={char}
-              animeBanner={char.airingAnime}
-              sectionType="airing"
-            />
-          ))}
-        </div>
-      ) : (
-        <p className="text-sm text-gray-500">
-          Tidak ada karakter yang sedang tayang saat ini.
-        </p>
-      )}
-    </section>
-  );
-}
-
-// --- KOMPONEN DINAMIS 2: UPCOMING ANIME ---
-async function UpcomingSection({
-  waitPromise,
-}: {
-  waitPromise: Promise<unknown>;
-}) {
-  // Tunggu proses Airing selesai
-  try {
-    await waitPromise;
-  } catch (e) {
-    // Berhasil ataupun tidak proses airing, tetap lanjut ke proses upcoming
-  }
-
-  // Jalankan fetch Upcoming
-  const [voicesData, upcomingData] = await Promise.all([
-    getInoriVoices(),
-    getUpcomingAnime(),
-  ]);
-
-  const voices: VoiceRole[] = voicesData?.data || [];
-  const upcomingAnimeIds = new Set<number>(
-    upcomingData?.data?.map((a: JikanAnime) => a.mal_id) || [],
-  );
-
-  // Filter peran yang masuk ke musim akan datang
-  const upcomingVoices = voices.filter((v) =>
-    upcomingAnimeIds.has(v.anime.mal_id),
-  );
-  const upcomingCharacterIds = new Set(
-    upcomingVoices.map((v) => v.character.mal_id),
-  );
-
-  // Kumpulkan data karakter dan seluruh riwayat animenya
-  const charsMap = new Map<number, MappedCharacter>();
-
-  voices.forEach((v) => {
-    // Cek apakah karakter ini termasuk karakter yang akan datang
-    if (upcomingCharacterIds.has(v.character.mal_id)) {
-      if (!charsMap.has(v.character.mal_id)) {
-        const voiceAnimeId = upcomingVoices.find(
-          (uv) => uv.character.mal_id === v.character.mal_id,
-        )?.anime.mal_id;
-        const bannerAnime = upcomingData.data.find(
-          (a: JikanAnime) => a.mal_id === voiceAnimeId,
-        );
-
-        charsMap.set(v.character.mal_id, {
-          id: v.character.mal_id,
-          name: v.character.name,
-          image: v.character.images.jpg.image_url,
-          url: v.character.url,
-          animes: [],
-          upcomingAnime: bannerAnime,
-        });
-      }
-      // Masukkan semua anime yang pernah ada karakter ini ke dalam list
-      charsMap.get(v.character.mal_id)!.animes.push({
-        title: v.anime.title,
-        role: v.role,
-        id: v.anime.mal_id,
-      });
-    }
-  });
-
-  const chars = Array.from(charsMap.values());
-
-  return (
-    <section>
-      <div className="flex justify-between items-center border-b pb-2 mb-6">
-        <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">
-          Akan Datang
-        </h3>
-        <RefreshButton action={refreshUpcomingData} label="Refresh" />
-      </div>
-      {chars.length > 0 ? (
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-5">
-          {chars.map((char) => (
-            <CharacterCard
-              key={char.id}
-              char={char}
-              animeBanner={char.upcomingAnime}
-              sectionType="upcoming"
-            />
-          ))}
-        </div>
-      ) : (
-        <p className="text-sm text-gray-500">
-          Tidak ada karakter yang akan datang saat ini.
-        </p>
-      )}
-    </section>
-  );
-}
-
 // --- HALAMAN UTAMA ---
-export default function VoicingPage() {
-  const airingFetchPromise = Promise.all([getInoriVoices(), getAiringAnime()]);
+export default async function VoicingPage() {
+  // 1. Ambil data dari Blob
+  const { animeDB, personDB, topSeiyuuDB } = await getDashboardData();
+  const voices: ScrapedVoiceRole[] = personDB?.voices || [];
+  const topSeiyuus: TopSeiyuu[] = topSeiyuuDB || [];
+  const seiyuuMALId = 11297;
+
+  // 2. Kalkulasi Sekilas Statistik
+  const genreCounts: Record<string, number> = {};
+  Object.values(animeDB).forEach((anime: CachedAnime) => {
+    anime.genres?.forEach((g) => {
+      genreCounts[g.name] = (genreCounts[g.name] || 0) + 1;
+    });
+  });
+
+  const top5Genres = Object.entries(genreCounts)
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 5);
+
+  const uniqueCharsMap = new Map();
+  voices.forEach((v) => {
+    if (!uniqueCharsMap.has(v.character.mal_id)) {
+      uniqueCharsMap.set(v.character.mal_id, v.character);
+    }
+  });
+
+  const top3Chars = Array.from(uniqueCharsMap.values())
+    .sort(
+      (a: { favorites: number }, b: { favorites: number }) =>
+        b.favorites - a.favorites,
+    )
+    .slice(0, 3);
+
+  // Cari posisi seiyuu target dalam ranking
+  const seiyuuIndex = topSeiyuus.findIndex((s) => s.mal_id === seiyuuMALId);
+  let adjacentSeiyuus: (TopSeiyuu & { rank: number })[] = [];
+  if (seiyuuIndex !== -1) {
+    let start = seiyuuIndex - 1;
+    let end = seiyuuIndex + 1;
+
+    // Edge Cases: Jika peringkat 1 atau peringkat paling bawah
+    if (start < 0) {
+      start = 0;
+      end = Math.min(topSeiyuus.length - 1, 2);
+    } else if (end >= topSeiyuus.length) {
+      end = topSeiyuus.length - 1;
+      start = Math.max(0, topSeiyuus.length - 3);
+    }
+
+    for (let i = start; i <= end; i++) {
+      if (topSeiyuus[i]) {
+        adjacentSeiyuus.push({ ...topSeiyuus[i], rank: i + 1 });
+      }
+    }
+  } else {
+    adjacentSeiyuus = [];
+  }
+
+  // 3. Mapping Relasi (Karakter -> Riwayat Anime)
+  const charAnimesMap = new Map<number, MappedAnimeRole[]>();
+  voices.forEach((v) => {
+    const animeId = v.anime.mal_id;
+    const charId = v.character.mal_id;
+    const animeInfo = animeDB[animeId];
+
+    if (!animeInfo) return;
+
+    if (!charAnimesMap.has(charId)) charAnimesMap.set(charId, []);
+
+    const existing = charAnimesMap.get(charId)!;
+    if (!existing.some((a) => a.id === animeId)) {
+      existing.push({
+        title: animeInfo.title,
+        role: v.role,
+        id: animeId,
+      });
+    }
+  });
+
+  // 4. Pembagian Airing dan Upcoming dari Blob
+  const airingMap = new Map<number, MappedCharacter>();
+  const upcomingMap = new Map<number, MappedCharacter>();
+  const nowYear = new Date().getFullYear();
+
+  voices.forEach((voice) => {
+    const anime = animeDB[voice.anime.mal_id];
+    const char = voice.character;
+
+    if (!anime || !char) return;
+
+    // Mapping
+    const mappedAnimeBanner: MappedAnimeBanner = {
+      title: anime.title,
+      season: anime.season,
+      year: anime.year,
+      start_date: anime.start_date,
+      end_date: anime.end_date,
+      images: { jpg: { small_image_url: anime.image_url } },
+    };
+
+    if (anime.status === "currently_airing") {
+      if (anime.year && anime.year >= nowYear - 1) {
+        if (!airingMap.has(char.mal_id)) {
+          airingMap.set(char.mal_id, {
+            id: char.mal_id,
+            name: char.name,
+            image: char.image_url,
+            url: `https://myanimelist.net/character/${char.mal_id}`,
+            animes: charAnimesMap.get(char.mal_id) || [],
+            airingAnime: mappedAnimeBanner,
+          });
+        }
+      }
+    } else if (anime.status === "not_yet_aired") {
+      if (!upcomingMap.has(char.mal_id)) {
+        upcomingMap.set(char.mal_id, {
+          id: char.mal_id,
+          name: char.name,
+          image: char.image_url,
+          url: `https://myanimelist.net/character/${char.mal_id}`,
+          animes: charAnimesMap.get(char.mal_id) || [],
+          upcomingAnime: mappedAnimeBanner,
+        });
+      }
+    }
+  });
+
+  const airingChars = Array.from(airingMap.values());
+  const upcomingChars = Array.from(upcomingMap.values());
+
+  // 5. Mengetahui musim sekarang
+  let nowSeason;
+  // Filter hanya anime yang sedang tayang max 2 tahun terakhir dan memiliki kelengkapan data season & year
+  const currentlyAiringAnimes = Object.values(animeDB).filter(
+    (a) =>
+      a.status === "currently_airing" &&
+      a.season &&
+      a.year &&
+      a.year >= nowYear - 1,
+  );
+
+  if (currentlyAiringAnimes.length > 0) {
+    // Bobot untuk sorting (Fall adalah kuartal 4/terbaru dalam setahun, Winter adalah kuartal 1/terlama)
+    const seasonWeight: Record<string, number> = {
+      winter: 1,
+      spring: 2,
+      summer: 3,
+      fall: 4,
+    };
+
+    // Urutkan berdasarkan Tahun (Menurun) lalu Musim (Menurun)
+    currentlyAiringAnimes.sort((a, b) => {
+      const yearA = a.year || 0;
+      const yearB = b.year || 0;
+
+      // Prioritas 1: Tahun terbaru
+      if (yearB !== yearA) {
+        return yearB - yearA;
+      }
+
+      // Prioritas 2: Jika tahun sama, cari musim terbaru
+      const weightA = seasonWeight[(a.season || "").toLowerCase()] || 0;
+      const weightB = seasonWeight[(b.season || "").toLowerCase()] || 0;
+
+      return weightB - weightA;
+    });
+
+    // Ambil anime urutan pertama (yang paling baru dirilis)
+    const latestAiring = currentlyAiringAnimes[0];
+    if (latestAiring && latestAiring.season) {
+      const seasonText =
+        latestAiring.season.charAt(0).toUpperCase() +
+        latestAiring.season.slice(1) +
+        " " +
+        latestAiring.year;
+      nowSeason = seasonText;
+    }
+  }
 
   return (
     <div className="space-y-12 pb-10">
@@ -349,36 +369,191 @@ export default function VoicingPage() {
           Peran Karakter
         </h2>
         <p className="text-sm text-gray-600">
-          Seluruh data pada halaman ini didapatkan melalui{" "}
-          <a
-            href="https://jikan.moe"
-            target="_blank"
-            rel="noreferrer"
-            className="text-sky-600 hover:underline font-bold"
-          >
-            Jikan API,{" "}
-          </a>
-          Unofficial{" "}
-          <a
-            href="https://myanimelist.net"
-            target="_blank"
-            className="text-sky-600 hover:underline font-bold"
-          >
-            MyAnimeList
-          </a>{" "}
-          API.
+          Seluruh data pada halaman ini didapatkan secara hibrida melalui
+          Scraper MyAnimeList Lokal dan Official MyAnimeList API.
         </p>
+
+        <div className="p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+          {/* ========================================== */}
+          {/* KOLOM KIRI: Karakter & Genre               */}
+          {/* ========================================== */}
+          <div className="flex flex-col justify-between gap-8 h-full">
+            {/* --- Top 3 Karakter Favorit --- */}
+            <div>
+              <h3 className="text-sm font-black text-slate-700 uppercase tracking-widest mb-4">
+                🔥 Top 3 Karakter Favorit
+              </h3>
+              <div className="flex flex-col gap-3">
+                {top3Chars.map((c, idx) => (
+                  <a
+                    href={`https://myanimelist.net/character/${c.mal_id}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    key={c.mal_id}
+                    className="flex items-center gap-3 bg-white p-2 rounded-xl border border-slate-200 hover:border-sky-300 transition-colors group"
+                  >
+                    <div className="font-extrabold text-slate-300 w-6 text-center">
+                      #{idx + 1}
+                    </div>
+                    <img
+                      src={c.image_url}
+                      className="w-10 h-10 rounded-full object-cover group-hover:scale-105 transition-transform"
+                      alt={c.name}
+                    />
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-bold text-slate-800 line-clamp-1">
+                        {c.name}
+                      </p>
+                      <p className="text-[10px] font-bold text-rose-500">
+                        ❤️ {c.favorites.toLocaleString()}
+                      </p>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            {/* --- Top 5 Genre Anime --- */}
+            <div>
+              <h3 className="text-sm font-black text-slate-700 uppercase tracking-widest mb-4">
+                🎬 Top 5 Genre Anime
+              </h3>
+              <div className="flex flex-wrap gap-2.5">
+                {top5Genres.map((genre, idx) => (
+                  <div
+                    key={idx}
+                    className="bg-white border border-slate-200 px-3 py-1.5 rounded-lg text-xs font-bold text-slate-600 shadow-sm"
+                  >
+                    {genre.name}{" "}
+                    <span className="text-sky-500 ml-1">{genre.count}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* ========================================== */}
+          {/* KOLOM KANAN: Ranking Seiyuu & Tombol       */}
+          {/* ========================================== */}
+          <div className="flex flex-col justify-between gap-8 h-full">
+            {/* --- Ranking Seiyuu --- */}
+            <div>
+              <h3 className="text-sm font-black text-slate-700 uppercase tracking-widest mb-4">
+                🏆 Ranking Seiyuu
+              </h3>
+              <div className="flex flex-col gap-3">
+                {adjacentSeiyuus.map((s) => (
+                  <a
+                    href={`https://myanimelist.net/people/${s.mal_id}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    key={s.mal_id}
+                    className={`flex items-center gap-3 p-2 rounded-xl border transition-colors group ${
+                      s.mal_id === seiyuuMALId
+                        ? "bg-sky-100 border-sky-400 shadow-sm"
+                        : "bg-white border-slate-200 hover:border-sky-300"
+                    }`}
+                  >
+                    <div
+                      className={`font-extrabold w-6 text-center ${
+                        s.mal_id === seiyuuMALId
+                          ? "text-sky-600"
+                          : "text-slate-300"
+                      }`}
+                    >
+                      #{s.rank}
+                    </div>
+                    <img
+                      src={s.image_url}
+                      className="w-10 h-10 rounded-full object-cover group-hover:scale-105 transition-transform"
+                      alt={s.name}
+                    />
+                    <div className="flex-1 min-w-0">
+                      <p
+                        className={`text-sm font-bold line-clamp-1 ${
+                          s.mal_id === seiyuuMALId
+                            ? "text-sky-800"
+                            : "text-slate-800"
+                        }`}
+                      >
+                        {s.name}
+                      </p>
+                      <p className="text-[10px] font-bold text-rose-500">
+                        ❤️ {s.favorites.toLocaleString()}
+                      </p>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            {/* --- Tombol Full Statistik --- */}
+            <div className="mt-6 md:mt-0 self-start md:self-end">
+              <Link
+                href="/voicing/stats"
+                className="inline-flex items-center justify-center bg-slate-900 text-white text-sm font-bold px-6 py-3 rounded-xl hover:bg-sky-600 transition-colors shadow-sm"
+              >
+                Lihat Full Statistik 📊
+              </Link>
+            </div>
+          </div>
+        </div>
       </section>
 
-      {/* Eksekusi Promise Airing */}
-      <Suspense fallback={<SectionSkeleton title="Sedang Tayang" />}>
-        <AiringSection fetchPromise={airingFetchPromise} />
-      </Suspense>
+      {/* SEDANG TAYANG */}
+      <section>
+        <div className="flex items-center gap-2 mb-6 px-1">
+          <div className="w-2 h-6 bg-sky-500 rounded-full animate-pulse"></div>
+          <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">
+            Sedang Tayang{" "}
+            {nowSeason && nowSeason.length > 0 ? "- " + nowSeason : ""}
+          </h3>
+        </div>
 
-      {/* Oper Promise Airing sebagai "Lampu Merah" untuk Upcoming */}
-      <Suspense fallback={<SectionSkeleton title="Akan Datang" />}>
-        <UpcomingSection waitPromise={airingFetchPromise} />
-      </Suspense>
+        {airingChars.length > 0 ? (
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-5">
+            {airingChars.map((char) => (
+              <CharacterCard
+                key={char.id}
+                char={char}
+                animeBanner={char.airingAnime}
+                sectionType="airing"
+              />
+            ))}
+          </div>
+        ) : (
+          <p className="text-sm text-gray-500">
+            Tidak ada karakter yang sedang tayang saat ini.
+          </p>
+        )}
+      </section>
+
+      {/* AKAN DATANG */}
+      <section>
+        <div className="flex items-center gap-2 mb-6 px-1">
+          <div className="w-2 h-6 bg-pink-500 rounded-full"></div>
+          <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">
+            Akan Datang
+          </h3>
+        </div>
+
+        {upcomingChars.length > 0 ? (
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-5">
+            {upcomingChars.map((char) => (
+              <CharacterCard
+                key={char.id}
+                char={char}
+                animeBanner={char.upcomingAnime}
+                sectionType="upcoming"
+              />
+            ))}
+          </div>
+        ) : (
+          <p className="text-sm text-gray-500">
+            Tidak ada karakter yang akan datang saat ini.
+          </p>
+        )}
+      </section>
     </div>
   );
 }

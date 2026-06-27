@@ -1,11 +1,11 @@
 import data from "@/data.json";
 import Link from "next/link";
-import { getInoriProfile } from "@/lib/jikan";
+import { getDashboardData } from "@/lib/syncBlob";
 
 export default async function ProfilePage() {
-  // Foto Profil dari Jikan API
-  const jikanData = await getInoriProfile();
-  const imageUrl = jikanData?.data?.images?.jpg?.image_url || "";
+  // Foto Profil dari MAL Scraper
+  const { personDB } = await getDashboardData();
+  const imageUrl = personDB?.image_url || "";
 
   // Logika Hitung Mundur Ulang Tahun (2 Desember)
   const today = new Date();
@@ -34,7 +34,7 @@ export default async function ProfilePage() {
     <div className="space-y-12">
       {/* SECTION 1: PROFILE */}
       <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row gap-8 items-center md:items-start">
-        {/* Foto Profil dari Jikan */}
+        {/* Foto Profil */}
         <div className="relative h-40 md:h-48 shadow-md border-4 border-sky-50 flex-shrink-0 bg-slate-100">
           {imageUrl && (
             <img src={imageUrl} alt="Minase Inori" className="w-full h-full" />
