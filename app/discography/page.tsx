@@ -2,6 +2,7 @@
 
 import data from "@/data.json";
 import { useState, useMemo } from "react";
+import Link from "next/link";
 
 export default function DiscographyPage() {
   const [expandedTracks, setExpandedTracks] = useState<Record<string, boolean>>(
@@ -108,16 +109,25 @@ export default function DiscographyPage() {
           </p>
         </div>
 
-        {/* INFO TOTAL LAGU */}
-        <div className="bg-blue-50 border border-blue-100 px-4 py-2 rounded-lg flex items-center gap-3">
-          <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
-            {totalUniqueSongs}
-          </div>
-          <div>
-            <p className="text-xs text-blue-600 font-bold uppercase">
-              Total Rilisan
-            </p>
-            <p className="text-sm font-medium text-gray-700">Lagu Inorin</p>
+        {/* INFO LIVE & TOTAL LAGU */}
+        <div className="flex flex-wrap items-center gap-3">
+          <Link
+            href="/discography/live"
+            className="px-4 py-2 bg-blue-700 hover:bg-blue-800 text-white font-bold rounded-xl text-sm transition-colors shadow-sm flex items-center gap-2"
+          >
+            🎤 Riwayat LIVE Concerts
+          </Link>
+
+          <div className="bg-blue-50 border border-blue-100 px-4 py-2 rounded-xl flex items-center gap-3">
+            <div className="bg-blue-600 text-white rounded-full w-9 h-9 flex items-center justify-center font-bold text-sm">
+              {totalUniqueSongs}
+            </div>
+            <div>
+              <p className="text-[10px] text-blue-600 font-bold uppercase tracking-wider">
+                Total Rilisan
+              </p>
+              <p className="text-xs font-bold text-gray-700">Lagu Inorin</p>
+            </div>
           </div>
         </div>
       </div>

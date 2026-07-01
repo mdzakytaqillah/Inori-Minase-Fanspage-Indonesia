@@ -1934,5 +1934,449 @@
         }
       ]
     }
+  ],
+  "live_history": [
+    {
+      "name": "Inori Minase OPEN AIR LIVE 2026 Summer Challenger",
+      "live": [
+        {
+          "date": "2026-09-12",
+          "place": "Fujikyuu Highland - Conifer Forest, Yamanashi"
+        },
+        {
+          "date": "2026-09-13",
+          "place": "Fujikyuu Highland - Conifer Forest, Yamanashi"
+        }
+      ],
+      "bluray_release": [],
+      "audio_release": "",
+      "image_path": [],
+      "buttons": []
+    },
+    {
+      "name": "Inori Minase 10th ANNIVERSARY LIVE TOUR Travel Record",
+      "live": [
+        {
+          "date": "2025-10-12",
+          "place": "World Kinen Hall, Hyougo"
+        },
+        {
+          "date": "2025-10-18",
+          "place": "Fujiichi Bunka Kaikan ROSE Theater - Main Hall, Shizuoka"
+        },
+        {
+          "date": "2025-10-25",
+          "place": "Fukuoka Sun Palace Hotel & Hall, Fukuoka"
+        },
+        {
+          "date": "2025-11-01",
+          "place": "Kurashiki Shimin Kaikan, Okayama"
+        },
+        {
+          "date": "2025-11-09",
+          "place": "Kanamoto Hall (Sapporo Shimin Hall), Hokkaido"
+        },
+        {
+          "date": "2025-11-24",
+          "place": "Kariya-shi Sougou Bunka Center - Main Hall, Aichi"
+        },
+        {
+          "date": "2025-11-29",
+          "place": "Yokohama Arena, Kanagawa"
+        },
+        {
+          "date": "2025-11-30",
+          "place": "Yokohama Arena, Kanagawa"
+        }
+      ],
+      "bluray_release": ["2026-03-11", "KIXM-648〜9"],
+      "audio_release": "2026-03-11",
+      "image_path": [
+        "https://www.inoriminase.com/img/disco/images_pc/695de76d73bde.jpg",
+        "https://www.inoriminase.com/img/disco/images_pc/699fdc29a5337.jpg"
+      ],
+      "buttons": [
+        {
+          "name": "LIVE Info",
+          "href": "https://www.inoriminase.com/special/2025/TR/"
+        },
+        {
+          "name": "BluRay Info",
+          "href": "https://www.inoriminase.com/discography/?id=76"
+        },
+        {
+          "name": "Audio Info",
+          "href": "https://www.inoriminase.com/discography/?id=77"
+        },
+        {
+          "name": "Audio Digital",
+          "href": "https://inoriminase.lnk.to/Travel-Record_digital"
+        }
+      ]
+    },
+    {
+      "name": "Inori Minase LIVE TOUR heart bookmark",
+      "live": [
+        {
+          "date": "2024-09-15",
+          "place": "World Kinen Hall, Hyougo"
+        },
+        {
+          "date": "2024-09-21",
+          "place": "Ueno Gakuen Hall, Hiroshima"
+        },
+        {
+          "date": "2024-10-05",
+          "place": "Nagoya Kokusai Kaigijou - Century Hall, Aichi"
+        },
+        {
+          "date": "2024-10-12",
+          "place": "Fukuoka Sun Palace Hotel & Hall, Fukuoka"
+        },
+        {
+          "date": "2024-10-19",
+          "place": "Kanamoto Hall (Sapporo Shimin Hall), Hokkaido"
+        },
+        {
+          "date": "2024-11-02",
+          "place": "LaLa arena TOKYO-BAY, Chiba"
+        },
+        {
+          "date": "2024-11-03",
+          "place": "LaLa arena TOKYO-BAY, Chiba"
+        }
+      ],
+      "bluray_release": ["2025-03-12", "KIXM-618〜9"],
+      "audio_release": "2025-08-08",
+      "image_path": [
+        "https://www.inoriminase.com/img/disco/images_pc/678a2a27e6b96.jpg",
+        "https://www.inoriminase.com/img/disco/images_pc/688acc64ee800.jpg"
+      ],
+      "buttons": [
+        {
+          "name": "LIVE Info",
+          "href": "https://www.inoriminase.com/special/2024/hb/"
+        },
+        {
+          "name": "BluRay Info",
+          "href": "https://www.inoriminase.com/discography/?id=63"
+        },
+        {
+          "name": "Audio Info",
+          "href": "https://www.inoriminase.com/discography/?id=75"
+        },
+        {
+          "name": "Audio Digital",
+          "href": "https://inoriminase.lnk.to/heart-bookmark_digital"
+        }
+      ]
+    },
+    {
+      "name": "Inori Minase LIVE TOUR SCRAP ART",
+      "live": [
+        {
+          "date": "2023-09-17",
+          "place": "World Kinen Hall, Hyougo"
+        },
+        {
+          "date": "2023-09-24",
+          "place": "Sendai Sun Plaza Hall, Miyagi"
+        },
+        {
+          "date": "2023-10-08",
+          "place": "Nippon Tokushu Tougyou Shimin Kaikan - Forest Hall, Aichi"
+        },
+        {
+          "date": "2023-10-14",
+          "place": "Kitakyushu Soleil Hall, Fukuoka"
+        },
+        {
+          "date": "2023-10-28",
+          "place": "Pia Arena MM, Kanagawa"
+        },
+        {
+          "date": "2023-10-29",
+          "place": "Pia Arena MM, Kanagawa"
+        }
+      ],
+      "bluray_release": ["2024-03-06", "KIXM-578〜9"],
+      "audio_release": "2025-07-11",
+      "image_path": [
+        "https://www.inoriminase.com/img/disco/images_pc/65a619a3610aa.jpg",
+        "https://www.inoriminase.com/img/disco/images_pc/68633d459d524.jpg"
+      ],
+      "buttons": [
+        {
+          "name": "LIVE Info",
+          "href": "https://www.inoriminase.com/special/2023/SA/"
+        },
+        {
+          "name": "BluRay Info",
+          "href": "https://www.inoriminase.com/discography/?id=60"
+        },
+        {
+          "name": "Audio Info",
+          "href": "https://www.inoriminase.com/discography/?id=74"
+        },
+        {
+          "name": "Audio Digital",
+          "href": "https://inoriminase.lnk.to/SCRAP-ART_digital"
+        }
+      ]
+    },
+    {
+      "name": "Inori Minase LIVE TOUR glow",
+      "live": [
+        {
+          "date": "2022-09-10",
+          "place": "Nagoya Kokusai Kaigijou - Century Hall, Aichi"
+        },
+        {
+          "date": "2022-09-17",
+          "place": "Sendai Sun Plaza Hall, Miyagi"
+        },
+        {
+          "date": "2022-09-24",
+          "place": "Fukuoka Sun Palace Hotel & Hall, Fukuoka"
+        },
+        {
+          "date": "2022-10-01",
+          "place": "Yokohama Arena, Kanagawa"
+        },
+        {
+          "date": "2022-10-08",
+          "place": "Kobe Kokusai Kaikan - Kokusai Hall, Hyougo"
+        }
+      ],
+      "bluray_release": ["2023-04-19", "KIXM-536"],
+      "audio_release": "2025-06-06",
+      "image_path": [
+        "https://www.inoriminase.com/img/disco/images_pc/63ef527c8460d.jpg",
+        "https://www.inoriminase.com/img/disco/images_pc/68397fc4416e0.jpg"
+      ],
+      "buttons": [
+        {
+          "name": "LIVE Info",
+          "href": "https://www.inoriminase.com/special/2022/glow/"
+        },
+        {
+          "name": "BluRay Info",
+          "href": "https://www.inoriminase.com/discography/?id=55"
+        },
+        {
+          "name": "Audio Info",
+          "href": "https://www.inoriminase.com/discography/?id=71"
+        },
+        {
+          "name": "Audio Digital",
+          "href": "https://inoriminase.lnk.to/glow_digital"
+        }
+      ]
+    },
+    {
+      "name": "Inori Minase LIVE TOUR HELLO HORIZON",
+      "live": [
+        {
+          "date": "2021-09-18",
+          "place": "Orix Gekijou, Osaka"
+        },
+        {
+          "date": "2021-09-25",
+          "place": "Nagoya Kokusai Kaigijou - Century Hall, Aichi"
+        },
+        {
+          "date": "2021-10-03",
+          "place": "Fukuoka Sun Palace Hotel & Hall, Fukuoka"
+        },
+        {
+          "date": "2021-10-09",
+          "place": "Sendai Sun Plaza Hall, Miyagi"
+        },
+        {
+          "date": "2021-10-17",
+          "place": "Yokohama Arena, Kanagawa"
+        }
+      ],
+      "bluray_release": ["2022-02-23", "KIXM-493"],
+      "audio_release": "2025-05-09",
+      "image_path": [
+        "https://www.inoriminase.com/img/disco/images_pc/61a9e47410f3b.jpg",
+        "https://www.inoriminase.com/img/disco/images_pc/6812f610186b4.jpg"
+      ],
+      "buttons": [
+        {
+          "name": "LIVE Info",
+          "href": "https://www.inoriminase.com/special/2021/HH/"
+        },
+        {
+          "name": "BluRay Info",
+          "href": "https://www.inoriminase.com/discography/?id=53"
+        },
+        {
+          "name": "Audio Info",
+          "href": "https://www.inoriminase.com/discography/?id=70"
+        },
+        {
+          "name": "Audio Digital",
+          "href": "https://inoriminase.lnk.to/hello-horizon_digital"
+        }
+      ]
+    },
+    {
+      "name": "Inori Minase 5th ANNIVERSARY LIVE Starry Wishes",
+      "live": [
+        {
+          "date": "2020-12-05",
+          "place": "ONLINE"
+        }
+      ],
+      "bluray_release": ["2021-03-24", "KIXM-449"],
+      "audio_release": "2025-04-11",
+      "image_path": [
+        "https://www.inoriminase.com/img/disco/images_pc/60a4eebb4f4d8.jpg",
+        "https://www.inoriminase.com/img/disco/images_pc/67ebc3d604d61.jpg"
+      ],
+      "buttons": [
+        {
+          "name": "LIVE Info",
+          "href": "https://www.inoriminase.com/special/2020/SW/"
+        },
+        {
+          "name": "BluRay Info",
+          "href": "https://www.inoriminase.com/discography/?id=47"
+        },
+        {
+          "name": "Audio Info",
+          "href": "https://www.inoriminase.com/discography/?id=69"
+        },
+        {
+          "name": "Audio Digital",
+          "href": "https://inoriminase.lnk.to/starry-wishes_digital"
+        }
+      ]
+    },
+    {
+      "name": "Inori Minase LIVE TOUR Catch the Rainbow！",
+      "live": [
+        {
+          "date": "2019-06-16",
+          "place": "Grand Cube Osaka - Main Hall, Osaka"
+        },
+        {
+          "date": "2019-06-23",
+          "place": "Nippon Tokushu Tougyou Shimin Kaikan - Forest Hall, Aichi"
+        },
+        {
+          "date": "2019-06-28",
+          "place": "Nippon Budokan, Tokyo"
+        },
+        {
+          "date": "2019-06-29",
+          "place": "Nippon Budokan, Tokyo"
+        }
+      ],
+      "bluray_release": ["2019-10-23", "KIXM-398"],
+      "audio_release": "2025-03-21",
+      "image_path": [
+        "https://www.inoriminase.com/img/disco/images_pc/60a4edd44d12b.jpg",
+        "https://www.inoriminase.com/img/disco/images_pc/67c003f04c52c.jpg"
+      ],
+      "buttons": [
+        {
+          "name": "LIVE Info",
+          "href": "https://www.inoriminase.com/special/2019/CtR/"
+        },
+        {
+          "name": "BluRay Info",
+          "href": "https://www.inoriminase.com/discography/?id=43"
+        },
+        {
+          "name": "Audio Info",
+          "href": "https://www.inoriminase.com/discography/?id=67"
+        },
+        {
+          "name": "Audio Digital",
+          "href": "https://inoriminase.lnk.to/catch_the_rainbow-digital"
+        }
+      ]
+    },
+    {
+      "name": "Inori Minase LIVE TOUR BLUE COMPASS",
+      "live": [
+        {
+          "date": "2018-06-09",
+          "place": "Ai Plaza Toyohashi, Aichi"
+        },
+        {
+          "date": "2018-06-17",
+          "place": "Honda no Mori Hall, Ishikawa"
+        },
+        {
+          "date": "2018-06-24",
+          "place": "Kobe Kokusai Kaikan - Kokusai Hall, Hyougo"
+        },
+        {
+          "date": "2018-07-01",
+          "place": "Makuhari Messe - Event Hall, Chiba"
+        }
+      ],
+      "bluray_release": ["2018-10-17", "KIXM-340"],
+      "audio_release": "2025-02-14",
+      "image_path": [
+        "https://www.inoriminase.com/img/disco/images_pc/60a4ed177a0d2.jpg",
+        "https://www.inoriminase.com/img/disco/images_pc/67a3fd2b18c7c.jpg"
+      ],
+      "buttons": [
+        {
+          "name": "LIVE Info",
+          "href": "https://www.inoriminase.com/special/2018/BC/"
+        },
+        {
+          "name": "BluRay Info",
+          "href": "https://www.inoriminase.com/discography/?id=28"
+        },
+        {
+          "name": "Audio Info",
+          "href": "https://www.inoriminase.com/discography/?id=66"
+        },
+        {
+          "name": "Audio Digital",
+          "href": "https://inoriminase.lnk.to/bluecompass-digital"
+        }
+      ]
+    },
+    {
+      "name": "Inori Minase 1st LIVE Ready Steady Go!",
+      "live": [
+        {
+          "date": "2017-12-02",
+          "place": "Tokyo Kokusai Forum - Hall A, Tokyo"
+        }
+      ],
+      "bluray_release": ["2018-04-04", "KIXM-315"],
+      "audio_release": "2025-01-17",
+      "image_path": [
+        "https://www.inoriminase.com/img/disco/images_pc/60a4ecf44d72d.jpg",
+        "https://www.inoriminase.com/img/disco/images_pc/67b2d98c211d6.jpg"
+      ],
+      "buttons": [
+        {
+          "name": "LIVE Info",
+          "href": "https://www.inoriminase.com/special/2017/RSG/"
+        },
+        {
+          "name": "BluRay Info",
+          "href": "https://www.inoriminase.com/discography/?id=14"
+        },
+        {
+          "name": "Audio Info",
+          "href": "https://www.inoriminase.com/discography/?id=65"
+        },
+        {
+          "name": "Audio Digital",
+          "href": "https://inoriminase.lnk.to/readysteadygo-digital"
+        }
+      ]
+    }
   ]
 }
