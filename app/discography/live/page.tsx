@@ -2,22 +2,154 @@
 
 import data from "@/data.json";
 import Link from "next/link";
+import { useState, useEffect, useMemo } from "react";
+
+// ==========================================
+// STRICT INTERFACES
+// ==========================================
+interface LiveEvent {
+  date: string;
+  place: string;
+  tracklist?: string[];
+}
+
+interface ButtonLink {
+  name: string;
+  href: string;
+}
+
+interface LiveHistoryItem {
+  name: string;
+  live: LiveEvent[];
+  bluray_release?: string[];
+  audio_release?: string;
+  image_path: string[];
+  buttons?: ButtonLink[];
+}
+
+// ==========================================
+// FUNGSI ALGORITMA DIFFING (LCS)
+// ==========================================
+// Berfungsi untuk mencocokkan array tracklist berdasarkan value dibandingkan komparasi absolut berdasarkan index.
+const getTrackDiffs = (prev: string[], curr: string[]): boolean[] => {
+  const m = prev.length;
+  const n = curr.length;
+  // Membuat matriks untuk dynamic programming
+  const dp: number[][] = Array.from({ length: m + 1 }, () =>
+    Array(n + 1).fill(0),
+  );
+
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      if (prev[i - 1] === curr[j - 1]) {
+        dp[i][j] = dp[i - 1][j - 1] + 1;
+      } else {
+        dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+      }
+    }
+  }
+
+  // Melacak kembali (backtrack) untuk menemukan lagu yang sama
+  const isMatched = Array(n).fill(false);
+  let i = m;
+  let j = n;
+
+  while (i > 0 && j > 0) {
+    if (prev[i - 1] === curr[j - 1]) {
+      isMatched[j - 1] = true; // Lagu ini sama dan posisinya sesuai alur
+      i--;
+      j--;
+    } else if (dp[i - 1][j] > dp[i][j - 1]) {
+      i--;
+    } else {
+      j--;
+    }
+  }
+
+  // Jika tidak match, berarti itu lagu baru/berbeda/pindah urutan (True = Diff)
+  return isMatched.map((matched) => !matched);
+};
 
 export default function LiveHistoryPage() {
-  const liveData = data.live_history;
+  const liveData: LiveHistoryItem[] = data.live_history;
+
+  // State untuk Modal Tracklist
+  const [selectedLive, setSelectedLive] = useState<LiveHistoryItem | null>(
+    null,
+  );
+  const [activeTab, setActiveTab] = useState<number>(0);
+  const [prevTab, setPrevTab] = useState<number | null>(null);
+
+  // Kunci Scroll Halaman Saat Modal Terbuka
+  useEffect(() => {
+    if (selectedLive) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [selectedLive]);
 
   // Fungsi pengaman format tanggal
-  const formatDate = (dateStr: string) => {
-    if (!dateStr) return "TBA";
+  const formatDate = (dateStr: string, type: "long" | "short" = "long") => {
+    if (!dateStr) return "TBA / None";
+
     const dateObj = new Date(dateStr);
-    return isNaN(dateObj.getTime())
-      ? dateStr
-      : dateObj.toLocaleDateString("id-ID", {
-          year: "numeric",
-          month: "long",
-          day: "numeric",
-        });
+
+    // Jika format tanggal dari JSON tidak valid, kembalikan string aslinya
+    if (isNaN(dateObj.getTime())) return dateStr;
+
+    if (type === "short") {
+      // Format pendek: DD-MM-YY
+      const day = String(dateObj.getDate()).padStart(2, "0");
+      const month = String(dateObj.getMonth() + 1).padStart(2, "0");
+      const year = String(dateObj.getFullYear()).slice(-2);
+
+      return `${day}-${month}-${year}`;
+    }
+
+    // Format panjang (Default): DD MMMM YYYY
+    return dateObj.toLocaleDateString("id-ID", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
   };
+
+  // Handler saat beralih hari di modal
+  const handleTabChange = (newIdx: number) => {
+    setPrevTab(activeTab); // Simpan value tab sebelumnya untuk perbandingan
+    setActiveTab(newIdx);
+  };
+
+  // Handler untuk menutup modal
+  const closeModal = () => {
+    setSelectedLive(null);
+    setActiveTab(0);
+    setPrevTab(null);
+  };
+
+  // Menganalisis Lagu Tetap (Dinyanyikan di semua hari dalam satu LIVE)
+  const commonSongs = useMemo(() => {
+    if (!selectedLive) return new Set<string>();
+
+    // Ambil tracklist yang tersedia
+    const validTracklists = selectedLive.live
+      .map((l) => l.tracklist || [])
+      .filter((tl) => tl.length > 0);
+
+    if (validTracklists.length === 0) return new Set<string>();
+
+    // Ambil hari pertama sebagai acuan, cek apakah ada di semua hari
+    const baseList = validTracklists[0];
+    const common = baseList.filter((song) =>
+      validTracklists.every((tl) => tl.includes(song)),
+    );
+
+    return new Set(common);
+  }, [selectedLive]);
 
   return (
     <div>
@@ -152,16 +284,22 @@ export default function LiveHistoryPage() {
                     <h4 className="text-[10px] font-black text-purple-600 uppercase tracking-widest mb-1 pr-6">
                       💿 Blu-ray Release
                     </h4>
-                    <p
-                      className={`font-bold text-sm ${item.bluray_release[0] ? "text-gray-800" : "text-gray-400"}`}
-                    >
-                      {formatDate(item.bluray_release[0])}
-                    </p>
-                    <p
-                      className={`text-xs text-purple-500 font-mono font-bold mt-1 ${item.bluray_release && item.bluray_release.length > 0 ? "" : "hidden"}`}
-                    >
-                      {item.bluray_release[1]}
-                    </p>
+                    {item.bluray_release && item.bluray_release.length > 0 ? (
+                      <>
+                        <p
+                          className={`font-bold text-sm ${item.bluray_release[0] ? "text-gray-800" : "text-gray-400"}`}
+                        >
+                          {formatDate(item.bluray_release[0])}
+                        </p>
+                        <p
+                          className={`text-xs text-purple-500 font-mono font-bold mt-1`}
+                        >
+                          {item.bluray_release[1]}
+                        </p>
+                      </>
+                    ) : (
+                      <p className="font-bold text-gray-400 text-sm">TBA</p>
+                    )}
                   </div>
 
                   <div className="flex-1 min-w-[140px] bg-teal-50/50 p-4 rounded-xl border border-teal-100 relative">
@@ -203,11 +341,15 @@ export default function LiveHistoryPage() {
                     <h4 className="text-[10px] font-black text-teal-600 uppercase tracking-widest mb-1 pr-16">
                       🎧 Audio Release
                     </h4>
-                    <p
-                      className={`font-bold text-sm ${item.audio_release ? "text-gray-800" : "text-gray-400"}`}
-                    >
-                      {formatDate(item.audio_release)}
-                    </p>
+                    {item.audio_release && item.audio_release.length > 0 ? (
+                      <>
+                        <p className={`font-bold text-gray-800 text-sm`}>
+                          {formatDate(item.audio_release)}
+                        </p>
+                      </>
+                    ) : (
+                      <p className="font-bold text-gray-400 text-sm">TBA</p>
+                    )}
                   </div>
                 </div>
 
@@ -220,14 +362,28 @@ export default function LiveHistoryPage() {
                     {item.live.map((l, i) => (
                       <li
                         key={i}
-                        className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4 bg-slate-50 p-3 rounded-lg border border-slate-100"
+                        className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-slate-50 p-3 rounded-lg border border-slate-100"
                       >
-                        <span className="font-extrabold text-sky-600 text-sm min-w-[130px]">
-                          {formatDate(l.date)}
-                        </span>
-                        <span className="text-sm font-semibold text-slate-700">
-                          {l.place}
-                        </span>
+                        <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4 flex-1">
+                          <span className="font-extrabold text-sky-600 text-sm min-w-[130px]">
+                            {formatDate(l.date)}
+                          </span>
+                          <span className="text-sm font-semibold text-slate-700">
+                            {l.place}
+                          </span>
+                        </div>
+                        {l.tracklist && l.tracklist.length > 0 && (
+                          <button
+                            onClick={() => {
+                              setSelectedLive(item);
+                              setActiveTab(i); // Langsung buka Tab hari yang di-klik
+                              setPrevTab(null);
+                            }}
+                            className="flex-shrink-0 w-full sm:w-auto px-4 py-1.5 bg-white border border-slate-200 text-slate-600 text-[10px] font-bold uppercase rounded-md hover:bg-sky-50 hover:text-sky-600 hover:border-sky-200 transition-colors shadow-sm"
+                          >
+                            📋 Tracklist
+                          </button>
+                        )}
                       </li>
                     ))}
                   </ul>
@@ -254,6 +410,146 @@ export default function LiveHistoryPage() {
           );
         })}
       </div>
+      {/* ========================================== */}
+      {/* MODAL TRACKLIST (SISTEM DIFFING)           */}
+      {/* ========================================== */}
+      {selectedLive && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+          <div className="bg-white rounded-xl shadow-2xl w-full max-w-2xl max-h-[85vh] overflow-hidden flex flex-col animate-in zoom-in-95">
+            {/* Header Modal */}
+            <div className="p-5 border-b border-gray-100 flex justify-between items-center bg-slate-50">
+              <div>
+                <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
+                  Daftar Lagu (Tracklist)
+                </span>
+                <h3 className="text-xl font-bold text-gray-800 line-clamp-1">
+                  {selectedLive.name}
+                </h3>
+              </div>
+              <button
+                onClick={closeModal}
+                className="flex-shrink-0 w-8 h-8 bg-white border border-gray-200 hover:bg-gray-100 rounded-full flex justify-center items-center text-gray-500 transition-colors"
+              >
+                ✕
+              </button>
+            </div>
+
+            {/* Tab Navigasi Hari */}
+            {selectedLive.live.length > 1 && (
+              <div className="flex overflow-x-auto gap-2 px-4 pt-4 border-b border-gray-100 bg-white custom-scrollbar flex-shrink-0">
+                {selectedLive.live.map((l, idx) => {
+                  if (!l.tracklist || l.tracklist.length === 0) return null;
+
+                  return (
+                    <button
+                      key={idx}
+                      onClick={() => handleTabChange(idx)}
+                      className={`px-6 py-2.5 whitespace-nowrap rounded-t-lg text-sm font-bold transition-all border-b-2 ${
+                        activeTab === idx
+                          ? "bg-slate-50 border-sky-600 text-sky-700"
+                          : "border-transparent text-slate-500 hover:bg-slate-50 hover:text-slate-700"
+                      }`}
+                    >
+                      D-{idx + 1}{" "}
+                      <span className="font-normal opacity-80 text-xs ml-1">
+                        ({formatDate(l.date, "short")})
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            )}
+
+            {/* List Konten */}
+            <div className="p-5 overflow-y-auto flex-1 bg-slate-50 relative">
+              {/* Detail Info Hari Terpilih */}
+              <div className="mb-4 p-3 bg-white border border-slate-200 rounded-xl shadow-sm flex flex-col gap-1">
+                <p className="text-xs font-bold text-sky-600">
+                  {formatDate(selectedLive.live[activeTab].date)}
+                </p>
+                <p className="text-sm font-semibold text-slate-700">
+                  📍 {selectedLive.live[activeTab].place}
+                </p>
+              </div>
+
+              {selectedLive.live[activeTab].tracklist ? (
+                (() => {
+                  const currTracklist = selectedLive.live[activeTab].tracklist!;
+                  const prevTracklist =
+                    prevTab !== null && selectedLive.live[prevTab].tracklist
+                      ? selectedLive.live[prevTab].tracklist!
+                      : [];
+
+                  // Panggil algoritma Diffing
+                  const diffArray =
+                    prevTracklist.length > 0
+                      ? getTrackDiffs(prevTracklist, currTracklist)
+                      : Array(currTracklist.length).fill(false);
+
+                  return (
+                    <ul className="flex flex-col gap-2">
+                      {currTracklist.map((track, tIdx) => {
+                        const isDiff = diffArray[tIdx];
+                        const isFixed = commonSongs.has(track);
+
+                        return (
+                          <li
+                            key={tIdx}
+                            className={`flex items-center gap-3 md:gap-4 p-3 rounded-xl border transition-all duration-300 ${
+                              isDiff
+                                ? "bg-amber-50 border-amber-300 shadow-sm transform scale-[1.01]"
+                                : "bg-white border-gray-200"
+                            }`}
+                          >
+                            <span
+                              className={`font-black w-6 text-right ${isDiff ? "text-amber-500" : "text-slate-300"}`}
+                            >
+                              {tIdx + 1}
+                            </span>
+
+                            <span
+                              className={`flex-1 text-sm font-bold leading-tight ${isDiff ? "text-amber-900" : "text-slate-700"}`}
+                            >
+                              {track}
+                            </span>
+
+                            {/* Kumpulan Badge */}
+                            <div className="flex flex-col sm:flex-row gap-1.5 flex-shrink-0 items-end">
+                              {selectedLive.live.length > 1 && (
+                                <span
+                                  className={`text-[9px] uppercase font-bold px-2 py-1 rounded-md text-center ${
+                                    isFixed
+                                      ? "bg-slate-100 text-slate-500 border border-slate-200"
+                                      : "bg-purple-100 text-purple-600 border border-purple-200"
+                                  }`}
+                                >
+                                  {isFixed ? "📌 Tetap" : "🔀 Rotasi"}
+                                </span>
+                              )}
+
+                              {isDiff && (
+                                <span className="text-[9px] uppercase font-bold text-amber-600 bg-amber-100 border border-amber-200 px-2.5 py-1 rounded-md text-center animate-pulse">
+                                  ✨ Berubah
+                                </span>
+                              )}
+                            </div>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  );
+                })()
+              ) : (
+                <div className="flex flex-col items-center justify-center py-10 text-slate-400">
+                  <p className="font-bold">
+                    Tracklist belum tersedia untuk hari ini.
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
