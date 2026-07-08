@@ -27,6 +27,30 @@ interface LiveHistoryItem {
   buttons?: ButtonLink[];
 }
 
+interface LiveEventColumn {
+  id: string;
+  name: string;
+  year: string;
+  firstDate: Date;
+}
+
+interface SongLiveStat {
+  title: string;
+  releaseDate: Date;
+  globalOrder: number;
+  totalPerformances: number;
+  performances: Record<string, "FIXED" | "ROTATION">;
+}
+
+interface Track {
+  title: string;
+}
+
+interface DiscItem {
+  release_date: string;
+  trackList: Track[];
+}
+
 // ==========================================
 // FUNGSI ALGORITMA DIFFING (LCS)
 // ==========================================
@@ -80,9 +104,19 @@ export default function LiveHistoryPage() {
   const [activeTab, setActiveTab] = useState<number>(0);
   const [prevTab, setPrevTab] = useState<number | null>(null);
 
+  // State untuk Modal Tabel Statistik Lagu
+  const [isStatsModalOpen, setIsStatsModalOpen] = useState<boolean>(false);
+  const [sortConfig, setSortConfig] = useState<{
+    by: "RELEASE" | "FREQUENCY";
+    order: "ASC" | "DESC";
+  }>({
+    by: "RELEASE",
+    order: "ASC",
+  });
+
   // Kunci Scroll Halaman Saat Modal Terbuka
   useEffect(() => {
-    if (selectedLive) {
+    if (selectedLive || isStatsModalOpen) {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "unset";
@@ -90,7 +124,7 @@ export default function LiveHistoryPage() {
     return () => {
       document.body.style.overflow = "unset";
     };
-  }, [selectedLive]);
+  }, [selectedLive, isStatsModalOpen]);
 
   // Fungsi pengaman format tanggal
   const formatDate = (dateStr: string, type: "long" | "short" = "long") => {
@@ -125,31 +159,122 @@ export default function LiveHistoryPage() {
   };
 
   // Handler untuk menutup modal
-  const closeModal = () => {
+  const closeTracklistModal = () => {
     setSelectedLive(null);
     setActiveTab(0);
     setPrevTab(null);
   };
+  const closeStatsModal = () => {
+    setIsStatsModalOpen(false);
+    setSortConfig({ by: "RELEASE", order: "ASC" });
+  };
 
-  // Menganalisis Lagu Tetap (Dinyanyikan di semua hari dalam satu LIVE)
-  const commonSongs = useMemo(() => {
-    if (!selectedLive) return new Set<string>();
+  const { liveColumns, songStatsMap } = useMemo(() => {
+    const songStatsMap = new Map<string, SongLiveStat>();
 
-    // Ambil tracklist yang tersedia
-    const validTracklists = selectedLive.live
-      .map((l) => l.tracklist || [])
-      .filter((tl) => tl.length > 0);
-
-    if (validTracklists.length === 0) return new Set<string>();
-
-    // Ambil hari pertama sebagai acuan, cek apakah ada di semua hari
-    const baseList = validTracklists[0];
-    const common = baseList.filter((song) =>
-      validTracklists.every((tl) => tl.includes(song)),
+    // Ekstrak dari Discography Resmi (Untuk Rilis & Urutan Track)
+    const allDiscs: DiscItem[] = [
+      ...data.discography[0].album,
+      ...data.discography[0].single,
+    ];
+    allDiscs.sort(
+      (a, b) =>
+        new Date(a.release_date).getTime() - new Date(b.release_date).getTime(),
     );
 
-    return new Set(common);
-  }, [selectedLive]);
+    let globalCounter = 0;
+
+    allDiscs.forEach((disc) => {
+      const rDate = new Date(disc.release_date);
+      disc.trackList.forEach((track) => {
+        const t = track.title.trim();
+        if (!songStatsMap.has(t)) {
+          songStatsMap.set(t, {
+            title: t,
+            releaseDate: rDate,
+            globalOrder: globalCounter++,
+            totalPerformances: 0,
+            performances: {},
+          });
+        }
+      });
+    });
+
+    // Ekstrak Riwayat Live
+    const columns: LiveEventColumn[] = [];
+    const chronologicalLive = [...liveData].reverse();
+
+    chronologicalLive.forEach((live) => {
+      const validDays = live.live.filter(
+        (l) => l.tracklist && l.tracklist.length > 0,
+      );
+      if (validDays.length === 0) return;
+
+      const firstDateStr = live.live[0].date;
+      const firstDate = new Date(firstDateStr);
+      const year = isNaN(firstDate.getTime())
+        ? "-"
+        : firstDate.getFullYear().toString();
+
+      const col: LiveEventColumn = {
+        id: live.name,
+        name: live.name,
+        year,
+        firstDate,
+      };
+      columns.push(col);
+
+      const totalDays = validDays.length;
+      const trackCounts = new Map<string, number>();
+
+      validDays.forEach((day) => {
+        // Gunakan Set per-hari agar jika dinyanyikan 2x di hari yang sama (misal medley/encore), dihitung 1 penayangan hari itu
+        const uniqueSongsInDay = new Set(day.tracklist!.map((t) => t.trim()));
+        uniqueSongsInDay.forEach((song) => {
+          trackCounts.set(song, (trackCounts.get(song) || 0) + 1);
+        });
+      });
+
+      trackCounts.forEach((count, song) => {
+        if (!songStatsMap.has(song)) {
+          // Jika lagu belum rilis (cover/belum terdaftar), letakkan di urutan paling belakang
+          songStatsMap.set(song, {
+            title: song,
+            releaseDate: new Date("9999-12-31"),
+            globalOrder: 999999 + globalCounter++,
+            totalPerformances: 0,
+            performances: {},
+          });
+        }
+
+        const stat = songStatsMap.get(song)!;
+        stat.totalPerformances += 1;
+        // Jika jumlah hari dibawakan = total hari live tersebut, maka TETAP (FIXED)
+        stat.performances[col.id] = count === totalDays ? "FIXED" : "ROTATION";
+      });
+    });
+
+    return { liveColumns: columns, songStatsMap };
+  }, [liveData]);
+
+  const sortedSongStats = useMemo(() => {
+    const statsArray = Array.from(songStatsMap.values());
+
+    return statsArray.sort((a, b) => {
+      let comparison = 0;
+      if (sortConfig.by === "RELEASE") {
+        comparison = a.globalOrder - b.globalOrder;
+      } else if (sortConfig.by === "FREQUENCY") {
+        if (a.totalPerformances !== b.totalPerformances) {
+          comparison = a.totalPerformances - b.totalPerformances;
+        } else {
+          // Jika seri jumlah dibawakan, urutkan berdasarkan rilis
+          comparison = a.globalOrder - b.globalOrder;
+        }
+      }
+      return sortConfig.order === "ASC" ? comparison : -comparison;
+    });
+  }, [songStatsMap, sortConfig]);
 
   return (
     <div>
@@ -163,12 +288,20 @@ export default function LiveHistoryPage() {
             Daftar lengkap riwayat konser dan pertunjukan Live Inori Minase.
           </p>
         </div>
-        <Link
-          href="/discography"
-          className="px-4 py-2.5 bg-slate-800 hover:bg-slate-900 text-white font-bold rounded-xl text-sm transition-colors shadow-sm flex items-center gap-2"
-        >
-          💿 Kembali ke Discography
-        </Link>
+        <div className="flex flex-wrap gap-3">
+          <button
+            onClick={() => setIsStatsModalOpen(true)}
+            className="px-4 py-2.5 bg-blue-50 border border-blue-200 text-blue-700 hover:bg-blue-600 hover:text-white font-bold rounded-xl text-sm transition-colors shadow-sm flex items-center gap-2"
+          >
+            📊 Statistik Lagu
+          </button>
+          <Link
+            href="/discography"
+            className="px-4 py-2.5 bg-slate-800 hover:bg-slate-900 text-white font-bold rounded-xl text-sm transition-colors shadow-sm flex items-center gap-2"
+          >
+            💿 Kembali ke Discography
+          </Link>
+        </div>
       </div>
 
       {/* LIST KARTU LIVE HISTORY */}
@@ -427,7 +560,7 @@ export default function LiveHistoryPage() {
                 </h3>
               </div>
               <button
-                onClick={closeModal}
+                onClick={closeTracklistModal}
                 className="flex-shrink-0 w-8 h-8 bg-white border border-gray-200 hover:bg-gray-100 rounded-full flex justify-center items-center text-gray-500 transition-colors"
               >
                 ✕
@@ -490,7 +623,10 @@ export default function LiveHistoryPage() {
                     <ul className="flex flex-col gap-2">
                       {currTracklist.map((track, tIdx) => {
                         const isDiff = diffArray[tIdx];
-                        const isFixed = commonSongs.has(track);
+                        const trackStat = songStatsMap.get(track);
+                        const isFixed =
+                          trackStat?.performances[selectedLive.name] ===
+                          "FIXED";
 
                         return (
                           <li
@@ -529,7 +665,7 @@ export default function LiveHistoryPage() {
 
                               {isDiff && (
                                 <span className="text-[9px] uppercase font-bold text-amber-600 bg-amber-100 border border-amber-200 px-2.5 py-1 rounded-md text-center animate-pulse">
-                                  ✨ Berubah
+                                  ✨ Berbeda
                                 </span>
                               )}
                             </div>
@@ -546,6 +682,171 @@ export default function LiveHistoryPage() {
                   </p>
                 </div>
               )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ========================================== */}
+      {/* MODAL MATRIKS STATISTIK LAGU               */}
+      {/* ========================================== */}
+      {isStatsModalOpen && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+          <div className="bg-white rounded-xl shadow-2xl w-full max-w-6xl max-h-[90vh] overflow-hidden flex flex-col animate-in zoom-in-95">
+            {/* Header Modal */}
+            <div className="p-5 border-b border-gray-100 flex flex-col md:flex-row md:items-center justify-between gap-4 bg-slate-50">
+              <div>
+                <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
+                  Riwayat Penampilan
+                </span>
+                <h3 className="text-xl font-bold text-gray-800">
+                  Matriks Frekuensi Lagu (Live Events)
+                </h3>
+              </div>
+              <div className="flex items-center gap-3 self-end md:self-auto">
+                {/* TOMBOL KONTROL SORTING */}
+                <div className="flex items-center gap-2 bg-white border border-gray-200 rounded-lg p-1 shadow-sm">
+                  <select
+                    value={sortConfig.by}
+                    onChange={(e) =>
+                      setSortConfig((prev) => ({
+                        ...prev,
+                        by: e.target.value as "RELEASE" | "FREQUENCY",
+                      }))
+                    }
+                    className="text-xs font-bold text-slate-600 bg-transparent outline-none cursor-pointer pl-2 pr-1"
+                  >
+                    <option value="RELEASE">Urut: Album & Rilis</option>
+                    <option value="FREQUENCY">Urut: Total Dibawakan</option>
+                  </select>
+                  <div className="w-[1px] h-4 bg-gray-200"></div>
+                  <button
+                    onClick={() =>
+                      setSortConfig((prev) => ({
+                        ...prev,
+                        order: prev.order === "ASC" ? "DESC" : "ASC",
+                      }))
+                    }
+                    className="text-xs font-bold text-sky-600 hover:text-sky-800 px-2 flex items-center justify-center min-w-[50px] transition-colors"
+                  >
+                    {sortConfig.order === "ASC" ? "ASC ⬇" : "DESC ⬆"}
+                  </button>
+                </div>
+
+                <button
+                  onClick={closeStatsModal}
+                  className="flex-shrink-0 w-8 h-8 bg-white border border-gray-200 hover:bg-gray-100 rounded-full flex justify-center items-center text-gray-500 transition-colors"
+                >
+                  ✕
+                </button>
+              </div>
+            </div>
+
+            {/* Keterangan / Legend */}
+            <div className="px-5 py-3 border-b border-slate-100 bg-white flex flex-wrap gap-x-6 gap-y-2 text-[11px] md:text-xs">
+              <div className="flex items-center gap-2 text-slate-600">
+                <div className="w-3.5 h-3.5 rounded-full bg-sky-500"></div>
+                <span>
+                  <strong>Tetap:</strong> Dibawakan di setiap hari pada event
+                  tersebut.
+                </span>
+              </div>
+              <div className="flex items-center gap-2 text-slate-600">
+                <div className="w-3.5 h-3.5 rounded-full border-2 border-purple-500"></div>
+                <span>
+                  <strong>Rotasi:</strong> Hanya dibawakan pada hari tertentu
+                  dalam event tersebut.
+                </span>
+              </div>
+              <div className="flex items-center gap-2 text-slate-600">
+                <div className="w-4 h-4 bg-slate-100 border border-slate-200 diagonal-stripes rounded-sm"></div>
+                <span>
+                  <strong>Belum Rilis:</strong> Lagu resmi dirilis{" "}
+                  <i>setelah</i> event berlangsung.
+                </span>
+              </div>
+            </div>
+
+            {/* Tabel Konten */}
+            <div className="overflow-auto flex-1 custom-scrollbar">
+              <table className="w-full text-left border-collapse text-sm whitespace-nowrap">
+                <thead className="bg-slate-50 sticky top-0 z-20 shadow-sm">
+                  <tr>
+                    <th className="py-3 px-4 text-slate-400 font-bold border-b border-r border-slate-200 w-12 text-center bg-slate-50">
+                      No
+                    </th>
+                    {/* Kolom Nama Lagu dibuat sticky agar mudah melihat matriks ke kanan */}
+                    <th className="py-3 px-4 text-slate-700 font-bold border-b border-r border-slate-200 sticky left-0 bg-slate-50 z-30 shadow-[1px_0_0_0_#e2e8f0]">
+                      Judul Lagu
+                    </th>
+                    <th className="py-3 px-4 text-sky-700 font-bold border-b border-r border-slate-200 text-center bg-slate-50">
+                      Total
+                    </th>
+                    {liveColumns.map((col) => (
+                      <th
+                        key={col.id}
+                        className="py-3 px-3 text-slate-500 font-bold border-b border-r border-slate-200 text-center bg-slate-50 w-16"
+                        title={col.name} // Tooltip Nama Event Lengkap
+                      >
+                        {col.year}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {sortedSongStats.map((song, idx) => (
+                    <tr
+                      key={idx}
+                      className="border-b border-slate-100 hover:bg-sky-50/50 transition-colors"
+                    >
+                      <td className="py-2 px-4 text-slate-300 font-black text-center border-r border-slate-100">
+                        {idx + 1}
+                      </td>
+                      <td className="py-2 px-4 font-bold text-slate-700 border-r border-slate-200 sticky left-0 bg-white z-10 shadow-[1px_0_0_0_#e2e8f0] group-hover:bg-sky-50/50">
+                        {song.title}
+                      </td>
+                      <td className="py-2 px-4 font-black text-sky-600 text-center border-r border-slate-100">
+                        {song.totalPerformances > 0
+                          ? song.totalPerformances
+                          : "-"}
+                      </td>
+
+                      {/* Pemetaan Matriks Marker */}
+                      {liveColumns.map((col) => {
+                        const status = song.performances[col.id];
+                        // Grayout jika event live terjadi (tanggal pertama) SEBELUM lagu dirilis secara resmi
+                        const isUnreleased =
+                          col.firstDate.getTime() < song.releaseDate.getTime();
+
+                        return (
+                          <td
+                            key={col.id}
+                            className={`py-2 px-3 text-center border-r border-slate-100 ${isUnreleased ? "bg-slate-100" : ""}`}
+                            title={
+                              isUnreleased
+                                ? "Lagu belum dirilis saat event ini"
+                                : ""
+                            }
+                          >
+                            {status === "FIXED" && (
+                              <div
+                                className="w-3.5 h-3.5 rounded-full bg-sky-500 mx-auto"
+                                title="Tetap"
+                              ></div>
+                            )}
+                            {status === "ROTATION" && (
+                              <div
+                                className="w-3.5 h-3.5 rounded-full border-2 border-purple-500 mx-auto"
+                                title="Rotasi"
+                              ></div>
+                            )}
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
         </div>

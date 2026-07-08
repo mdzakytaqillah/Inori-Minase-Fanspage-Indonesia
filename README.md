@@ -7,16 +7,17 @@ Sebuah platform penggemar berbasis website yang didedikasikan untuk pengisi suar
 - **Arsitektur Data Lokal:** Sebagian besar data konten pada website ini disimpan dalam satu file lokal `data.json`. Sebagian lainnya disimpan pada Vercel Blob Storage.
 - **Halaman Beranda:** Menampilkan foto Inori Minase, informasi pribadi Inori Minase, lini masa (timeline) vertikal interaktif perjalanan karir Inori Minase, disandingkan dengan kumpulan tautan resmi dan forum komunitas yang relevan. Terdapat pula fitur countdown hari ulang tahun Inori Minase yang aktif ketika mendekati hari ulang tahunnya (<= 90 hari)
 - **Halaman Diskografi:** Menampilkan daftar lengkap lagu yang dimiliki Inori Minase.
-  - Kalkulasi jumlah lagu dengan menghindari perhitungan redudansi pada lagu yang dirilis dua kali atau lebih.
+  - Terdapat badge yang menampilkan kalkulasi jumlah lagu dengan menghindari perhitungan redudansi pada lagu yang dirilis dua kali atau lebih. Dapat diklik untuk melihat list lengkap lagu secara satuan.
   - Fitur filter kategori dinamis untuk memisahkan tampilan antara **Semua Rilisan**, **Album**, dan **Single**.
   - Manajemen daftar lagu (tracklist) yang dilengkapi sistem **Kredit Kreator** untuk melacak riwayat komposer, penulis lirik, dan aransemen secara akurat.
+  - Daftar lengkap LIVE Concerts yang menyajikan informasi statistik, nama LIVE Concerts, jadwal dan lokasi pelaksanaan, tracklist dari setiap pelaksanaan, dan informasi terkait perilisan Blu-Ray dan Audio.
 - **Halaman Blog:** Menyajikan blog dengan kontrol navigasi halaman (pagination) serta integrasi skrip pihak ketiga yang adaptif untuk merender embed YouTube, Facebook, Twitter, TikTok, dan Instagram.
 - **Halaman Voicing:** Menampilkan berbagai informasi berkaitan dengan Inori Minase sebagai seorang pengisi suara.
-- Statistik Top Character yang diperankan Inori Minase, menampilkan karakter dengan jumlah favorit sebanyak >= 1000 dari pengguna [MyAnimeList (MAL)](https://myanimelist.net/people/11297).
-- Statistik Top Genre Anime, menampilkan genre dari anime yang melibatkan Inori Minase, diurutkan berdasarkan jumlah terbanyak.
-- Statistik Top Seiyuu, menampilkan Top 50 Seiyuu dengan jumlah favorit terbanyak dari pengguna [MyAnimeList (MAL)](https://myanimelist.net/people.php) dengan menetapkan kriteria seiyuu minimal memiliki peran 4 karakter berbeda.
-- Informasi terkait peran karakter Inori Minase yang sedang dan/atau akan tayang dengan menyediakan informasi nama dan foto karakter serta nama dan waktu penayangan anime tersebut.
-  Data pada halaman ini berasal dari platform [MyAnimeList (MAL)](https://myanimelist.net) yang diperoleh dari penggabungan data dari sumber API resmi MAL (untuk data detail anime) dan penggunaan teknik website scraping (untuk data peran Inori Minase dan data Top Seiyuu).
+  - Statistik Top Character yang diperankan Inori Minase, menampilkan karakter dengan jumlah favorit sebanyak >= 1000 dari pengguna [MyAnimeList (MAL)](https://myanimelist.net/people/11297).
+  - Statistik Top Genre Anime, menampilkan genre dari anime yang melibatkan Inori Minase, diurutkan berdasarkan jumlah terbanyak.
+  - Statistik Top Seiyuu, menampilkan Top 50 Seiyuu dengan jumlah favorit terbanyak dari pengguna [MyAnimeList (MAL)](https://myanimelist.net/people.php) dengan menetapkan kriteria seiyuu minimal memiliki peran 4 karakter berbeda.
+  - Informasi terkait peran karakter Inori Minase yang sedang dan/atau akan tayang dengan menyediakan informasi nama dan foto karakter serta nama dan waktu penayangan anime tersebut.
+    Data pada halaman ini berasal dari platform [MyAnimeList (MAL)](https://myanimelist.net) yang diperoleh dari penggabungan data dari sumber API resmi MAL (untuk data detail anime) dan penggunaan teknik website scraping (untuk data peran Inori Minase dan data Top Seiyuu).
 
 Pembuatan MyAnimeList Scraper terinspirasi oleh [@nattadasu](https://github.com/nattadasu/miribyou) yang mereplikasi fungsi dari [Jikan API](https://github.com/jikan-me/jikan-rest) (Unofficial Public MyAnimeList API).
 
