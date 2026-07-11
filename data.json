@@ -1,6 +1,17 @@
 {
   "blog": [
     {
+      "title": "Ashita e no Kaze",
+      "date": "2026-07-11T18:30:00+07:00",
+      "description": "Lagu \"Ashita e no Kaze (明日への風)\" dirilis secara global pada tanggal <a style=\"color: #0066cc; text-decoration: none;\" target=\"_blank\" href=\"https://news.kingrecords.co.jp/2026/07/56235/\">8 Juli 2026</a> pada berbagai platform musik digital. Lagu ini merupakan insert song dari anime ViVid Strike! episode OVA yang dinyanyikan oleh karakter utama dari anime tersebut yaitu Fuuka Reventon (CV: Minase Inori). Lagu ini sebelumnya telah dirilis dalam bentuk CD yang mulai dijual online sejak tanggal 6 Juli 2017 di Kinkurido (Toko resmi milik King Amusement Creative). <br> Sekilas terkait anime ViVid Strike!, anime ini merupakan spin-off dari serial anime Mahou Shoujo Lyrical Nanoha dan tayang sejak Oktober 2016.",
+      "image": "",
+      "category": ["Music"],
+      "embed": {
+        "type": "youtube-embed",
+        "source": "https://www.youtube.com/embed/pIe0uQPLnDU"
+      }
+    },
+    {
       "title": "Smartwatch Edisi Neo",
       "date": "2026-06-20T00:55:00+07:00",
       "description": "Smartwatch edisi khusus dengan desain model dari Neo, salah satu member unit grup Sayonara Gravity dari MONSONI, telah dirilis pada tanggal <a style=\"color: #0066cc; text-decoration: none;\" target=\"_blank\" href=\"https://www.monster-strike.com/entertainment-news/20260604_1.html\">4 Juni 2026</a>. Jam tangan tersebut menggunakan layar OLED dan memiliki 5 desain khusus antarmuka jam dengan ilustrasi Neo. Selain itu, jam tangan ini juga memiliki desain strap khusus. <br> Berdasarkan informasi resmi, jam tangan ini memiliki basis sistem operasi Harmony OS yang mengindikasikan bahwa smartwatch ini menggunakan basis dari smartwatch Huawei. <br> Harga dari smartwatch edisi spesial ini adalah 33.000 yen.",
