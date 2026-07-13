@@ -1,10 +1,11 @@
 import { Metadata } from "next";
+import profile from "@/lib/profile.json";
 import { getDashboardData, CachedAnime, TopSeiyuu } from "@/lib/syncBlob";
 import GenreClient from "./GenreClient";
 
 export const metadata: Metadata = { title: "Voice Role Statistics" };
 
-const seiyuuMALId = 11297;
+const seiyuuMALId = profile.seiyuu_MALid;
 
 const SeiyuuRow = ({ s, rank }: { s: TopSeiyuu; rank: number }) => (
   <a

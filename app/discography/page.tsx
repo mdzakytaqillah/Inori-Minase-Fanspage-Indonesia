@@ -1,6 +1,7 @@
 "use client";
 
-import data from "@/data.json";
+import discography from "@/lib/discography.json";
+import profile from "@/lib/profile.json";
 import { useState, useMemo } from "react";
 import Link from "next/link";
 
@@ -66,11 +67,11 @@ export default function DiscographyPage() {
 
   // MENGOLAH DATA
   const { combinedDiscs, uniqueSongsList } = useMemo(() => {
-    const albums = data.discography[0].album.map((d) => ({
+    const albums = discography.album.map((d) => ({
       ...d,
       discType: "ALBUM" as const,
     }));
-    const singles = data.discography[0].single.map((d) => ({
+    const singles = discography.single.map((d) => ({
       ...d,
       discType: "SINGLE" as const,
     }));
@@ -170,7 +171,7 @@ export default function DiscographyPage() {
             Discography
           </h2>
           <p className="text-sm text-gray-500">
-            Daftar lengkap rilisan single dan album lagu Inorin.
+            Daftar lengkap rilisan single dan album lagu {profile.name_global}.
           </p>
         </div>
 
@@ -194,7 +195,9 @@ export default function DiscographyPage() {
               <p className="text-[10px] text-blue-600 font-bold uppercase tracking-wider">
                 Total Rilisan
               </p>
-              <p className="text-xs font-bold text-gray-700">Lagu Inorin</p>
+              <p className="text-xs font-bold text-gray-700">
+                Lagu {profile.nickname_romanized}
+              </p>
             </div>
           </button>
         </div>
@@ -503,7 +506,7 @@ export default function DiscographyPage() {
                 <strong className="text-blue-600">
                   {creditModal.involvements.length}
                 </strong>{" "}
-                lagu Inorin:
+                lagu {profile.nickname_romanized}:
               </p>
 
               <div className="space-y-3">
@@ -547,7 +550,8 @@ export default function DiscographyPage() {
             <div className="p-5 border-b border-gray-100 flex justify-between items-center bg-slate-50">
               <div>
                 <h3 className="text-xl font-bold text-gray-800">
-                  Daftar Seluruh Lagu Inorin ({uniqueSongsList.length} Lagu)
+                  Daftar Seluruh Lagu {profile.name_global} (
+                  {uniqueSongsList.length} Lagu)
                 </h3>
               </div>
               <button

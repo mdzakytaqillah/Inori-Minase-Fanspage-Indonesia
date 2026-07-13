@@ -1,25 +1,93 @@
-import data from "@/data.json";
+import data from "@/lib/info.json";
+import profileData from "@/lib/profile.json";
 import Link from "next/link";
 import { getDashboardData } from "@/lib/syncBlob";
+
+// ==========================================
+// STRICT INTERFACES
+// ==========================================
+interface AgencyOrLabel {
+  name: string;
+  year_start: number;
+  year_end: number | null;
+}
+
+interface ProfileData {
+  name: string;
+  name_romanized: string;
+  nickname: string;
+  nickname_romanized: string;
+  name_global: string;
+  birthday: string;
+  height: string;
+  blood_type: string;
+  agency: AgencyOrLabel[];
+  label_music: AgencyOrLabel[];
+}
+
+const profile: ProfileData = profileData;
 
 export default async function ProfilePage() {
   // Foto Profil dari MAL Scraper
   const { personDB } = await getDashboardData();
   const imageUrl = personDB?.image_url || "";
 
-  // Logika Hitung Mundur Ulang Tahun (2 Desember)
+  // Logika Hitung Mundur Ulang Tahun
   const today = new Date();
   const currentYear = today.getFullYear();
-  let nextBday = new Date(currentYear, 11, 2); // Bulan 11 = Desember (0-indexed)
+  const seiyuuBirthday = new Date(profile.birthday);
+  let nextBday = new Date(
+    currentYear,
+    seiyuuBirthday.getMonth(),
+    seiyuuBirthday.getDate(),
+  );
 
-  if (today > new Date(currentYear, 11, 3)) {
-    nextBday = new Date(currentYear + 1, 11, 2);
+  if (
+    today >
+    new Date(
+      currentYear,
+      seiyuuBirthday.getMonth(),
+      seiyuuBirthday.getDate() + 1,
+    )
+  ) {
+    nextBday = new Date(
+      currentYear + 1,
+      seiyuuBirthday.getMonth(),
+      seiyuuBirthday.getDate(),
+    );
   }
 
   const diffTime = nextBday.getTime() - today.getTime();
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
   // Tampilkan hanya jika jaraknya <= 90 hari (sekitar 3 bulan)
   const isBdaySeason = diffDays <= 90 && diffDays >= 0;
+
+  // Hitung Umur
+  let age = today.getFullYear() - seiyuuBirthday.getFullYear();
+
+  if (
+    today.getMonth() - seiyuuBirthday.getMonth() < 0 ||
+    (today.getMonth() - seiyuuBirthday.getMonth() === 0 &&
+      today.getDate() < seiyuuBirthday.getDate())
+  ) {
+    age--;
+  }
+
+  // Format Tanggal Lahir
+  const formattedBirthday = new Date(profile.birthday).toLocaleDateString(
+    "id-ID",
+    {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    },
+  );
+
+  // Agensi/Label Saat Ini & Terdahulu
+  const currentAgencies = profile.agency.filter((a) => a.year_end === null);
+  const pastAgencies = profile.agency.filter((a) => a.year_end !== null);
+  const currentLabels = profile.label_music.filter((l) => l.year_end === null);
+  const pastLabels = profile.label_music.filter((a) => a.year_end !== null);
 
   // Kelompokkan Official Links berdasarkan tipe
   const officialLinks = data.official_links.reduce<
@@ -37,7 +105,11 @@ export default async function ProfilePage() {
         {/* Foto Profil */}
         <div className="relative h-40 md:h-48 shadow-md border-4 border-sky-50 flex-shrink-0 bg-slate-100">
           {imageUrl && (
-            <img src={imageUrl} alt="Minase Inori" className="w-full h-full" />
+            <img
+              src={imageUrl}
+              alt={profile.name_global}
+              className="w-full h-full"
+            />
           )}
         </div>
 
@@ -45,11 +117,13 @@ export default async function ProfilePage() {
         <div className="flex-1 text-center md:text-left space-y-4">
           <div>
             <h2 className="text-3xl font-extrabold text-gray-800">
-              水瀬いのり
+              {profile.name}
             </h2>
-            <h3 className="text-xl font-bold text-sky-600">Minase Inori</h3>
+            <h3 className="text-xl font-bold text-sky-600">
+              {profile.name_romanized}
+            </h3>
             <p className="text-sm text-gray-500 font-medium mt-1">
-              Panggilan: いのりん / Inorin
+              Panggilan: {profile.nickname} / {profile.nickname_romanized}
             </p>
           </div>
 
@@ -59,7 +133,7 @@ export default async function ProfilePage() {
                 Tanggal Lahir
               </span>
               <span className="font-semibold text-gray-800">
-                2 Desember 1995
+                {formattedBirthday} ({age} Tahun)
               </span>
               {isBdaySeason && (
                 <span className="block mt-1 text-xs font-bold text-pink-500 bg-pink-50 px-2 py-1 rounded inline-block animate-pulse">
@@ -75,28 +149,51 @@ export default async function ProfilePage() {
                 Fisik
               </span>
               <span className="font-semibold text-gray-800">
-                154 cm • Gol. Darah B
+                {profile.height} • Gol. Darah {profile.blood_type}
               </span>
             </div>
             <div className="bg-slate-50 p-3 rounded-lg border border-slate-100">
               <span className="block text-xs font-bold text-gray-400 uppercase">
                 Agensi
               </span>
-              <span className="font-semibold text-gray-800 block">
-                AxlOne (2017 - Sekarang)
-              </span>
-              <span className="text-xs text-gray-500">
-                Sony Music Artists (2010 - 2017)
-              </span>
+              {currentAgencies.map((agency, idx) => (
+                <p key={idx} className="font-semibold text-gray-800 block">
+                  {agency.name} ({agency.year_start} - Sekarang)
+                </p>
+              ))}
+
+              {/* Agensi Terdahulu (Optional) */}
+              {pastAgencies.length > 0 &&
+                pastAgencies.map((pastAgency, idx) => (
+                  <p key={idx} className="text-xs text-gray-500">
+                    {pastAgency.name} ({pastAgency.year_start} -{" "}
+                    {pastAgency.year_end})
+                  </p>
+                ))}
             </div>
             <div className="bg-slate-50 p-3 rounded-lg border border-slate-100">
               <span className="block text-xs font-bold text-gray-400 uppercase">
                 Label Musik
               </span>
-              <span className="font-semibold text-gray-800 block">
-                King Amusement Creative
-              </span>
-              <span className="text-xs text-gray-500">(2015 - Sekarang)</span>
+              {currentLabels.map((label, idx) => (
+                <div key={idx}>
+                  <p className="font-semibold text-gray-800 block">
+                    {label.name}
+                  </p>
+                  <p className="text-xs text-gray-500">
+                    ({label.year_start} - Sekarang)
+                  </p>
+                </div>
+              ))}
+
+              {/* Label Terdahulu (Optional) */}
+              {pastLabels.length > 0 &&
+                pastLabels.map((pastLabel, idx) => (
+                  <p key={idx} className="text-xs text-gray-500">
+                    {pastLabel.name} ({pastLabel.year_start} -{" "}
+                    {pastLabel.year_end})
+                  </p>
+                ))}
             </div>
           </div>
         </div>

@@ -1,19 +1,23 @@
 import { Metadata } from "next";
 import Navigation from "./navigation";
 import { ReactNode } from "react";
+import profile from "@/lib/profile.json";
 import "./globals.css";
 //
 export const metadata: Metadata = {
   title: {
-    template: "%s | Inori Minase Fanspage Indonesia",
-    default: "Inori Minase Fanspage Indonesia",
+    template: `%s | ${profile.name_global} Fanspage Indonesia`,
+    default: `${profile.name_global} Fanspage Indonesia`,
   },
-  description: "Situs penggemar Inori Minase di Indonesia",
+  description: `Situs ensiklopedia penggemar Indonesia untuk ${profile.name_global} (${profile.name}).`,
   keywords: [
-    "Inori Minase",
-    "Minase Inori",
-    "Inorin",
+    `${profile.name}`,
+    `${profile.nickname}`,
+    `${profile.name_global}`,
+    `${profile.name_romanized}`,
+    `${profile.nickname_romanized}`,
     "Fanspage",
+    "Ensiklopedia",
     "Indonesia",
     "Seiyuu",
     "Voice Actress",
@@ -34,7 +38,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           {/* Header Biru Opsional */}
           <header className="flex-none h-16 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-gray-200 dark:border-slate-800 flex items-center px-6 z-40">
             <h1 className="text-xl font-bold text-blue-600 tracking-tight">
-              Inori Minase Fanspage Indonesia
+              {profile.name_global} Fanspage Indonesia
             </h1>
           </header>
 

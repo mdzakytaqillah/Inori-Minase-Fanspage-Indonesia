@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import profile from "@/lib/profile.json";
 import {
   getDashboardData,
   CachedAnime,
@@ -187,7 +188,7 @@ export default async function VoicingPage() {
   const { animeDB, personDB, topSeiyuuDB } = await getDashboardData();
   const voices: ScrapedVoiceRole[] = personDB?.voices || [];
   const topSeiyuus: TopSeiyuu[] = topSeiyuuDB || [];
-  const seiyuuMALId = 11297;
+  const seiyuuMALId = profile.seiyuu_MALid;
 
   // 2. Kalkulasi Sekilas Statistik
   const genreCounts: Record<string, number> = {};

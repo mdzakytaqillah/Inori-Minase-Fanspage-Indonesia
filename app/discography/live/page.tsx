@@ -1,6 +1,8 @@
 "use client";
 
-import data from "@/data.json";
+import live_history from "@/lib/live_history.json";
+import discography from "@/lib/discography.json";
+import profile from "@/lib/profile.json";
 import Link from "next/link";
 import { useState, useEffect, useMemo } from "react";
 
@@ -95,7 +97,7 @@ const getTrackDiffs = (prev: string[], curr: string[]): boolean[] => {
 };
 
 export default function LiveHistoryPage() {
-  const liveData: LiveHistoryItem[] = data.live_history;
+  const liveData: LiveHistoryItem[] = live_history;
 
   // State untuk Modal Tracklist
   const [selectedLive, setSelectedLive] = useState<LiveHistoryItem | null>(
@@ -173,10 +175,7 @@ export default function LiveHistoryPage() {
     const songStatsMap = new Map<string, SongLiveStat>();
 
     // Ekstrak dari Discography Resmi (Untuk Rilis & Urutan Track)
-    const allDiscs: DiscItem[] = [
-      ...data.discography[0].album,
-      ...data.discography[0].single,
-    ];
+    const allDiscs: DiscItem[] = [...discography.album, ...discography.single];
     allDiscs.sort(
       (a, b) =>
         new Date(a.release_date).getTime() - new Date(b.release_date).getTime(),
@@ -285,7 +284,8 @@ export default function LiveHistoryPage() {
             Live History
           </h2>
           <p className="text-sm text-gray-500">
-            Daftar lengkap riwayat konser dan pertunjukan Live Inori Minase.
+            Daftar lengkap riwayat konser dan pertunjukan Live{" "}
+            {profile.name_global}.
           </p>
         </div>
         <div className="flex flex-wrap gap-3">

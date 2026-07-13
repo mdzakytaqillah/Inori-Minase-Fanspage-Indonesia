@@ -1,0 +1,5352 @@
+{
+  "1960": {
+    "mal_id": 1960,
+    "title": "Sore Ike! Anpanman",
+    "status": "currently_airing",
+    "season": "fall",
+    "year": 1988,
+    "start_date": "1988-10-03",
+    "end_date": null,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1902/111797l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Kids"
+      }
+    ]
+  },
+  "6974": {
+    "mal_id": 6974,
+    "title": "Seikimatsu Occult Gakuin",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2010,
+    "image_url": "https://cdn.myanimelist.net/images/anime/5/75257l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Sci-Fi"
+      },
+      {
+        "name": "Supernatural"
+      },
+      {
+        "name": "Time Travel"
+      }
+    ]
+  },
+  "10321": {
+    "mal_id": 10321,
+    "title": "Uta no☆Prince-sama♪ Maji Love 1000%",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2011,
+    "image_url": "https://cdn.myanimelist.net/images/anime/6/30248l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Idols (Male)"
+      },
+      {
+        "name": "Josei"
+      },
+      {
+        "name": "Music"
+      },
+      {
+        "name": "Reverse Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "16353": {
+    "mal_id": 16353,
+    "title": "Love Lab",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2013,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1900/147887l.webp",
+    "genres": [
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "19799": {
+    "mal_id": 19799,
+    "title": "Robot Girls Z",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2014,
+    "image_url": "https://cdn.myanimelist.net/images/anime/4/53141l.webp",
+    "genres": [
+      {
+        "name": "Anthropomorphic"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Parody"
+      }
+    ]
+  },
+  "19841": {
+    "mal_id": 19841,
+    "title": "Super Seisyun Brothers",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2013,
+    "image_url": "https://cdn.myanimelist.net/images/anime/2/53807l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      }
+    ]
+  },
+  "20787": {
+    "mal_id": 20787,
+    "title": "Black Bullet",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2014,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1292/94693l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "21177": {
+    "mal_id": 21177,
+    "title": "Nobunaga the Fool",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2014,
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/57803l.jpg",
+    "genres": [
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Mecha"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "21273": {
+    "mal_id": 21273,
+    "title": "Gochuumon wa Usagi desu ka?",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2014,
+    "image_url": "https://cdn.myanimelist.net/images/anime/6/79600l.webp",
+    "genres": [
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Iyashikei"
+      },
+      {
+        "name": "Slice of Life"
+      },
+      {
+        "name": "Workplace"
+      }
+    ]
+  },
+  "21573": {
+    "mal_id": 21573,
+    "title": "Senki Zesshou Symphogear GX",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/9/86681l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Idols (Female)"
+      },
+      {
+        "name": "Music"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "21773": {
+    "mal_id": 21773,
+    "title": "Sugar*Soldier",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2014,
+    "image_url": "https://cdn.myanimelist.net/images/anime/9/57959l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shoujo"
+      }
+    ]
+  },
+  "22189": {
+    "mal_id": 22189,
+    "title": "Futsuu no Joshikousei ga \"Locodol\" Yattemita.",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2014,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1687/148418l.jpg",
+    "genres": [
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Idols (Female)"
+      }
+    ]
+  },
+  "22729": {
+    "mal_id": 22729,
+    "title": "Aldnoah.Zero",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2014,
+    "image_url": "https://cdn.myanimelist.net/images/anime/7/60263l.jpg",
+    "genres": [
+      {
+        "name": "Mecha"
+      },
+      {
+        "name": "Military"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "23209": {
+    "mal_id": 23209,
+    "title": "Sora no Method",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2014,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1112/130966l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "23273": {
+    "mal_id": 23273,
+    "title": "Shigatsu wa Kimi no Uso",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2014,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1405/143284l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Love Polygon"
+      },
+      {
+        "name": "Music"
+      },
+      {
+        "name": "Performing Arts"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "23319": {
+    "mal_id": 23319,
+    "title": "Suisei no Gargantia: Meguru Kouro, Haruka",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2014,
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/67547l.jpg",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Mecha"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "24763": {
+    "mal_id": 24763,
+    "title": "Robot Girls Z Specials",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2014,
+    "image_url": "https://cdn.myanimelist.net/images/anime/8/63697l.jpg",
+    "genres": [
+      {
+        "name": "Anthropomorphic"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Parody"
+      }
+    ]
+  },
+  "24765": {
+    "mal_id": 24765,
+    "title": "Gakkougurashi!",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1798/91548l.jpg",
+    "genres": [
+      {
+        "name": "Horror"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Psychological"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Slice of Life"
+      },
+      {
+        "name": "Survival"
+      },
+      {
+        "name": "Suspense"
+      }
+    ]
+  },
+  "25293": {
+    "mal_id": 25293,
+    "title": "Futago no Mahoutsukai Lico to Gli",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2013,
+    "image_url": "https://cdn.myanimelist.net/images/anime/4/78517l.webp",
+    "genres": [
+      {
+        "name": "Music"
+      }
+    ]
+  },
+  "25719": {
+    "mal_id": 25719,
+    "title": "Futsuu no Joshikousei ga \"Locodol\" Yattemita.: Nagarekawa, Annai Shitemita.",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2014,
+    "image_url": "https://cdn.myanimelist.net/images/anime/11/67619l.jpg",
+    "genres": [
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Idols (Female)"
+      }
+    ]
+  },
+  "26085": {
+    "mal_id": 26085,
+    "title": "Military!",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/4/68837l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Ecchi"
+      },
+      {
+        "name": "Military"
+      }
+    ]
+  },
+  "27655": {
+    "mal_id": 27655,
+    "title": "Aldnoah.Zero Part 2",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/71297l.jpg",
+    "genres": [
+      {
+        "name": "Mecha"
+      },
+      {
+        "name": "Sci-Fi"
+      },
+      {
+        "name": "Space"
+      }
+    ]
+  },
+  "27829": {
+    "mal_id": 27829,
+    "title": "Heavy Object",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/13/75940l.webp",
+    "genres": [
+      {
+        "name": "Mecha"
+      },
+      {
+        "name": "Military"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "28121": {
+    "mal_id": 28121,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1172/148981l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "28725": {
+    "mal_id": 28725,
+    "title": "Kokoro ga Sakebitagatterunda.",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1245/112628l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Performing Arts"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "28883": {
+    "mal_id": 28883,
+    "title": "Hidan no Aria AA",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/12/76700l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Seinen"
+      }
+    ]
+  },
+  "29035": {
+    "mal_id": 29035,
+    "title": "Robot Girls Z Plus",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/9/73636l.jpg",
+    "genres": [
+      {
+        "name": "Anthropomorphic"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Parody"
+      }
+    ]
+  },
+  "29785": {
+    "mal_id": 29785,
+    "title": "Jitsu wa Watashi wa",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/8/74042l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Supernatural"
+      },
+      {
+        "name": "Vampire"
+      }
+    ]
+  },
+  "29787": {
+    "mal_id": 29787,
+    "title": "Gochuumon wa Usagi desu ka??",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/8/76702l.webp",
+    "genres": [
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Iyashikei"
+      },
+      {
+        "name": "Slice of Life"
+      },
+      {
+        "name": "Workplace"
+      }
+    ]
+  },
+  "30485": {
+    "mal_id": 30485,
+    "title": "ChäoS;Child",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1310/90137l.jpg",
+    "genres": [
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Psychological"
+      },
+      {
+        "name": "Sci-Fi"
+      },
+      {
+        "name": "Supernatural"
+      },
+      {
+        "name": "Suspense"
+      }
+    ]
+  },
+  "30600": {
+    "mal_id": 30600,
+    "title": "Military!: Tamatama Shoumetsu Suru Shiroki Hikari!",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/7/73505l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Ecchi"
+      },
+      {
+        "name": "Military"
+      }
+    ]
+  },
+  "30617": {
+    "mal_id": 30617,
+    "title": "Animegatari",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/13/73567l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      }
+    ]
+  },
+  "30901": {
+    "mal_id": 30901,
+    "title": "Utawarerumono: Itsuwari no Kamen",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/8/75968l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "30919": {
+    "mal_id": 30919,
+    "title": "Sora no Method: Aru Shoujo no Kyuujitsu★",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/11/76251l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "30988": {
+    "mal_id": 30988,
+    "title": "Futsuu no Joshikousei ga \"Locodol\" Yattemita. OVA",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1809/148421l.jpg",
+    "genres": [
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Idols (Female)"
+      }
+    ]
+  },
+  "31173": {
+    "mal_id": 31173,
+    "title": "Akagami no Shirayuki-hime 2nd Season",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/12/77834l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Medical"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "Shoujo"
+      }
+    ]
+  },
+  "31240": {
+    "mal_id": 31240,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1522/128039l.webp",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Psychological"
+      },
+      {
+        "name": "Suspense"
+      },
+      {
+        "name": "Time Travel"
+      }
+    ]
+  },
+  "31318": {
+    "mal_id": 31318,
+    "title": "Comet Lucifer",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/3/76111l.webp",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Mecha"
+      }
+    ]
+  },
+  "31404": {
+    "mal_id": 31404,
+    "title": "Netoge no Yome wa Onnanoko ja Nai to Omotta?",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/3/79414l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Ecchi"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Video Game"
+      }
+    ]
+  },
+  "31553": {
+    "mal_id": 31553,
+    "title": "Charlotte: Tsuyoimono-tachi",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1709/98068l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Super Power"
+      }
+    ]
+  },
+  "31710": {
+    "mal_id": 31710,
+    "title": "Divine Gate",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/5/77844l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "31764": {
+    "mal_id": 31764,
+    "title": "Nejimaki Seirei Senki: Tenkyou no Alderamin",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/11/79531l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Military"
+      }
+    ]
+  },
+  "32083": {
+    "mal_id": 32083,
+    "title": "Luck & Logic",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/5/77134l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "32151": {
+    "mal_id": 32151,
+    "title": "Senki Zesshou Symphogear GX: Senki Zesshou Shinai Symphogear",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/8/77264l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Idols (Female)"
+      },
+      {
+        "name": "Music"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "32189": {
+    "mal_id": 32189,
+    "title": "Danganronpa 3: The End of Kibougamine Gakuen - Mirai-hen",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/80931l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "High Stakes Game"
+      },
+      {
+        "name": "Horror"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Psychological"
+      },
+      {
+        "name": "Survival"
+      },
+      {
+        "name": "Suspense"
+      }
+    ]
+  },
+  "32801": {
+    "mal_id": 32801,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka OVA",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/9/81432l.jpg",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Ecchi"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "32829": {
+    "mal_id": 32829,
+    "title": "Nobunaga no Shinobi",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/2/78715l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Seinen"
+      }
+    ]
+  },
+  "32843": {
+    "mal_id": 32843,
+    "title": "Senki Zesshou Symphogear XV",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1899/101966l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Idols (Female)"
+      },
+      {
+        "name": "Music"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "32887": {
+    "mal_id": 32887,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1181/123312l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "33003": {
+    "mal_id": 33003,
+    "title": "Mahou Shoujo Ikusei Keikaku",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/2/81087l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "High Stakes Game"
+      },
+      {
+        "name": "Mahou Shoujo"
+      },
+      {
+        "name": "Survival"
+      },
+      {
+        "name": "Suspense"
+      }
+    ]
+  },
+  "33010": {
+    "mal_id": 33010,
+    "title": "FLCL Progressive",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1499/93700l.webp",
+    "genres": [
+      {
+        "name": "Avant Garde"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Mecha"
+      },
+      {
+        "name": "Parody"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "33021": {
+    "mal_id": 33021,
+    "title": "Ragnastrike Angels",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/2/79268l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      }
+    ]
+  },
+  "33028": {
+    "mal_id": 33028,
+    "title": "Danganronpa 3: The End of Kibougamine Gakuen - Zetsubou-hen",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/4/80932l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "High Stakes Game"
+      },
+      {
+        "name": "Horror"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Psychological"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Survival"
+      },
+      {
+        "name": "Suspense"
+      }
+    ]
+  },
+  "33142": {
+    "mal_id": 33142,
+    "title": "Re:Zero kara Hajimeru Break Time",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/8/81258l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      }
+    ]
+  },
+  "33170": {
+    "mal_id": 33170,
+    "title": "Kokoro ga Sakebitagatterunda. x Sony Hi-Res \"Walkman\" and Headphone",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/12/79673l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      }
+    ]
+  },
+  "33280": {
+    "mal_id": 33280,
+    "title": "Gochuumon wa Usagi desu ka?? Dear My Sister",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/88182l.jpg",
+    "genres": [
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Iyashikei"
+      },
+      {
+        "name": "Slice of Life"
+      },
+      {
+        "name": "Workplace"
+      }
+    ]
+  },
+  "33314": {
+    "mal_id": 33314,
+    "title": "Digimon Universe: Appli Monsters",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1189/98841l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Kids"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "33487": {
+    "mal_id": 33487,
+    "title": "Masamune-kun no Revenge",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/12/83709l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "33502": {
+    "mal_id": 33502,
+    "title": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/4/85260l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "33512": {
+    "mal_id": 33512,
+    "title": "Animegatari x Koukaku Kidoutai Collab Eizou",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2015,
+    "image_url": "https://cdn.myanimelist.net/images/anime/9/80627l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "33569": {
+    "mal_id": 33569,
+    "title": "Re:Petit kara Hajimeru Isekai Seikatsu",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/8/81281l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      }
+    ]
+  },
+  "33589": {
+    "mal_id": 33589,
+    "title": "ViVid Strike!",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/2/82015l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Martial Arts"
+      }
+    ]
+  },
+  "33731": {
+    "mal_id": 33731,
+    "title": "Gabriel DropOut",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/9/82590l.jpg",
+    "genres": [
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Mythology"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Supernatural"
+      }
+    ]
+  },
+  "33733": {
+    "mal_id": 33733,
+    "title": "Inazuma Eleven: Ares no Tenbin",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1460/96891l.jpg",
+    "genres": [
+      {
+        "name": "Sports"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Team Sports"
+      }
+    ]
+  },
+  "34152": {
+    "mal_id": 34152,
+    "title": "Super Danganronpa 2.5: Komaeda Nagito to Sekai no Hakaisha",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/83150l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Horror"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Psychological"
+      }
+    ]
+  },
+  "34283": {
+    "mal_id": 34283,
+    "title": "Nobunaga no Shinobi: Nobunaga to Minarai Shinobi",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/8/82507l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Seinen"
+      }
+    ]
+  },
+  "34290": {
+    "mal_id": 34290,
+    "title": "Kirakira☆Precure A La Mode",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/12/88612l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Gourmet"
+      },
+      {
+        "name": "Mahou Shoujo"
+      }
+    ]
+  },
+  "34494": {
+    "mal_id": 34494,
+    "title": "Sakura Quest",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/6/85222l.webp",
+    "genres": [
+      {
+        "name": "Adult Cast"
+      },
+      {
+        "name": "Slice of Life"
+      },
+      {
+        "name": "Workplace"
+      }
+    ]
+  },
+  "34539": {
+    "mal_id": 34539,
+    "title": "Saint Seiya: Saintia Shou",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1022/93948l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Seinen"
+      }
+    ]
+  },
+  "34561": {
+    "mal_id": 34561,
+    "title": "Re:Creators",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/11/85469l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Urban Fantasy"
+      }
+    ]
+  },
+  "34566": {
+    "mal_id": 34566,
+    "title": "Boruto: Naruto Next Generations",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1091/99847l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Martial Arts"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "34834": {
+    "mal_id": 34834,
+    "title": "Hina Logi: From Luck & Logic",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/11/86576l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "34902": {
+    "mal_id": 34902,
+    "title": "Tsurezure Children",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/12/86676l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "34943": {
+    "mal_id": 34943,
+    "title": "T7S Longing for Summer Again and Again: Harukaze",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/3/84343l.jpg",
+    "genres": [
+      {
+        "name": "Idols (Female)"
+      },
+      {
+        "name": "Music"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "34978": {
+    "mal_id": 34978,
+    "title": "Nobunaga no Shinobi: Ise Kanegasaki-hen",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/3/84890l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Seinen"
+      }
+    ]
+  },
+  "35079": {
+    "mal_id": 35079,
+    "title": "Kino no Tabi: The Beautiful World - The Animated Series",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/13/87235l.webp",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "35206": {
+    "mal_id": 35206,
+    "title": "Kirakira☆Precure A La Mode Movie: Paritto! Omoide no Mille-Feuille!",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/6/86547l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Mahou Shoujo"
+      },
+      {
+        "name": "Slice of Life"
+      }
+    ]
+  },
+  "35248": {
+    "mal_id": 35248,
+    "title": "18if",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/7/86743l.jpg",
+    "genres": [
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Supernatural"
+      }
+    ]
+  },
+  "35315": {
+    "mal_id": 35315,
+    "title": "ChäoS;Child: Silent Sky",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/9/88031l.jpg",
+    "genres": [
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Psychological"
+      },
+      {
+        "name": "Sci-Fi"
+      },
+      {
+        "name": "Supernatural"
+      }
+    ]
+  },
+  "35330": {
+    "mal_id": 35330,
+    "title": "Poputepipikku",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/3/88816l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Gag Humor"
+      },
+      {
+        "name": "Parody"
+      }
+    ]
+  },
+  "35376": {
+    "mal_id": 35376,
+    "title": "Himouto! Umaru-chan R",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/89671l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Otaku Culture"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Seinen"
+      }
+    ]
+  },
+  "35427": {
+    "mal_id": 35427,
+    "title": "Animegataris",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/12/89686l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Otaku Culture"
+      },
+      {
+        "name": "Parody"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "35540": {
+    "mal_id": 35540,
+    "title": "Slow Start",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/4/89982l.webp",
+    "genres": [
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "35589": {
+    "mal_id": 35589,
+    "title": "Toji no Miko",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/13/89885l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Urban Fantasy"
+      }
+    ]
+  },
+  "35838": {
+    "mal_id": 35838,
+    "title": "Shoujo Shuumatsu Ryokou",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/12/88321l.webp",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Iyashikei"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Sci-Fi"
+      },
+      {
+        "name": "Slice of Life"
+      }
+    ]
+  },
+  "35839": {
+    "mal_id": 35839,
+    "title": "Sora yori mo Tooi Basho",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/6/89879l.jpg",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Drama"
+      }
+    ]
+  },
+  "35857": {
+    "mal_id": 35857,
+    "title": "Lupin III: Part 5",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1235/91028l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adult Cast"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Seinen"
+      }
+    ]
+  },
+  "35964": {
+    "mal_id": 35964,
+    "title": "Basilisk: Ouka Ninpouchou",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/2/88384l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Martial Arts"
+      },
+      {
+        "name": "Seinen"
+      }
+    ]
+  },
+  "36064": {
+    "mal_id": 36064,
+    "title": "Fate/Grand Order",
+    "status": "currently_airing",
+    "season": "fall",
+    "year": 2014,
+    "start_date": "2014-12-27",
+    "end_date": null,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1554/110198l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "36286": {
+    "mal_id": 36286,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1081/95707l.webp",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      }
+    ]
+  },
+  "36298": {
+    "mal_id": 36298,
+    "title": "Robot Girls Z: Fukkatsu no Chika Teikoku!? Robot Girls Z vs. Nazo no Sandai Shuyaku Robo!",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1372/95234l.jpg",
+    "genres": [
+      {
+        "name": "Anthropomorphic"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Parody"
+      }
+    ]
+  },
+  "36431": {
+    "mal_id": 36431,
+    "title": "One Room: Second Season",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1098/93257l.webp",
+    "genres": [
+      {
+        "name": "Slice of Life"
+      }
+    ]
+  },
+  "36468": {
+    "mal_id": 36468,
+    "title": "Shoujo Shuumatsu Jugyou",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/88044l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Parody"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "36470": {
+    "mal_id": 36470,
+    "title": "Tada-kun wa Koi wo Shinai",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1446/91841l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Visual Arts"
+      }
+    ]
+  },
+  "36593": {
+    "mal_id": 36593,
+    "title": "Hug tto! Precure",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1220/92883l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Mahou Shoujo"
+      }
+    ]
+  },
+  "36754": {
+    "mal_id": 36754,
+    "title": "Kakuriyo no Yadomeshi",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1035/95056l.webp",
+    "genres": [
+      {
+        "name": "Adult Cast"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Gourmet"
+      },
+      {
+        "name": "Mythology"
+      },
+      {
+        "name": "Romance"
+      }
+    ]
+  },
+  "36862": {
+    "mal_id": 36862,
+    "title": "Made in Abyss Movie 3: Fukaki Tamashii no Reimei",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1803/117183l.jpg",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "36927": {
+    "mal_id": 36927,
+    "title": "Pokemon Movie 21: Minna no Monogatari",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1580/90795l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Kids"
+      },
+      {
+        "name": "Strategy Game"
+      }
+    ]
+  },
+  "36995": {
+    "mal_id": 36995,
+    "title": "Precure Super Stars! Movie",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/4/89920l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Mahou Shoujo"
+      }
+    ]
+  },
+  "37103": {
+    "mal_id": 37103,
+    "title": "Danganronpa 3: Monokuma Gekijou",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2016,
+    "image_url": "https://cdn.myanimelist.net/images/anime/8/90004l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Parody"
+      }
+    ]
+  },
+  "37126": {
+    "mal_id": 37126,
+    "title": "Nobunaga no Shinobi: Anegawa Ishiyama-hen",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1651/91110l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Seinen"
+      }
+    ]
+  },
+  "37232": {
+    "mal_id": 37232,
+    "title": "Merc Storia: Mukiryoku no Shounen to Bin no Naka no Shoujo",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1394/95704l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "37262": {
+    "mal_id": 37262,
+    "title": "Ta ga Tame no Alchemist",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1257/116016l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "37268": {
+    "mal_id": 37268,
+    "title": "Z/X: Code Reunion",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1077/111410l.webp",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "37347": {
+    "mal_id": 37347,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1730/101329l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "37348": {
+    "mal_id": 37348,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Movie: Orion no Ya",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1239/96949l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "37377": {
+    "mal_id": 37377,
+    "title": "Masamune-kun no Revenge: Uchi no Mama ni Kagitte/Tsunade Shima, Futatabi./12-Ji wo Sugita Cinderella",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1439/123818l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "37379": {
+    "mal_id": 37379,
+    "title": "Chihayafuru 3",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1898/110709l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Josei"
+      },
+      {
+        "name": "Love Polygon"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Sports"
+      },
+      {
+        "name": "Strategy Game"
+      }
+    ]
+  },
+  "37450": {
+    "mal_id": 37450,
+    "title": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1301/93586l.webp",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Supernatural"
+      }
+    ]
+  },
+  "37501": {
+    "mal_id": 37501,
+    "title": "Hug tto! Precure♡Futari wa Precure Movie: All Stars Memories",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1538/93935l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Mahou Shoujo"
+      }
+    ]
+  },
+  "37509": {
+    "mal_id": 37509,
+    "title": "W'z",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1770/99001l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Music"
+      }
+    ]
+  },
+  "37515": {
+    "mal_id": 37515,
+    "title": "Made in Abyss Movie 2: Hourou Suru Tasogare",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1336/95168l.jpg",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "37555": {
+    "mal_id": 37555,
+    "title": "Hangyakusei Million Arthur",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1679/96158l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "37672": {
+    "mal_id": 37672,
+    "title": "Toji no Miko Recap",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1614/91864l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Urban Fantasy"
+      }
+    ]
+  },
+  "37968": {
+    "mal_id": 37968,
+    "title": "Kirakira Happy★Hirake! Cocotama",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1742/93170l.jpg",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Kids"
+      },
+      {
+        "name": "Slice of Life"
+      }
+    ]
+  },
+  "38062": {
+    "mal_id": 38062,
+    "title": "Endro~!",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1300/111361l.jpg",
+    "genres": [
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Slice of Life"
+      }
+    ]
+  },
+  "38101": {
+    "mal_id": 38101,
+    "title": "5-toubun no Hanayome",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1819/97947l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "38268": {
+    "mal_id": 38268,
+    "title": "Hangyakusei Million Arthur 2nd Season",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1277/100464l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "38329": {
+    "mal_id": 38329,
+    "title": "Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1613/102179l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Supernatural"
+      }
+    ]
+  },
+  "38333": {
+    "mal_id": 38333,
+    "title": "Gochuumon wa Usagi desu ka?? Sing for You",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1684/101030l.webp",
+    "genres": [
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Iyashikei"
+      },
+      {
+        "name": "Slice of Life"
+      },
+      {
+        "name": "Workplace"
+      }
+    ]
+  },
+  "38337": {
+    "mal_id": 38337,
+    "title": "Gochuumon wa Usagi desu ka? Bloom",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1900/109179l.jpg",
+    "genres": [
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Iyashikei"
+      },
+      {
+        "name": "Slice of Life"
+      },
+      {
+        "name": "Workplace"
+      }
+    ]
+  },
+  "38414": {
+    "mal_id": 38414,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1238/104023l.webp",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Psychological"
+      },
+      {
+        "name": "Suspense"
+      }
+    ]
+  },
+  "38464": {
+    "mal_id": 38464,
+    "title": "Ashita Sekai ga Owaru toshitemo",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1683/111390l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "38472": {
+    "mal_id": 38472,
+    "title": "Isekai Quartet",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1965/99667l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Parody"
+      }
+    ]
+  },
+  "38555": {
+    "mal_id": 38555,
+    "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta...",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1483/107061l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Reverse Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shoujo"
+      },
+      {
+        "name": "Villainess"
+      }
+    ]
+  },
+  "38672": {
+    "mal_id": 38672,
+    "title": "Precure Miracle Universe Movie",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1960/120792l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Mahou Shoujo"
+      }
+    ]
+  },
+  "38789": {
+    "mal_id": 38789,
+    "title": "One Room: Second Season Special",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1630/97029l.jpg",
+    "genres": [
+      {
+        "name": "Ecchi"
+      }
+    ]
+  },
+  "38891": {
+    "mal_id": 38891,
+    "title": "Sora no Method: Mou Hitotsu no Negai",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1472/97902l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "38936": {
+    "mal_id": 38936,
+    "title": "Lord El-Melloi II-sei no Jikenbo: Rail Zeppelin Grace Note - Hakamori to Neko to Majutsushi",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1762/114436l.jpg",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Urban Fantasy"
+      }
+    ]
+  },
+  "38959": {
+    "mal_id": 38959,
+    "title": "Lord El-Melloi II-sei no Jikenbo: Rail Zeppelin Grace Note",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1107/111530l.jpg",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Urban Fantasy"
+      }
+    ]
+  },
+  "39198": {
+    "mal_id": 39198,
+    "title": "Kanata no Astra",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1784/106428l.webp",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Award Winning"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Sci-Fi"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Space"
+      },
+      {
+        "name": "Survival"
+      },
+      {
+        "name": "Suspense"
+      }
+    ]
+  },
+  "39539": {
+    "mal_id": 39539,
+    "title": "No Guns Life",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1531/102113l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Sci-Fi"
+      },
+      {
+        "name": "Seinen"
+      }
+    ]
+  },
+  "39575": {
+    "mal_id": 39575,
+    "title": "Somali to Mori no Kamisama",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1938/102796l.webp",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Anthropomorphic"
+      },
+      {
+        "name": "Childcare"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "39587": {
+    "mal_id": 39587,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1444/108005l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Psychological"
+      },
+      {
+        "name": "Suspense"
+      },
+      {
+        "name": "Time Travel"
+      }
+    ]
+  },
+  "39783": {
+    "mal_id": 39783,
+    "title": "5-toubun no Hanayome ∬",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1775/109514l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "39921": {
+    "mal_id": 39921,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow - Manner Movie",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1018/122070l.webp",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      }
+    ]
+  },
+  "39988": {
+    "mal_id": 39988,
+    "title": "Isekai Quartet 2",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1030/103383l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Parody"
+      }
+    ]
+  },
+  "39993": {
+    "mal_id": 39993,
+    "title": "Isekai Quartet Relay PVs",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2018,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1761/101647l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Parody"
+      }
+    ]
+  },
+  "40064": {
+    "mal_id": 40064,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II: Past & Future",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1007/101921l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "40192": {
+    "mal_id": 40192,
+    "title": "Gundam Build Divers Re:Rise",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1011/109143l.webp",
+    "genres": [
+      {
+        "name": "Mecha"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "40211": {
+    "mal_id": 40211,
+    "title": "Luo Xiaohei Zhanji (Movie)",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1583/108598l.jpg",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "40397": {
+    "mal_id": 40397,
+    "title": "Maoujou de Oyasumi",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1448/108514l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Parody"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "40453": {
+    "mal_id": 40453,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II OVA",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1360/111696l.jpg",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Ecchi"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "40454": {
+    "mal_id": 40454,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1523/108380l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "40529": {
+    "mal_id": 40529,
+    "title": "No Guns Life 2nd Season",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1477/106613l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Sci-Fi"
+      },
+      {
+        "name": "Seinen"
+      }
+    ]
+  },
+  "40550": {
+    "mal_id": 40550,
+    "title": "Assault Lily: Bouquet",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1024/108413l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "40590": {
+    "mal_id": 40590,
+    "title": "Utawarerumono: Futari no Hakuoro",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1516/123280l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "40659": {
+    "mal_id": 40659,
+    "title": "Senki Zesshou Symphogear XV: Senki Zesshou Shinai Symphogear",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2019,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1801/104039l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Idols (Female)"
+      }
+    ]
+  },
+  "40893": {
+    "mal_id": 40893,
+    "title": "Komatta Jiisan",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1801/116872l.webp",
+    "genres": [
+      {
+        "name": "Adult Cast"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Romance"
+      }
+    ]
+  },
+  "40942": {
+    "mal_id": 40942,
+    "title": "Gundam Build Divers Re:Rise 2nd Season",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1962/105909l.webp",
+    "genres": [
+      {
+        "name": "Mecha"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "40974": {
+    "mal_id": 40974,
+    "title": "Kuma Kuma Kuma Bear",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1413/110712l.webp",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      }
+    ]
+  },
+  "41084": {
+    "mal_id": 41084,
+    "title": "Made in Abyss: Retsujitsu no Ougonkyou",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1864/122519l.webp",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "41307": {
+    "mal_id": 41307,
+    "title": "Tokyo 7th Sisters: Bokura wa Aozora ni Naru",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1757/114727l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Idols (Female)"
+      },
+      {
+        "name": "Music"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "41567": {
+    "mal_id": 41567,
+    "title": "Isekai Quartet Movie: Another World",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1222/122000l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Parody"
+      }
+    ]
+  },
+  "41574": {
+    "mal_id": 41574,
+    "title": "Guraburu!",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1870/119993l.jpg",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "41710": {
+    "mal_id": 41710,
+    "title": "Genjitsu Shugi Yuusha no Oukoku Saikenki",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1297/118764l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Military"
+      },
+      {
+        "name": "Romance"
+      }
+    ]
+  },
+  "41911": {
+    "mal_id": 41911,
+    "title": "Hanyou no Yashahime: Sengoku Otogizoushi",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1005/114781l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Mythology"
+      },
+      {
+        "name": "Time Travel"
+      }
+    ]
+  },
+  "42161": {
+    "mal_id": 42161,
+    "title": "Poketoon",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1941/117693l.jpg",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Kids"
+      }
+    ]
+  },
+  "42203": {
+    "mal_id": 42203,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1724/117421l.webp",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Psychological"
+      },
+      {
+        "name": "Suspense"
+      },
+      {
+        "name": "Time Travel"
+      }
+    ]
+  },
+  "42282": {
+    "mal_id": 42282,
+    "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... X",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1088/116439l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Reverse Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shoujo"
+      },
+      {
+        "name": "Villainess"
+      }
+    ]
+  },
+  "42670": {
+    "mal_id": 42670,
+    "title": "Princess Connect! Re:Dive Season 2",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1906/117145l.webp",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Gourmet"
+      }
+    ]
+  },
+  "42776": {
+    "mal_id": 42776,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow Announcement",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2017,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1905/126686l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Suspense"
+      }
+    ]
+  },
+  "42916": {
+    "mal_id": 42916,
+    "title": "Sword Art Online: Progressive Movie - Hoshi Naki Yoru no Aria",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1590/116274l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Video Game"
+      }
+    ]
+  },
+  "43007": {
+    "mal_id": 43007,
+    "title": "Osananajimi ga Zettai ni Makenai Love Comedy",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1111/113327l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "44983": {
+    "mal_id": 44983,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III OVA",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1767/110800l.webp",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Ecchi"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "45486": {
+    "mal_id": 45486,
+    "title": "Kuma Kuma Kuma Bear Punch!",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1132/134608l.jpg",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      }
+    ]
+  },
+  "45961": {
+    "mal_id": 45961,
+    "title": "Assault Lily: Fruits",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1444/116888l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "47164": {
+    "mal_id": 47164,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1318/126474l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "47257": {
+    "mal_id": 47257,
+    "title": "Shinigami Bocchan to Kuro Maid",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1471/115593l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Love Status Quo"
+      },
+      {
+        "name": "Romance"
+      }
+    ]
+  },
+  "48316": {
+    "mal_id": 48316,
+    "title": "Kage no Jitsuryokusha ni Naritakute!",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1091/128729l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Reincarnation"
+      }
+    ]
+  },
+  "48441": {
+    "mal_id": 48441,
+    "title": "The Legend of Heroes: Sen no Kiseki - Northern War",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1894/133297l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Military"
+      }
+    ]
+  },
+  "48548": {
+    "mal_id": 48548,
+    "title": "5-toubun no Hanayome Movie",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1037/122516l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "48556": {
+    "mal_id": 48556,
+    "title": "Takt Op. Destiny",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1449/117797l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Music"
+      },
+      {
+        "name": "Sci-Fi"
+      },
+      {
+        "name": "Urban Fantasy"
+      }
+    ]
+  },
+  "48580": {
+    "mal_id": 48580,
+    "title": "Vanitas no Karte",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1401/118483l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Urban Fantasy"
+      },
+      {
+        "name": "Vampire"
+      }
+    ]
+  },
+  "48644": {
+    "mal_id": 48644,
+    "title": "Gyakuten Sekai no Denchi Shoujo",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1836/117774l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Mecha"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "49114": {
+    "mal_id": 49114,
+    "title": "Vanitas no Karte Part 2",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1247/120579l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Urban Fantasy"
+      },
+      {
+        "name": "Vampire"
+      }
+    ]
+  },
+  "49361": {
+    "mal_id": 49361,
+    "title": "Lord El-Melloi II-sei no Jikenbo: Rail Zeppelin Grace Note Special",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1845/120313l.jpg",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Urban Fantasy"
+      }
+    ]
+  },
+  "49457": {
+    "mal_id": 49457,
+    "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... OVA",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1996/118848l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Reverse Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shoujo"
+      },
+      {
+        "name": "Villainess"
+      }
+    ]
+  },
+  "49520": {
+    "mal_id": 49520,
+    "title": "Aharen-san wa Hakarenai",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1612/120636l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Love Status Quo"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "49691": {
+    "mal_id": 49691,
+    "title": "Gunjou no Fanfare",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1769/122296l.webp",
+    "genres": [
+      {
+        "name": "Racing"
+      },
+      {
+        "name": "Sports"
+      }
+    ]
+  },
+  "49692": {
+    "mal_id": 49692,
+    "title": "Heroine Tarumono! Kiraware Heroine to Naisho no Oshigoto",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1311/120270l.jpg",
+    "genres": [
+      {
+        "name": "Idols (Male)"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "49722": {
+    "mal_id": 49722,
+    "title": "Karakai Jouzu no Takagi-san Movie",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1376/123398l.webp",
+    "genres": [
+      {
+        "name": "Love Status Quo"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "49738": {
+    "mal_id": 49738,
+    "title": "Heike Monogatari",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1282/119979l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Samurai"
+      },
+      {
+        "name": "Supernatural"
+      }
+    ]
+  },
+  "49842": {
+    "mal_id": 49842,
+    "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... Movie",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1360/138828l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Reverse Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shoujo"
+      },
+      {
+        "name": "Villainess"
+      }
+    ]
+  },
+  "49858": {
+    "mal_id": 49858,
+    "title": "Shinigami Bocchan to Kuro Maid 2nd Season",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1078/136947l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Love Status Quo"
+      },
+      {
+        "name": "Romance"
+      }
+    ]
+  },
+  "49926": {
+    "mal_id": 49926,
+    "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1065/118763l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Supernatural"
+      }
+    ]
+  },
+  "49930": {
+    "mal_id": 49930,
+    "title": "Genjitsu Shugi Yuusha no Oukoku Saikenki Part 2",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1088/120068l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Military"
+      },
+      {
+        "name": "Romance"
+      }
+    ]
+  },
+  "49938": {
+    "mal_id": 49938,
+    "title": "Ame wo Tsugeru Hyouryuu Danchi",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1263/124155l.jpg",
+    "genres": [
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "50010": {
+    "mal_id": 50010,
+    "title": "Meitantei Conan: Hannin no Hanzawa-san",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1560/125527l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "50060": {
+    "mal_id": 50060,
+    "title": "Shadowverse Flame",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1877/122972l.webp",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Strategy Game"
+      }
+    ]
+  },
+  "50275": {
+    "mal_id": 50275,
+    "title": "Sword Art Online: Progressive Movie - Kuraki Yuuyami no Scherzo",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1656/126446l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "Video Game"
+      }
+    ]
+  },
+  "50768": {
+    "mal_id": 50768,
+    "title": "Vanitas no Karte: En Route Pour le Gévaudan",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1570/120423l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Urban Fantasy"
+      },
+      {
+        "name": "Vampire"
+      }
+    ]
+  },
+  "50770": {
+    "mal_id": 50770,
+    "title": "Vanitas no Karte: Le Chemin Parcouru Depuis la Rencontre",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2021,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1401/120422l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Mystery"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Urban Fantasy"
+      },
+      {
+        "name": "Vampire"
+      }
+    ]
+  },
+  "51243": {
+    "mal_id": 51243,
+    "title": "Aharen-san wa Hakarenai Mini",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1478/129780l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "51252": {
+    "mal_id": 51252,
+    "title": "Spy Kyoushitsu",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1491/132864l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Mystery"
+      }
+    ]
+  },
+  "51297": {
+    "mal_id": 51297,
+    "title": "Ragna Crimson",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1763/140359l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "51307": {
+    "mal_id": 51307,
+    "title": "Bokura no Yoake",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1411/127593l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Sci-Fi"
+      },
+      {
+        "name": "Seinen"
+      }
+    ]
+  },
+  "51439": {
+    "mal_id": 51439,
+    "title": "Heroine Tarumono! Kiraware Heroine to Naisho no Oshigoto Mini Anime",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1023/122211l.jpg",
+    "genres": [
+      {
+        "name": "Idols (Male)"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "51498": {
+    "mal_id": 51498,
+    "title": "Masamune-kun no Revenge R",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1667/135587l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "52357": {
+    "mal_id": 52357,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV Episode 0",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1707/125209l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "52367": {
+    "mal_id": 52367,
+    "title": "Isekai Shikkaku",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2024,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1252/143457l.jpg",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Parody"
+      }
+    ]
+  },
+  "52482": {
+    "mal_id": 52482,
+    "title": "Sasaki to Pii-chan",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2024,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1624/139672l.webp",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      }
+    ]
+  },
+  "52487": {
+    "mal_id": 52487,
+    "title": "Suzumi Hiyori no \"LIPxLIP\" Shuzai Report!",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2020,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1124/125853l.jpg",
+    "genres": [
+      {
+        "name": "Idols (Male)"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "53111": {
+    "mal_id": 53111,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Yakusai-hen",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1476/128693l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "53126": {
+    "mal_id": 53126,
+    "title": "Yamada-kun to Lv999 no Koi wo Suru",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1298/134178l.jpg",
+    "genres": [
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "Video Game"
+      }
+    ]
+  },
+  "53406": {
+    "mal_id": 53406,
+    "title": "Kagejitsu!",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2022,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1014/129578l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      }
+    ]
+  },
+  "53447": {
+    "mal_id": 53447,
+    "title": "Tu Bian Yingxiong X",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2025,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1492/150628l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Super Power"
+      }
+    ]
+  },
+  "53580": {
+    "mal_id": 53580,
+    "title": "Tensei shitara Slime Datta Ken 3rd Season",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2024,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1211/143476l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Reincarnation"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "53613": {
+    "mal_id": 53613,
+    "title": "Dead Mount Death Play",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1930/133758l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Reincarnation"
+      },
+      {
+        "name": "Seinen"
+      },
+      {
+        "name": "Urban Fantasy"
+      }
+    ]
+  },
+  "53723": {
+    "mal_id": 53723,
+    "title": "Acro Trip",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2024,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1397/145153l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Mahou Shoujo"
+      },
+      {
+        "name": "Parody"
+      },
+      {
+        "name": "Shoujo"
+      }
+    ]
+  },
+  "54595": {
+    "mal_id": 54595,
+    "title": "Kage no Jitsuryokusha ni Naritakute! 2nd Season",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1938/138295l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Reincarnation"
+      }
+    ]
+  },
+  "54743": {
+    "mal_id": 54743,
+    "title": "Dead Mount Death Play Part 2",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1005/139809l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Reincarnation"
+      },
+      {
+        "name": "Seinen"
+      },
+      {
+        "name": "Urban Fantasy"
+      }
+    ]
+  },
+  "54829": {
+    "mal_id": 54829,
+    "title": "Urusei Yatsura (2022) 2nd Season",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2024,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1517/140830l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "Sci-Fi"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "54854": {
+    "mal_id": 54854,
+    "title": "Shadowverse Flame: Seven Shadows-hen",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1070/134743l.webp",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Strategy Game"
+      }
+    ]
+  },
+  "54857": {
+    "mal_id": 54857,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2024,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1706/144725l.webp",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Psychological"
+      },
+      {
+        "name": "Suspense"
+      },
+      {
+        "name": "Time Travel"
+      }
+    ]
+  },
+  "54870": {
+    "mal_id": 54870,
+    "title": "Seishun Buta Yarou wa Randoseru Girl no Yume wo Minai",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1937/138379l.webp",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Supernatural"
+      }
+    ]
+  },
+  "54915": {
+    "mal_id": 54915,
+    "title": "5-toubun no Hanayome∽",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1567/135752l.webp",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "54947": {
+    "mal_id": 54947,
+    "title": "Spy Kyoushitsu 2nd Season",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1317/136666l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Mystery"
+      }
+    ]
+  },
+  "55894": {
+    "mal_id": 55894,
+    "title": "Bokura no Ame-iro Protocol",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1160/138465l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Video Game"
+      }
+    ]
+  },
+  "56146": {
+    "mal_id": 56146,
+    "title": "Good Night World",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1330/137476l.webp",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Psychological"
+      },
+      {
+        "name": "Video Game"
+      }
+    ]
+  },
+  "56738": {
+    "mal_id": 56738,
+    "title": "Shinigami Bocchan to Kuro Maid 3rd Season",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2024,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1988/142714l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Love Status Quo"
+      },
+      {
+        "name": "Romance"
+      }
+    ]
+  },
+  "56842": {
+    "mal_id": 56842,
+    "title": "Kagejitsu! Second",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1512/138927l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      }
+    ]
+  },
+  "56907": {
+    "mal_id": 56907,
+    "title": "Koujo Denka no Kateikyoushi",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2025,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1445/150685l.jpg",
+    "genres": [
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "57034": {
+    "mal_id": 57034,
+    "title": "Ple Ple Pleiades x Kagejitsu!",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1880/139404l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "57066": {
+    "mal_id": 57066,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2024,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1299/144738l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "57433": {
+    "mal_id": 57433,
+    "title": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2025,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1823/149858l.webp",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Supernatural"
+      }
+    ]
+  },
+  "57584": {
+    "mal_id": 57584,
+    "title": "Kage no Jitsuryokusha ni Naritakute! Movie: Zankyou-hen",
+    "status": "not_yet_aired",
+    "season": null,
+    "year": null,
+    "start_date": "2027",
+    "end_date": "2027",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1797/156362l.webp",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Reincarnation"
+      }
+    ]
+  },
+  "57614": {
+    "mal_id": 57614,
+    "title": "Shadowverse Flame: Arc-hen",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2024,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1826/140574l.jpg",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Strategy Game"
+      }
+    ]
+  },
+  "58518": {
+    "mal_id": 58518,
+    "title": "Sasaki to Pii-chan Season 2",
+    "status": "not_yet_aired",
+    "season": "fall",
+    "year": 2026,
+    "start_date": "2026-10",
+    "end_date": null,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1402/158487l.jpg",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      }
+    ]
+  },
+  "58696": {
+    "mal_id": 58696,
+    "title": "Yuanshen: Xuqu PV - Zhi Zhongmu de Huanyan",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2023,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1623/142653l.webp",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      }
+    ]
+  },
+  "58755": {
+    "mal_id": 58755,
+    "title": "5-toubun no Hanayome*",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2024,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1915/145336l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "59113": {
+    "mal_id": 59113,
+    "title": "Farmagia",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2025,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1406/146839l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "59466": {
+    "mal_id": 59466,
+    "title": "Aharen-san wa Hakarenai Season 2",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2025,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1501/148355l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Love Status Quo"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "59711": {
+    "mal_id": 59711,
+    "title": "Shibou Yuugi de Meshi wo Kuu.",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2026,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1834/151169l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "High Stakes Game"
+      },
+      {
+        "name": "Suspense"
+      }
+    ]
+  },
+  "59843": {
+    "mal_id": 59843,
+    "title": "Aldnoah.Zero: Ame no Danshou - The Penultimate Truth",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2025,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1566/145506l.webp",
+    "genres": [
+      {
+        "name": "Mecha"
+      },
+      {
+        "name": "Sci-Fi"
+      },
+      {
+        "name": "Space"
+      }
+    ]
+  },
+  "59970": {
+    "mal_id": 59970,
+    "title": "Tensei shitara Slime Datta Ken 4th Season",
+    "status": "currently_airing",
+    "season": "spring",
+    "year": 2026,
+    "start_date": "2026-04-03",
+    "end_date": null,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1695/156389l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Reincarnation"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "60012": {
+    "mal_id": 60012,
+    "title": "Re:Zero kara Hajimeru Break Time 3rd Season",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2024,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1349/145863l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      }
+    ]
+  },
+  "60421": {
+    "mal_id": 60421,
+    "title": "Yuanshen: Juese PVs",
+    "status": "currently_airing",
+    "season": "spring",
+    "year": 2020,
+    "start_date": "2020-04-01",
+    "end_date": null,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1105/152259l.jpg",
+    "genres": [
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "60666": {
+    "mal_id": 60666,
+    "title": "Aldnoah.Zero (Re+)",
+    "status": "finished_airing",
+    "season": "winter",
+    "year": 2025,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1090/148437l.jpg",
+    "genres": [
+      {
+        "name": "Mecha"
+      },
+      {
+        "name": "Military"
+      },
+      {
+        "name": "Sci-Fi"
+      }
+    ]
+  },
+  "61115": {
+    "mal_id": 61115,
+    "title": "Gochuumon wa Usagi desu ka? Movie: We Are Family!",
+    "status": "not_yet_aired",
+    "season": null,
+    "year": null,
+    "start_date": null,
+    "end_date": null,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1165/155775l.jpg",
+    "genres": [
+      {
+        "name": "CGDCT"
+      },
+      {
+        "name": "Iyashikei"
+      },
+      {
+        "name": "Slice of Life"
+      },
+      {
+        "name": "Workplace"
+      }
+    ]
+  },
+  "61240": {
+    "mal_id": 61240,
+    "title": "Futsutsuka na Akujo dewa Gozaimasu ga: Suuguu Chouso Torikae Den",
+    "status": "currently_airing",
+    "season": "summer",
+    "year": 2026,
+    "start_date": "2026-07-12",
+    "end_date": null,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1958/158341l.jpg",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "Villainess"
+      }
+    ]
+  },
+  "61280": {
+    "mal_id": 61280,
+    "title": "Kore Kaite Shine",
+    "status": "currently_airing",
+    "season": "summer",
+    "year": 2026,
+    "start_date": "2026-07-03",
+    "end_date": null,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1649/154997l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Otaku Culture"
+      },
+      {
+        "name": "Shounen"
+      }
+    ]
+  },
+  "61316": {
+    "mal_id": 61316,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
+    "status": "currently_airing",
+    "season": "spring",
+    "year": 2026,
+    "start_date": "2026-04-08",
+    "end_date": null,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1540/155824l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Psychological"
+      },
+      {
+        "name": "Suspense"
+      },
+      {
+        "name": "Time Travel"
+      }
+    ]
+  },
+  "61840": {
+    "mal_id": 61840,
+    "title": "Yuanshen: Chen Jian Xing Lu",
+    "status": "finished_airing",
+    "season": "spring",
+    "year": 2025,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1150/150547l.jpg",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      }
+    ]
+  },
+  "61851": {
+    "mal_id": 61851,
+    "title": "Isekai Quartet 3",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2025,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1044/152103l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Parody"
+      }
+    ]
+  },
+  "61952": {
+    "mal_id": 61952,
+    "title": "Luo Xiaohei Zhanji 2",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2025,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1288/151853l.jpg",
+    "genres": [
+      {
+        "name": "Adventure"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Fantasy"
+      }
+    ]
+  },
+  "62066": {
+    "mal_id": 62066,
+    "title": "Monster Strike: Deadverse Reloaded",
+    "status": "finished_airing",
+    "season": "fall",
+    "year": 2025,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1090/151875l.jpg",
+    "genres": [
+      {
+        "name": "Action"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Isekai"
+      }
+    ]
+  },
+  "62080": {
+    "mal_id": 62080,
+    "title": "Mujikaku Seijo wa Kyou mo Muishiki ni Chikara wo Tare Nagasu",
+    "status": "currently_airing",
+    "season": "summer",
+    "year": 2026,
+    "start_date": "2026-06-30",
+    "end_date": null,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1612/158373l.jpg",
+    "genres": [
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Romance"
+      }
+    ]
+  },
+  "62582": {
+    "mal_id": 62582,
+    "title": "Seishun Buta Yarou wa Dear Friend no Yume wo Minai",
+    "status": "not_yet_aired",
+    "season": "fall",
+    "year": 2026,
+    "start_date": "2026-10-16",
+    "end_date": "2026-10-16",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1073/158510l.webp",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Supernatural"
+      }
+    ]
+  },
+  "63347": {
+    "mal_id": 63347,
+    "title": "World Is Dancing",
+    "status": "currently_airing",
+    "season": "summer",
+    "year": 2026,
+    "start_date": "2026-07-02",
+    "end_date": null,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1165/158709l.jpg",
+    "genres": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Performing Arts"
+      },
+      {
+        "name": "Seinen"
+      }
+    ]
+  },
+  "64104": {
+    "mal_id": 64104,
+    "title": "5-toubun no Hanayome: [Shunkashuutou]",
+    "status": "not_yet_aired",
+    "season": null,
+    "year": null,
+    "start_date": null,
+    "end_date": null,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1589/157220l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Romance"
+      },
+      {
+        "name": "School"
+      }
+    ]
+  },
+  "64106": {
+    "mal_id": 64106,
+    "title": "5-toubun no Princess: Gensou to Shinen to Mahou Gakuin",
+    "status": "finished_airing",
+    "season": "summer",
+    "year": 2025,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1559/157224l.jpg",
+    "genres": [
+      {
+        "name": "Comedy"
+      },
+      {
+        "name": "Fantasy"
+      },
+      {
+        "name": "Harem"
+      },
+      {
+        "name": "Romance"
+      }
+    ]
+  }
+}

@@ -4,7 +4,6 @@ Sebuah platform penggemar berbasis website yang didedikasikan untuk pengisi suar
 
 ## Fitur Utama
 
-- **Arsitektur Data Lokal:** Sebagian besar data konten pada website ini disimpan dalam satu file lokal `data.json`. Sebagian lainnya disimpan pada Vercel Blob Storage.
 - **Halaman Beranda:** Menampilkan foto Inori Minase, informasi pribadi Inori Minase, lini masa (timeline) vertikal interaktif perjalanan karir Inori Minase, disandingkan dengan kumpulan tautan resmi dan forum komunitas yang relevan. Terdapat pula fitur countdown hari ulang tahun Inori Minase yang aktif ketika mendekati hari ulang tahunnya (<= 90 hari)
 - **Halaman Diskografi:** Menampilkan daftar lengkap lagu yang dimiliki Inori Minase.
   - Terdapat badge yang menampilkan kalkulasi jumlah lagu dengan menghindari perhitungan redudansi pada lagu yang dirilis dua kali atau lebih. Dapat diklik untuk melihat list lengkap lagu secara satuan.
@@ -26,7 +25,16 @@ Pembuatan MyAnimeList Scraper terinspirasi oleh [@nattadasu](https://github.com/
 - **Framework:** [Next.js](https://nextjs.org) (App Router) - dibangun dengan [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app)
 - **Bahasa Pemrograman:** TypeScript
 - **Styling:** Tailwind CSS
-- **Sumber Data:** File JSON Lokal (`data.json`) untuk data Halaman Beranda, Diskografi, dan Blog serta penggabungan data dari [Official MyAnimeList API](https://myanimelist.net/apiconfig) dengan [MAL Website Scraping](app/api/mal-scraper/) untuk data Halaman Voicing. Hasil Fetch API dan Website Scraping disimpan pada [Vercel Blob Storage](https://vercel.com/docs/vercel-blob).
+- **Sumber Data:**
+  1. File JSON Lokal:
+  - [`profile.json`](lib/profile.json) untuk data personal Inorin sebagai data utama Website beserta ID MyAnimeList Inorin untuk keperluan pengambilan data.
+  - [`info.json`](lib/info.json) untuk data Halaman Beranda.
+  - [`blog.json`](lib/blog.json) untuk data Halaman Blog.
+  - [`discography.json`](lib/discography.json), [`live_history.json`](lib/live_history.json) untuk data Halaman Discography.
+  2. Penggabungan data dari [Official MyAnimeList API](https://myanimelist.net/apiconfig) dengan [MAL Website Scraping](lib/getDataMAL.ts) untuk data Halaman Voicing. Hasil Fetch API dan Website Scraping [disimpan](lib/syncBlob.ts) pada [Vercel Blob Storage](https://vercel.com/docs/vercel-blob):
+  - `person_db.json` (Sample data [disini](lib/person_db.json)) berisi data personal Inorin dan seluruh data karakter yang pernah dan akan ia perankan.
+  - `anime_db.json` (Sample data [disini](lib/anime_db.json)) berisi data lengkap dari seluruh anime dengan keberadaan peran Inorin.
+  - `topseiyuu_db.json` (Sample data [disini](lib/topseiyuu_db.json)) berisi peringkat Top Seiyuu.
 
 ## ⚠️ Disclaimer ⚠️
 
@@ -58,9 +66,7 @@ bun dev
 
 Pada umumnya, server akan berjalan pada localhost:3000. Buka [http://localhost:3000](http://localhost:3000) menggunakan browser anda.
 
-Untuk menunjang fungsi dari Halaman Voicing, anda perlu menyiapkan [Vercel Blob Storage](https://vercel.com/docs/vercel-blob). Ambil value BLOB_STORE_ID serta BLOB_READ_WRITE_TOKEN lalu simpan pada file `.env.local`. Selain itu, kalian juga harus mendaftarkan akses [API MyAnimeList](https://myanimelist.net/apiconfig) untuk mendapatkan MAL_CLIENT_ID yang juga disimpan pada file `.env.local`.
-
-**`.env.local`**
+Untuk menunjang fungsi dari Halaman Voicing, anda perlu menyiapkan [Vercel Blob Storage](https://vercel.com/docs/vercel-blob). Ambil value BLOB_STORE_ID serta BLOB_READ_WRITE_TOKEN lalu simpan pada file `.env.local`. Selain itu, anda juga harus mendaftarkan akses [API MyAnimeList](https://myanimelist.net/apiconfig) untuk mendapatkan MAL_CLIENT_ID yang juga disimpan pada file `.env.local`.
 
 ```bash
 BLOB_STORE_ID="YOUR_STORE_ID"
@@ -68,7 +74,12 @@ BLOB_READ_WRITE_TOKEN="YOUR_BLOB_TOKEN"
 MAL_CLIENT_ID="YOUR_MAL_CLIENT_ID"
 ```
 
-Jalankan proses fetch dan scraping data anime dengan membuka [http://localhost:3000/sync-data](http://localhost:3000/sync-data) pada browser, pengambilan data anime pertama kali akan memakan waktu cukup lama, untuk pengambilan data anime setelahnya dapat berlangsung lebih cepat karena mengabaikan anime yang telah selesai tayang yang sudah disimpan datanya pada saat proses pengambilan data anime pertama kali. Setelah proses pengambilan data anime selesai, jalankan kembali proses fetch dan scraping data top seiyuu dengan membuka [http://localhost:3000/sync-data?type=topseiyuu](http://localhost:3000/sync-data?type=topseiyuu) pada browser, pengambilan data top seiyuu berlangsung cukup lama karena harus memeriksa data person satu persatu hingga didapatkan 50 seiyuu yang memenuhi kriteria.
+Jalankan proses fetch dan scraping data anime dengan membuka [http://localhost:3000/sync-data](http://localhost:3000/sync-data) pada browser.
+
+- **Sync Semua Anime:** Ini adalah proses pertama yang harus dilakukan untuk mendapatkan data pertama kali. Pengambilan data anime pertama kali akan memakan waktu cukup lama, untuk pengambilan data anime setelahnya dapat berlangsung lebih cepat karena hanya akan memperbarui anime yang sedang tayang dan akan tayang.
+- **Sync Top Seiyuu:** Ini adalah proses pengambilan data top seiyuu. Proses berlangsung cukup lama karena harus memeriksa data person satu persatu hingga didapatkan sejumlah seiyuu yang memenuhi kriteria.
+- **Sync Anime Manual:** Sinkronisasi data secara spesifik untuk satu anime. Proses akan dihentikan jika anime tersebut belum terdata dalam daftar peran, silahkan jalankan _Sync Semua Anime_ jika ini adalah peran baru.
+- **Backup Data ke Local:** Data yang tersimpan dapat diunduh dan akan tersimpan pada direktori [lib](lib/).
 
 ## About Next.js (from Next.js Documentation)
 

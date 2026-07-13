@@ -1,0 +1,1365 @@
+{
+  "single": [
+    {
+      "id": "78",
+      "title": "Summer Challenger",
+      "numbering": "13th Single",
+      "stock_number": "KICM-2174",
+      "release_date": "2026-07-22",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/6a183c96e4216.jpg",
+      "description": "",
+      "trackList": [
+        {
+          "title": "Summer Challenger",
+          "lyricist": ["ヤマモトショウ"],
+          "composer": ["ヤマモトショウ"],
+          "arranger": ["宮野弦士"],
+          "note": ""
+        },
+        {
+          "title": "ハートノフレーバー",
+          "lyricist": ["Haggy Rock"],
+          "composer": ["椿山日南子"],
+          "arranger": ["椿山日南子"],
+          "note": ""
+        },
+        {
+          "title": "リフローレセンス",
+          "lyricist": ["志村真白"],
+          "composer": ["志村真白"],
+          "arranger": ["栁舘周平"],
+          "note": "スマートパチンコ機『eフィーバーデッドマウント・デスプレイ 魂神9000』搭載楽曲"
+        }
+      ],
+      "additional": "初回封入特典：特製トレカ",
+      "buttons": [
+        {
+          "text": "ご予約はこちら",
+          "href": "https://inoriminase.lnk.to/Summer_Challenger_CD_shop"
+        },
+        {
+          "text": "オリジナル特典",
+          "href": "https://inoriminase.com/feature/13th_single"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "title": "スクラップアート",
+      "numbering": "12th Single",
+      "stock_number": "KICM-2138",
+      "release_date": "2023-09-13",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/64c79d484fb15.jpg",
+      "description": "",
+      "trackList": [
+        {
+          "title": "スクラップアート",
+          "lyricist": ["栁舘周平"],
+          "composer": ["栁舘周平"],
+          "arranger": ["栁舘周平"],
+          "note": "TVアニメ「デッドマウント・デスプレイ」第2クール オープニングテーマ"
+        },
+        {
+          "title": "くらりのうた",
+          "lyricist": ["水瀬いのり"],
+          "composer": ["金山秀士"],
+          "arranger": ["金山秀士"],
+          "note": ""
+        },
+        {
+          "title": "While We Walk",
+          "lyricist": ["栁舘周平"],
+          "composer": ["栁舘周平"],
+          "arranger": ["栁舘周平"],
+          "note": ""
+        }
+      ],
+      "additional": "初回封入特典：\n・特製トレカ\n・「水瀬いのり MELODY FLAG」公開録音イベント先行抽選シリアルナンバー封入\n※応募締切：2023年9月27日(水)23:59迄\n・「スクラップアート」発売記念謎解きゲーム出題シート\n解答期限：2023年9月13日(水)12:00～10月31日(火)23:59\n\nDIGITAL",
+      "buttons": [
+        {
+          "text": "オリジナル特典",
+          "href": "https://inoriminase.com/feature/12th_single/"
+        },
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/12thSG_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "title": "アイオライト",
+      "numbering": "11th Single",
+      "stock_number": "KICM-2128",
+      "release_date": "2023-04-19",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/63ef51df46443.jpg",
+      "description": "",
+      "trackList": [
+        {
+          "title": "アイオライト",
+          "lyricist": ["志村真白"],
+          "composer": ["志村真白"],
+          "arranger": ["EFFY"],
+          "note": "TVアニメ「デッドマウント・デスプレイ」エンディングテーマ"
+        },
+        {
+          "title": "クータスタ",
+          "lyricist": ["藤永龍太郎(Elements Garden)"],
+          "composer": ["藤永龍太郎(Elements Garden)"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": ""
+        },
+        {
+          "title": "運命の赤い糸",
+          "lyricist": ["椿山日南子"],
+          "composer": ["椿山日南子"],
+          "arranger": ["椿山日南子"],
+          "note": ""
+        }
+      ],
+      "additional": "",
+      "buttons": [
+        {
+          "text": "オリジナル特典",
+          "href": "https://inoriminase.com/feature/11th_single/"
+        },
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/11thSG_Iolite"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "title": "REAL-EYES",
+      "numbering": "配信SINGLE",
+      "stock_number": "",
+      "release_date": "2022-01-09",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/61a9e45fbf4f6.jpg",
+      "description": "",
+      "trackList": [
+        {
+          "title": "REAL-EYES",
+          "lyricist": ["RUCCA"],
+          "composer": ["藤間 仁(Elements Garden)"],
+          "arranger": ["藤間 仁(Elements Garden)"],
+          "note": "TVアニメ「現実主義勇者の王国再建記」第二部オープニングテーマ"
+        }
+      ],
+      "additional": "",
+      "buttons": [
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/REALEYES_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "title": "HELLO HORIZON",
+      "numbering": "10th SINGLE",
+      "stock_number": "KICM-2092",
+      "release_date": "2021-07-21",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a781ae01bef.jpg",
+      "description": "初回限定仕様：クリア素材ジャケット & 着せ替えカード4種\n初回封入特典:特製トレカ",
+      "trackList": [
+        {
+          "title": "HELLO HORIZON",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["白戸佑輔"],
+          "arranger": ["白戸佑輔"],
+          "note": "TVアニメ「現実主義勇者の王国再建記」オープニングテーマ"
+        },
+        {
+          "title": "ソライロ",
+          "lyricist": ["藤林聖子"],
+          "composer": ["遠藤直弥"],
+          "arranger": ["遠藤直弥"],
+          "note": ""
+        },
+        {
+          "title": "Morning Prism",
+          "lyricist": ["磯谷佳江"],
+          "composer": ["鈴木航海"],
+          "arranger": ["遠藤直弥"],
+          "note": ""
+        }
+      ],
+      "additional": "",
+      "buttons": [
+        {
+          "text": "オリジナル特典",
+          "href": "https://inoriminase.com/feature/10th_single/"
+        },
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/10thSG_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "title": "Starlight Museum",
+      "numbering": "9th SINGLE",
+      "stock_number": "KICM-2065",
+      "release_date": "2020-12-02",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a4ee03c1ce6.jpg",
+      "description": "初回封入特典:特製トレカ",
+      "trackList": [
+        {
+          "title": "Starlight Museum",
+          "lyricist": ["櫻澤ヒカル", "水瀬いのり"],
+          "composer": ["櫻澤ヒカル"],
+          "arranger": ["櫻澤ヒカル"],
+          "note": "テレビ朝日系全国放送「musicるTV」12月度オープニングテーマ"
+        },
+        {
+          "title": "クリスタライズ",
+          "lyricist": ["栁舘周平"],
+          "composer": ["栁舘周平"],
+          "arranger": ["栁舘周平"],
+          "note": "スマートフォンゲーム「アークナイツ」イメージソング"
+        },
+        {
+          "title": "思い出のカケラ",
+          "lyricist": ["遠藤直弥"],
+          "composer": ["遠藤直弥"],
+          "arranger": ["遠藤直弥"],
+          "note": ""
+        }
+      ],
+      "additional": "",
+      "buttons": [
+        {
+          "text": "オリジナル特典",
+          "href": "https://inoriminase.com/feature/9th_single/"
+        },
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/9thSG_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "title": "ココロソマリ",
+      "numbering": "8th SINGLE",
+      "stock_number": "KICM-2029",
+      "release_date": "2020-02-05",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a4ede544191.jpg",
+      "description": "初回封入特典:特製トレカ",
+      "trackList": [
+        {
+          "title": "ココロソマリ",
+          "lyricist": ["水瀬いのり"],
+          "composer": ["櫻澤ヒカル"],
+          "arranger": ["白戸佑輔"],
+          "note": "TVアニメ「ソマリと森の神様」エンディングテーマ"
+        },
+        {
+          "title": "僕らは今",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["藤永龍太郎(Elements Garden)"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": ""
+        },
+        {
+          "title": "Well Wishing Word",
+          "lyricist": ["栁舘周平"],
+          "composer": ["栁舘周平"],
+          "arranger": ["栁舘周平"],
+          "note": ""
+        }
+      ],
+      "additional": "",
+      "buttons": [
+        {
+          "text": "オリジナル特典",
+          "href": "https://inoriminase.com/feature/8th_single/"
+        },
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/kokorosomari"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "title": "まっすぐに、トウメイに。",
+      "numbering": "配信SINGLE",
+      "stock_number": "",
+      "release_date": "2019-06-26",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a4edbac30aa.jpg",
+      "description": "「KIRIN LEMON Tribute 2018」タイアップソング",
+      "trackList": [
+        {
+          "title": "まっすぐに、トウメイに。",
+          "lyricist": ["三木鶏郎"],
+          "composer": ["三木鶏郎"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": "「KIRIN LEMON Tribute 2018」タイアップソング"
+        }
+      ],
+      "additional": "",
+      "buttons": [
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/lemon_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Wonder Caravan！",
+      "numbering": "7th SINGLE",
+      "stock_number": "KICM-1914",
+      "release_date": "2019-01-23",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a4ed50110f0.jpg",
+      "description": "初回封入特典:特製トレカ",
+      "trackList": [
+        {
+          "title": "Wonder Caravan！",
+          "lyricist": ["新田目 翔"],
+          "composer": ["新田目 翔"],
+          "arranger": ["新田目 翔"],
+          "note": "TVアニメ「えんどろ～！」エンディングテーマ"
+        },
+        {
+          "title": "君色プロローグ",
+          "lyricist": ["うらん"],
+          "composer": ["EFFY"],
+          "arranger": ["EFFY"],
+          "note": ""
+        },
+        {
+          "title": "Snow White",
+          "lyricist": ["FURUTA"],
+          "composer": ["FURUTA", "Dr.Lilcom"],
+          "arranger": ["Dr.Lilcom"],
+          "note": ""
+        }
+      ],
+      "additional": "",
+      "buttons": [
+        {
+          "text": "オリジナル特典",
+          "href": "https://inoriminase.com/feature/7th_single/"
+        },
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/7thSG_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "TRUST IN ETERNITY",
+      "numbering": "6th SINGLE",
+      "stock_number": "KICM-1890",
+      "release_date": "2018-10-17",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a4ed3a913da.jpg",
+      "description": "初回封入特典:特製トレカ",
+      "trackList": [
+        {
+          "title": "TRUST IN ETERNITY",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["加藤裕介"],
+          "arranger": ["加藤裕介"],
+          "note": "スマートフォンゲーム『ゲシュタルト・オーディン』主題歌"
+        },
+        {
+          "title": "ピュアフレーム",
+          "lyricist": ["白戸佑輔"],
+          "composer": ["白戸佑輔"],
+          "arranger": ["白戸佑輔"],
+          "note": ""
+        },
+        {
+          "title": "茜色ノスタルジア",
+          "lyricist": ["磯谷佳江"],
+          "composer": ["堤 功太"],
+          "arranger": ["堤 功太"],
+          "note": ""
+        }
+      ],
+      "additional": "",
+      "buttons": [
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/6thSG_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Ready Steady Go!",
+      "numbering": "5th SINGLE",
+      "stock_number": "KICM-1817",
+      "release_date": "2017-11-29",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a4ecd5e4ff8.jpg",
+      "description": "初回封入特典:特製トレカ",
+      "trackList": [
+        {
+          "title": "Ready Steady Go!",
+          "lyricist": ["藤林聖子"],
+          "composer": ["藤永龍太郎(Elements Garden)"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": "テレビ朝日系全国放送「musicるTV」12月度エンディングテーマ"
+        },
+        {
+          "title": "Happy Birthday",
+          "lyricist": ["遠藤直弥"],
+          "composer": ["遠藤直弥"],
+          "arranger": ["遠藤直弥"],
+          "note": ""
+        },
+        {
+          "title": "Winter Wonder Wander",
+          "lyricist": ["栁舘周平"],
+          "composer": ["栁舘周平"],
+          "arranger": ["奈良悠樹"],
+          "note": ""
+        }
+      ],
+      "additional": "",
+      "buttons": [
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/5thSG_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "アイマイモコ",
+      "numbering": "4th SINGLE",
+      "stock_number": "KICM-1783",
+      "release_date": "2017-08-09",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a4ecba5a14f.jpg",
+      "description": "初回封入特典:特製トレカ",
+      "trackList": [
+        {
+          "title": "アイマイモコ",
+          "lyricist": ["Haggy Rock"],
+          "composer": ["Haggy Rock"],
+          "arranger": ["白戸佑輔"],
+          "note": "TVアニメ「徒然チルドレン」オープニングテーマ"
+        },
+        {
+          "title": "リトルシューゲイザー",
+          "lyricist": ["中山真斗"],
+          "composer": ["中山真斗"],
+          "arranger": ["中山真斗"],
+          "note": ""
+        },
+        {
+          "title": "夏夢",
+          "lyricist": ["森村メラ"],
+          "composer": ["松本サトシ"],
+          "arranger": ["遠藤直弥", "松本サトシ"],
+          "note": ""
+        }
+      ],
+      "additional": "",
+      "buttons": [
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/4thSG_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Starry Wish",
+      "numbering": "3rd SINGLE",
+      "stock_number": "KICM-1726",
+      "release_date": "2016-11-09",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a4e57784cd7.jpg",
+      "description": "初回封入特典:特製トレカ",
+      "trackList": [
+        {
+          "title": "Starry Wish",
+          "lyricist": ["nozomi"],
+          "composer": ["KOUGA", "nozomi"],
+          "arranger": ["KOUGA"],
+          "note": "TV アニメ「ViVid Strike!」エンディングテーマ"
+        },
+        {
+          "title": "夏の約束",
+          "lyricist": ["久下真音"],
+          "composer": ["カヨコ"],
+          "arranger": ["千葉\"naotyu-\"直樹"],
+          "note": "シチュエーションCD「√HAPPY+SUGAR=VACATION」主題歌"
+        },
+        {
+          "title": "MELODY FLAG",
+          "lyricist": ["中野領太"],
+          "composer": ["中野領太"],
+          "arranger": ["中野領太"],
+          "note": "文化放送「水瀬いのり MELODY FLAG」テーマソング"
+        }
+      ],
+      "additional": "",
+      "buttons": [
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/3rdSG_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "harmony ribbon",
+      "numbering": "2nd SINGLE",
+      "stock_number": "KICM-1662",
+      "release_date": "2016-04-13",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a4e55e62520.jpg",
+      "description": "初回封入特典:特製トレカ",
+      "trackList": [
+        {
+          "title": "harmony ribbon",
+          "lyricist": ["多田慎也"],
+          "composer": ["多田慎也"],
+          "arranger": ["鈴木雅也"],
+          "note": ""
+        },
+        {
+          "title": "Dreaming Girls",
+          "lyricist": ["Rico"],
+          "composer": ["齋藤真也"],
+          "arranger": ["齋藤真也"],
+          "note": ""
+        },
+        {
+          "title": "Ring of Smile",
+          "lyricist": ["唐沢美帆"],
+          "composer": ["Kon-K"],
+          "arranger": ["Kon-K"],
+          "note": ""
+        }
+      ],
+      "additional": "",
+      "buttons": [
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/2ndSG_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "夢のつぼみ",
+      "numbering": "1st SINGLE",
+      "stock_number": "KICM-1641",
+      "release_date": "2015-12-02",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a4e3bf248cf.jpg",
+      "description": "初回封入特典:特製トレカ",
+      "trackList": [
+        {
+          "title": "夢のつぼみ",
+          "lyricist": ["絵伊子"],
+          "composer": ["渡部チェル"],
+          "arranger": ["渡部チェル"],
+          "note": "テレビ東京「アニメマシテ」12月度OPテーマ"
+        },
+        {
+          "title": "笑顔が似合う日",
+          "lyricist": ["森村メラ"],
+          "composer": ["松本サトシ"],
+          "arranger": ["原田アツシ"],
+          "note": ""
+        },
+        {
+          "title": "あの日の空へ",
+          "lyricist": ["藤末 樹"],
+          "composer": ["藤末 樹", "大谷奈津子"],
+          "arranger": ["Mitsu.J"],
+          "note": ""
+        }
+      ],
+      "additional": "",
+      "buttons": [
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/1stSG_inoriminase"
+        }
+      ]
+    }
+  ],
+  "album": [
+    {
+      "id": "73",
+      "title": "Travel Record",
+      "numbering": "BEST ALBUM",
+      "stock_number": "",
+      "release_date": "2025-09-03",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/6864f5331e872.jpg",
+      "description": "【初回限定盤】\n価格：￥9,900(税抜価格￥9,000)\n品番：KICS-94217～8\n形態：CD2枚組＋Blu-ray\n[収録内容]\n・CD\n・Blu-ray\n・初回限定盤特典：特製BOX＋デジパック仕様、別冊64P写真集、ミニポスター、特製トレカ３種、ポストカード３種、ステッカー３種\n\n【通常盤】\n価格：￥3,850(税抜価格￥3,500)\n品番：KICS-4217～8\n形態：CD2枚組\n[収録内容]\n・CD\n・初回封入特典：特製トレカ",
+      "trackList": [
+        {
+          "title": "夢のつぼみ",
+          "lyricist": ["絵伊子"],
+          "composer": ["渡部チェル"],
+          "arranger": ["渡部チェル"],
+          "note": "テレビ東京「アニメマシテ」12月度OPテーマ"
+        },
+        {
+          "title": "harmony ribbon",
+          "lyricist": ["多田慎也"],
+          "composer": ["多田慎也"],
+          "arranger": ["鈴木雅也"],
+          "note": ""
+        },
+        {
+          "title": "Starry Wish",
+          "lyricist": ["nozomi"],
+          "composer": ["KOUGA", "nozomi"],
+          "arranger": ["KOUGA"],
+          "note": "TV アニメ「ViVid Strike!」エンディングテーマ"
+        },
+        {
+          "title": "春空",
+          "lyricist": ["絵伊子"],
+          "composer": ["渡部チェル"],
+          "arranger": ["渡部チェル"],
+          "note": ""
+        },
+        {
+          "title": "Innocent flower",
+          "lyricist": ["藤林聖子"],
+          "composer": ["KOUGA"],
+          "arranger": ["KOUGA"],
+          "note": ""
+        },
+        {
+          "title": "アイマイモコ",
+          "lyricist": ["Haggy Rock"],
+          "composer": ["Haggy Rock"],
+          "arranger": ["白戸佑輔"],
+          "note": "TVアニメ「徒然チルドレン」オープニングテーマ"
+        },
+        {
+          "title": "Ready Steady Go!",
+          "lyricist": ["藤林聖子"],
+          "composer": ["藤永龍太郎(Elements Garden)"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": "テレビ朝日系全国放送「musicるTV」12月度エンディングテーマ"
+        },
+        {
+          "title": "Million Futures",
+          "lyricist": ["RUCCA"],
+          "composer": ["藤間 仁(Elements Garden)"],
+          "arranger": ["藤間 仁(Elements Garden)"],
+          "note": "iOS/Android版「乖離性ミリオンアーサー」新章 主題歌"
+        },
+        {
+          "title": "BLUE COMPASS",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["上松範康(Elements Garden)"],
+          "arranger": ["藤間 仁(Elements Garden)"],
+          "note": ""
+        },
+        {
+          "title": "TRUST IN ETERNITY",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["加藤裕介"],
+          "arranger": ["加藤裕介"],
+          "note": "スマートフォンゲーム『ゲシュタルト・オーディン』主題歌"
+        },
+        {
+          "title": "Wonder Caravan！",
+          "lyricist": ["新田目 翔"],
+          "composer": ["新田目 翔"],
+          "arranger": ["新田目 翔"],
+          "note": "TVアニメ「えんどろ～！」エンディングテーマ"
+        },
+        {
+          "title": "Catch the Rainbow！",
+          "lyricist": ["水瀬いのり"],
+          "composer": ["光増ハジメ"],
+          "arranger": ["EFFY"],
+          "note": ""
+        },
+        {
+          "title": "まっすぐに、トウメイに。",
+          "lyricist": ["三木鶏郎"],
+          "composer": ["三木鶏郎"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": "「KIRIN LEMON Tribute 2018」タイアップソング"
+        },
+        {
+          "title": "ココロソマリ",
+          "lyricist": ["水瀬いのり"],
+          "composer": ["櫻澤ヒカル"],
+          "arranger": ["白戸佑輔"],
+          "note": "TVアニメ「ソマリと森の神様」エンディングテーマ"
+        },
+        {
+          "title": "僕らは今",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["藤永龍太郎(Elements Garden)"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": ""
+        },
+        {
+          "title": "Starlight Museum",
+          "lyricist": ["櫻澤ヒカル", "水瀬いのり"],
+          "composer": ["櫻澤ヒカル"],
+          "arranger": ["櫻澤ヒカル"],
+          "note": "テレビ朝日系全国放送「musicるTV」12月度オープニングテーマ"
+        },
+        {
+          "title": "HELLO HORIZON",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["白戸佑輔"],
+          "arranger": ["白戸佑輔"],
+          "note": "TVアニメ「現実主義勇者の王国再建記」オープニングテーマ"
+        },
+        {
+          "title": "REAL-EYES",
+          "lyricist": ["RUCCA"],
+          "composer": ["藤間 仁(Elements Garden)"],
+          "arranger": ["藤間 仁(Elements Garden)"],
+          "note": "TVアニメ「現実主義勇者の王国再建記」第二部オープニングテーマ"
+        },
+        {
+          "title": "glow",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["椿山日南子"],
+          "arranger": ["椿山日南子"],
+          "note": ""
+        },
+        {
+          "title": "アイオライト",
+          "lyricist": ["志村真白"],
+          "composer": ["志村真白"],
+          "arranger": ["EFFY"],
+          "note": "TVアニメ「デッドマウント・デスプレイ」エンディングテーマ"
+        },
+        {
+          "title": "スクラップアート",
+          "lyricist": ["栁舘周平"],
+          "composer": ["栁舘周平"],
+          "arranger": ["栁舘周平"],
+          "note": "TVアニメ「デッドマウント・デスプレイ」第2クール オープニングテーマ"
+        },
+        {
+          "title": "フラーグム",
+          "lyricist": ["カノエラナ"],
+          "composer": ["白戸佑輔"],
+          "arranger": ["白戸佑輔"],
+          "note": "TVアニメ「アクロトリップ」オープニング主題歌"
+        },
+        {
+          "title": "heart bookmark",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["武田将弥"],
+          "arranger": ["白戸佑輔"],
+          "note": ""
+        }
+      ],
+      "additional": "Blu-ray\n10周年記念ドキュメントムービー\nビジュアル撮影メイキングムービー",
+      "buttons": [
+        {
+          "text": "DIGITAL",
+          "href": "https://inoriminase.lnk.to/Travel-Record"
+        },
+        {
+          "text": "ご購入はこちら",
+          "href": "https://inoriminase.lnk.to/Travel-Record_shop"
+        },
+        {
+          "text": "オリジナル特典",
+          "href": "https://www.inoriminase.com/feature/BEST_ALBUM/"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "title": "Turquoise",
+      "numbering": "2nd HALF ALBUM",
+      "stock_number": "",
+      "release_date": "2025-09-03",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/6864f58847ac5.jpg",
+      "description": "【初回限定盤】\n価格：￥3,850(税抜価格￥3,500)\n品番：KICS-94219\n形態：CD＋Blu-ray\n[収録内容]\n・CD\n・Blu-ray\n・初回限定盤特典：特製BOX、別冊40Pフォトブック\n・封入特典：特製トレカ\n\n【通常盤】\n価格：￥2,750(税抜価格￥2,500)\n品番：KICS-4219\n形態：CD only\n[収録内容]\n・CD\n・初回封入特典：特製トレカ\n\n【収録内容】\nCD",
+      "trackList": [
+        {
+          "title": "Calling Blue（overture）",
+          "lyricist": [],
+          "composer": ["栁舘周平"],
+          "arranger": ["栁舘周平"],
+          "note": ""
+        },
+        {
+          "title": "Turquoise",
+          "lyricist": ["栁舘周平"],
+          "composer": ["栁舘周平"],
+          "arranger": ["栁舘周平"],
+          "note": ""
+        },
+        {
+          "title": "夢のつづき",
+          "lyricist": ["水瀬いのり", "絵伊子"],
+          "composer": ["渡部チェル"],
+          "arranger": ["渡部チェル"],
+          "note": ""
+        },
+        {
+          "title": "まだ、言わないで。",
+          "lyricist": ["櫻澤ヒカル"],
+          "composer": ["櫻澤ヒカル"],
+          "arranger": ["櫻澤ヒカル"],
+          "note": ""
+        },
+        {
+          "title": "アニバーサリー",
+          "lyricist": ["遠藤直弥"],
+          "composer": ["遠藤直弥"],
+          "arranger": ["遠藤直弥"],
+          "note": ""
+        },
+        {
+          "title": "NEXT DECADE",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["白戸佑輔"],
+          "arranger": ["白戸佑輔"],
+          "note": ""
+        },
+        {
+          "title": "My Orchestra",
+          "lyricist": ["藤林聖子"],
+          "composer": ["KOUGA"],
+          "arranger": ["KOUGA"],
+          "note": ""
+        },
+        {
+          "title": "海踏みのスピカ",
+          "lyricist": ["藤永龍太郎(Elements Garden)"],
+          "composer": ["藤永龍太郎(Elements Garden)"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": ""
+        }
+      ],
+      "additional": "Blu-ray\n「夢のつづき」Music Video\n「夢のつづき」メイキングムービー",
+      "buttons": [
+        {
+          "text": "DIGITAL",
+          "href": "https://inoriminase.lnk.to/Turquoise"
+        },
+        {
+          "text": "ご購入はこちら",
+          "href": "https://inoriminase.lnk.to/Turquoise_shop"
+        },
+        {
+          "text": "オリジナル特典",
+          "href": "https://www.inoriminase.com/feature/2nd_HALF_ALBUM/"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "title": "heart bookmark",
+      "numbering": "1st HALF ALBUM",
+      "stock_number": "",
+      "release_date": "2024-08-21",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/668672a511b83.jpg",
+      "description": "【初回限定盤(CD + Blu-ray)】\n価格： ¥3,300 (税抜価格¥3,000)\n品番：KICS-94166\n形態：CD + Blu-ray\n［収録内容］\n・CD\n・Blu-ray\n・初回限定盤特典：特製BOX、別冊40Pフォトブック\n・封入特典：特製トレカ\n\n【通常盤】\n価格：¥2,200 (税抜価格¥2,000)\n品番：KICS-4166\n形態：CD only\n［収録内容］\n・CD\n・初回封入特典：特製トレカ\n\n【収録内容】\nCD",
+      "trackList": [
+        {
+          "title": "heart bookmark",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["武田将弥"],
+          "arranger": ["白戸佑輔"],
+          "note": ""
+        },
+        {
+          "title": "フラーグム",
+          "lyricist": ["カノエラナ"],
+          "composer": ["白戸佑輔"],
+          "arranger": ["白戸佑輔"],
+          "note": "TVアニメ「アクロトリップ」オープニング主題歌"
+        },
+        {
+          "title": "スクラップアート",
+          "lyricist": ["栁舘周平"],
+          "composer": ["栁舘周平"],
+          "arranger": ["栁舘周平"],
+          "note": "TVアニメ「デッドマウント・デスプレイ」第2クール オープニングテーマ"
+        },
+        {
+          "title": "アイオライト",
+          "lyricist": ["志村真白"],
+          "composer": ["志村真白"],
+          "arranger": ["EFFY"],
+          "note": "TVアニメ「デッドマウント・デスプレイ」エンディングテーマ"
+        },
+        {
+          "title": "ほしとね、",
+          "lyricist": ["櫻澤ヒカル"],
+          "composer": ["櫻澤ヒカル"],
+          "arranger": ["櫻澤ヒカル"],
+          "note": ""
+        },
+        {
+          "title": "グラデーション",
+          "lyricist": ["やぎぬまかな"],
+          "composer": ["近藤世真(Elements Garden)"],
+          "arranger": ["近藤世真(Elements Garden)"],
+          "note": ""
+        },
+        {
+          "title": "燈籠光柱",
+          "lyricist": ["栁舘周平"],
+          "composer": ["栁舘周平"],
+          "arranger": ["栁舘周平"],
+          "note": ""
+        }
+      ],
+      "additional": "BD\nMusic Video\n01. アイオライト\n02. スクラップアート\n03. フラーグム\n04. heart bookmark",
+      "buttons": [
+        {
+          "text": "DIGITAL",
+          "href": "https://inoriminase.lnk.to/heartbookmark"
+        },
+        {
+          "text": "ご購入はこちら",
+          "href": "https://lnk.to/heart-bookmark_shop"
+        },
+        {
+          "text": "オリジナル特典",
+          "href": "https://inoriminase.com/feature/1st_HALF_ALBUM/"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "title": "glow",
+      "numbering": "4th ALBUM",
+      "stock_number": "",
+      "release_date": "2022-07-20",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/628766388df87.jpg",
+      "description": "【初回限定盤 (CD＋BD)】\n品番：KICS-94059\n価格：¥3,960（税抜価格¥3,600）\n初回限定盤特典：特製BOX、別冊フォトブック\n封入特典：特製トレカ\n\n【通常盤 (CD)】\n品番：KICS-4059\n価格：¥3,300（税抜価格¥3,000）\n初回封入特典：特製トレカ",
+      "trackList": [
+        {
+          "title": "sunrise glow（overture）",
+          "lyricist": [],
+          "composer": ["eba"],
+          "arranger": ["eba"],
+          "note": ""
+        },
+        {
+          "title": "僕らだけの鼓動",
+          "lyricist": ["田淵智也"],
+          "composer": ["田淵智也"],
+          "arranger": ["eba"],
+          "note": ""
+        },
+        {
+          "title": "We Are The Music",
+          "lyricist": ["TAKU INOUE"],
+          "composer": ["TAKU INOUE"],
+          "arranger": ["TAKU INOUE"],
+          "note": ""
+        },
+        {
+          "title": "風色Letter",
+          "lyricist": ["磯谷佳江"],
+          "composer": ["新田目 駿"],
+          "arranger": ["新田目 駿"],
+          "note": ""
+        },
+        {
+          "title": "Starlight Museum",
+          "lyricist": ["櫻澤ヒカル", "水瀬いのり"],
+          "composer": ["櫻澤ヒカル"],
+          "arranger": ["櫻澤ヒカル"],
+          "note": ""
+        },
+        {
+          "title": "Melty night",
+          "lyricist": ["hAck-Ø."],
+          "composer": ["KOUGA"],
+          "arranger": ["KOUGA"],
+          "note": ""
+        },
+        {
+          "title": "ココロソマリ",
+          "lyricist": ["水瀬いのり"],
+          "composer": ["櫻澤ヒカル"],
+          "arranger": ["白戸佑輔"],
+          "note": ""
+        },
+        {
+          "title": "八月のスーベニア",
+          "lyricist": ["藤永龍太郎(Elements Garden)"],
+          "composer": ["藤永龍太郎(Elements Garden)"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": ""
+        },
+        {
+          "title": "HELLO HORIZON",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["白戸佑輔"],
+          "arranger": ["白戸佑輔"],
+          "note": ""
+        },
+        {
+          "title": "REAL-EYES",
+          "lyricist": ["RUCCA"],
+          "composer": ["藤間 仁(Elements Garden)"],
+          "arranger": ["藤間 仁(Elements Garden)"],
+          "note": ""
+        },
+        {
+          "title": "パレオトピア",
+          "lyricist": ["栁舘周平"],
+          "composer": ["栁舘周平"],
+          "arranger": ["栁舘周平"],
+          "note": ""
+        },
+        {
+          "title": "心つかまえて",
+          "lyricist": ["多田慎也"],
+          "composer": ["多田慎也"],
+          "arranger": ["島田 尚"],
+          "note": ""
+        },
+        {
+          "title": "僕らは今",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["藤永龍太郎(Elements Garden)"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": ""
+        },
+        {
+          "title": "glow",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["椿山日南子"],
+          "arranger": ["椿山日南子"],
+          "note": ""
+        }
+      ],
+      "additional": "BD\nMUSIC VIDEO\n01. ココロソマリ\n02. 僕らは今\n03. Starlight Museum\n04. HELLO HORIZON\n05. REAL-EYES\n06. glow",
+      "buttons": [
+        {
+          "text": "オリジナル特典",
+          "href": "https://inoriminase.com/feature/4th_album/"
+        },
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/4thAL_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "title": "Catch the Rainbow！",
+      "numbering": "3rd ALBUM",
+      "stock_number": "",
+      "release_date": "2019-04-10",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a4ef4278963.jpg",
+      "description": "【初回限定盤 (CD＋BD)】\n品番：KICS-93785\n価格：¥3,960（税抜価格¥3,600）\n初回限定盤特典：特製BOX、別冊40Pフォトブック\n封入特典：特製トレカ\n\n【通常盤 (CD)】\n品番：KICS-3785\n価格：¥3,300（税抜価格¥3,000）\n初回封入特典：特製トレカ",
+      "trackList": [
+        {
+          "title": "Step Up！",
+          "lyricist": ["唐沢美帆", "川崎智哉"],
+          "composer": ["川崎智哉"],
+          "arranger": ["川崎智哉"],
+          "note": ""
+        },
+        {
+          "title": "ココロはMerry-Go-Round",
+          "lyricist": ["叶人"],
+          "composer": ["新田目 駿", "廣澤優也"],
+          "arranger": ["新田目 駿", "廣澤優也"],
+          "note": ""
+        },
+        {
+          "title": "Kitty Cat Adventure",
+          "lyricist": ["藤林聖子"],
+          "composer": ["本田正樹"],
+          "arranger": ["白戸佑輔"],
+          "note": ""
+        },
+        {
+          "title": "Wonder Caravan！",
+          "lyricist": ["新田目 翔"],
+          "composer": ["新田目 翔"],
+          "arranger": ["新田目 翔"],
+          "note": ""
+        },
+        {
+          "title": "今を僕らしく生きてくために",
+          "lyricist": ["中野領太"],
+          "composer": ["中野領太"],
+          "arranger": ["中野領太"],
+          "note": ""
+        },
+        {
+          "title": "約束のアステリズム",
+          "lyricist": ["藤永龍太郎(Elements Garden)"],
+          "composer": ["藤永龍太郎(Elements Garden)"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": ""
+        },
+        {
+          "title": "Future Seeker",
+          "lyricist": ["kz"],
+          "composer": ["kz"],
+          "arranger": ["kz"],
+          "note": ""
+        },
+        {
+          "title": "brave climber",
+          "lyricist": ["中野領太"],
+          "composer": ["中野領太"],
+          "arranger": ["中野領太"],
+          "note": ""
+        },
+        {
+          "title": "TRUST IN ETERNITY",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["加藤裕介"],
+          "arranger": ["加藤裕介"],
+          "note": ""
+        },
+        {
+          "title": "水彩メモリー",
+          "lyricist": ["磯谷佳江"],
+          "composer": ["松本サトシ"],
+          "arranger": ["遠藤直弥"],
+          "note": ""
+        },
+        {
+          "title": "My Graffiti",
+          "lyricist": ["多田慎也"],
+          "composer": ["多田慎也", "島田 尚"],
+          "arranger": ["島田 尚"],
+          "note": ""
+        },
+        {
+          "title": "Catch the Rainbow！",
+          "lyricist": ["水瀬いのり"],
+          "composer": ["光増ハジメ"],
+          "arranger": ["EFFY"],
+          "note": ""
+        }
+      ],
+      "additional": "BD\nMUSIC VIDEO\n01. TRUST IN ETERNITY\n02. Wonder Caravan！\n03. Catch the Rainbow！",
+      "buttons": [
+        {
+          "text": "オリジナル特典",
+          "href": "https://inoriminase.com/feature/3rd_album/"
+        },
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/3rdAL_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "BLUE COMPASS",
+      "numbering": "2nd ALBUM",
+      "stock_number": "",
+      "release_date": "2018-05-23",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a4ebeba2362.jpg",
+      "description": "【初回限定盤(CD+BD)】\n品番：KICS-93710\n価格：¥3,960（税抜価格¥3,600）\n初回限定盤特典:特製BOX、別冊40Pフォトブック\n封入特典:特製トレカ\n\n【通常盤 (CD)】\n品番：KICS-3710\n価格：¥3,300（税抜価格¥3,000）\n初回封入特典：特製トレカ",
+      "trackList": [
+        {
+          "title": "ハートノイロ",
+          "lyricist": ["Haggy Rock"],
+          "composer": ["Haggy Rock"],
+          "arranger": ["白戸佑輔"],
+          "note": ""
+        },
+        {
+          "title": "Ready Steady Go!",
+          "lyricist": ["藤林聖子"],
+          "composer": ["藤永龍太郎(Elements Garden)"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": ""
+        },
+        {
+          "title": "identity",
+          "lyricist": ["松原さらり"],
+          "composer": ["南田健吾"],
+          "arranger": ["南田健吾"],
+          "note": ""
+        },
+        {
+          "title": "Shoo-Bee-Doo-Wap-Wap!",
+          "lyricist": ["藤林聖子"],
+          "composer": ["山下洋介"],
+          "arranger": ["山下洋介"],
+          "note": ""
+        },
+        {
+          "title": "シネマチックダイアリー",
+          "lyricist": ["松井洋平"],
+          "composer": ["石田秀登"],
+          "arranger": ["EFFY"],
+          "note": ""
+        },
+        {
+          "title": "アイマイモコ",
+          "lyricist": ["Haggy Rock"],
+          "composer": ["Haggy Rock"],
+          "arranger": ["白戸佑輔"],
+          "note": "TVアニメ「徒然チルドレン」オープニングテーマ"
+        },
+        {
+          "title": "これからも。",
+          "lyricist": ["磯谷佳江"],
+          "composer": ["小野貴光"],
+          "arranger": ["玉木千尋"],
+          "note": ""
+        },
+        {
+          "title": "アルペジオ",
+          "lyricist": ["山﨑佳祐"],
+          "composer": ["山﨑佳祐"],
+          "arranger": ["山﨑佳祐"],
+          "note": ""
+        },
+        {
+          "title": "Million Futures",
+          "lyricist": ["RUCCA"],
+          "composer": ["藤間 仁(Elements Garden)"],
+          "arranger": ["藤間 仁(Elements Garden)"],
+          "note": "iOS/Android版「乖離性ミリオンアーサー」新章 主題歌"
+        },
+        {
+          "title": "三月と群青",
+          "lyricist": ["藤永龍太郎(Elements Garden)"],
+          "composer": ["藤永龍太郎(Elements Garden)"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": ""
+        },
+        {
+          "title": "Sweet Melody",
+          "lyricist": ["大滝美乃莉"],
+          "composer": ["長橋健一"],
+          "arranger": ["長橋健一"],
+          "note": ""
+        },
+        {
+          "title": "BLUE COMPASS",
+          "lyricist": ["岩里祐穂"],
+          "composer": ["上松範康(Elements Garden)"],
+          "arranger": ["藤間 仁(Elements Garden)"],
+          "note": ""
+        }
+      ],
+      "additional": "BD\nMUSIC VIDEO\n01. アイマイモコ\n02. Ready Steady Go!\n03. Million Futures",
+      "buttons": [
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/2ndAL_inoriminase"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Innocent flower",
+      "numbering": "1st ALBUM",
+      "stock_number": "",
+      "release_date": "2017-04-05",
+      "image_path": "https://inoriminase.com/img/disco/images_pc/60a4e9efc6447.jpg",
+      "description": "【初回限定盤（CD+BD）】\n品番：KICS-93477\n価格：¥3,960（税抜価格¥3,600）\n初回封入特典：特製トレカ\n\n【通常盤 (CD)】\n品番：KICS-3477\n価格：¥3,300（税抜価格¥3,000）\n初回封入特典：特製トレカ",
+      "trackList": [
+        {
+          "title": "春空",
+          "lyricist": ["絵伊子"],
+          "composer": ["渡部チェル"],
+          "arranger": ["渡部チェル"],
+          "note": ""
+        },
+        {
+          "title": "夢のつぼみ",
+          "lyricist": ["絵伊子"],
+          "composer": ["渡部チェル"],
+          "arranger": ["渡部チェル"],
+          "note": ""
+        },
+        {
+          "title": "Lucky Clover",
+          "lyricist": ["白戸佑輔"],
+          "composer": ["白戸佑輔"],
+          "arranger": ["白戸佑輔"],
+          "note": ""
+        },
+        {
+          "title": "コイセヨオトメ",
+          "lyricist": ["しほり"],
+          "composer": ["しほり"],
+          "arranger": ["齋藤真也"],
+          "note": ""
+        },
+        {
+          "title": "涙のあとは",
+          "lyricist": ["塚田耕平"],
+          "composer": ["塚田耕平"],
+          "arranger": ["塚田耕平"],
+          "note": ""
+        },
+        {
+          "title": "いつもずっと",
+          "lyricist": ["古屋 真"],
+          "composer": ["加藤裕介"],
+          "arranger": ["加藤裕介"],
+          "note": ""
+        },
+        {
+          "title": "Starry Wish",
+          "lyricist": ["nozomi"],
+          "composer": ["KOUGA", "nozomi"],
+          "arranger": ["KOUGA"],
+          "note": ""
+        },
+        {
+          "title": "Will",
+          "lyricist": ["藤原隆之"],
+          "composer": ["中野ゆう"],
+          "arranger": ["遠藤直弥"],
+          "note": ""
+        },
+        {
+          "title": "星屑のコントレイル",
+          "lyricist": ["藤永龍太郎(Elements Garden)"],
+          "composer": ["藤永龍太郎(Elements Garden)"],
+          "arranger": ["藤永龍太郎(Elements Garden)"],
+          "note": ""
+        },
+        {
+          "title": "旅の途中",
+          "lyricist": ["新田目 翔"],
+          "composer": ["新田目 翔"],
+          "arranger": ["新田目 翔"],
+          "note": ""
+        },
+        {
+          "title": "harmony ribbon",
+          "lyricist": ["多田慎也"],
+          "composer": ["多田慎也"],
+          "arranger": ["鈴木雅也"],
+          "note": ""
+        },
+        {
+          "title": "Innocent flower",
+          "lyricist": ["藤林聖子"],
+          "composer": ["KOUGA"],
+          "arranger": ["KOUGA"],
+          "note": ""
+        }
+      ],
+      "additional": "BD\nMUSIC VIDEO\n01. 夢のつぼみ\n02. harmony ribbon\n03. Starry Wish\n04. 春空",
+      "buttons": [
+        {
+          "text": "DIGITAL",
+          "href": "https://lnk.to/1stAL_inoriminase"
+        }
+      ]
+    }
+  ]
+}

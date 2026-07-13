@@ -1,6 +1,6 @@
 "use client";
 
-import data from "@/data.json";
+import blog from "@/lib/blog.json";
 import { useState, useEffect } from "react";
 
 declare global {
@@ -22,10 +22,10 @@ export default function BlogPage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(5);
   const [selectedBlog, setSelectedBlog] = useState<
-    (typeof data.blog)[number] | null
+    (typeof blog)[number] | null
   >(null);
 
-  const blogs = data.blog;
+  const blogs = blog;
   const totalPages = Math.ceil(blogs.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const currentBlogs = blogs.slice(startIndex, startIndex + itemsPerPage);

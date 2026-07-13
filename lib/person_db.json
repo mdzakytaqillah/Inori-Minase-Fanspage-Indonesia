@@ -1,0 +1,3718 @@
+{
+  "mal_id": 11297,
+  "name": "Minase Inori",
+  "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/74704.jpg",
+  "favorites": 25716,
+  "voices": [
+    {
+      "anime": {
+        "mal_id": 57584,
+        "title": "Kage no Jitsuryokusha ni Naritakute! Movie: Zankyou-hen",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1797/156362.jpg?s=faa78dbd693a6ecff7e2f1ed804e2cc6"
+      },
+      "character": {
+        "mal_id": 194179,
+        "name": "Beta",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/483022.jpg?s=c1d4738a9a77aba7fde64627ad62d62a",
+        "favorites": 444
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 62582,
+        "title": "Seishun Buta Yarou wa Dear Friend no Yume wo Minai",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1073/158510.jpg?s=9d687f9a09144ad100a0c95a0fb7c3cc"
+      },
+      "character": {
+        "mal_id": 149616,
+        "name": "Makinohara Shouko",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/598437.jpg?s=c590ed7aed2544754b35bb718cf7a2e6",
+        "favorites": 1279
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 58518,
+        "title": "Sasaki to Pii-chan Season 2",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1402/158487.jpg?s=1a97cd44e98def0c2671630a4e6eda2c"
+      },
+      "character": {
+        "mal_id": 237659,
+        "name": "Magical Pink",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/528416.jpg?s=f321def95420e6edb1a21aefb6611896",
+        "favorites": 2
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 61240,
+        "title": "Futsutsuka na Akujo dewa Gozaimasu ga: Suuguu Chouso Torikae Den",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1958/158341.jpg?s=49cf88ffba687443d4dd8a6a270a68b3"
+      },
+      "character": {
+        "mal_id": 291058,
+        "name": "Ran Houshun",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/7/623838.jpg?s=8fe281a85c8c4e02dc116df367725fa5",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 61280,
+        "title": "Kore Kaite Shine",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1649/154997.jpg?s=fec3badf5c2a406038e240bb0fb987c9"
+      },
+      "character": {
+        "mal_id": 280489,
+        "name": "Sekiryuu Hikaru",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/637794.jpg?s=e3b3a26bf9708a161989afcc58b83e21",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 63347,
+        "title": "World Is Dancing",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1165/158709.jpg?s=ddec1c60f636473f6fcbc973c3d2ee76"
+      },
+      "character": {
+        "mal_id": 295620,
+        "name": "Chiharu",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/631526.jpg?s=769f6905802ce1564a9d151cf10011fb",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 62080,
+        "title": "Mujikaku Seijo wa Kyou mo Muishiki ni Chikara wo Tare Nagasu",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1612/158373.jpg?s=09469aeabaa54f256f9a28d3669f9414"
+      },
+      "character": {
+        "mal_id": 295985,
+        "name": "Kissinger Marissa",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/632199.jpg?s=f19fa29f7813ceb66f108e3ab6bb07b6",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 61316,
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1540/155824.jpg?s=57a1b0ab37c3f897a559d55f80a66c97"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 59970,
+        "title": "Tensei shitara Slime Datta Ken 4th Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1695/156389.jpg?s=3bec35803aa541231eefb01fae61f0a7"
+      },
+      "character": {
+        "mal_id": 243471,
+        "name": "Rozzo Maribel",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/560025.jpg?s=0c80b9d2fff305e91b30dadde44a6496",
+        "favorites": 5
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 59711,
+        "title": "Shibou Yuugi de Meshi wo Kuu.",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1834/151169.jpg?s=9b60f5887f2f3a8902fad1a3c7435852"
+      },
+      "character": {
+        "mal_id": 283165,
+        "name": "Kinko",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/631355.jpg?s=deaef9990add7f5355aaaafb500e21fe",
+        "favorites": 22
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 62066,
+        "title": "Monster Strike: Deadverse Reloaded",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1090/151875.jpg?s=c6ad79ea640ebbd400fe8bee4e5e521c"
+      },
+      "character": {
+        "mal_id": 280154,
+        "name": "Neo",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/606905.jpg?s=68a862a1a45b94a910dcde7c0e1e69d3",
+        "favorites": 0
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 61851,
+        "title": "Isekai Quartet 3",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1044/152103.jpg?s=cf8351721d50d7ea184d361053b602f5"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 61851,
+        "title": "Isekai Quartet 3",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1044/152103.jpg?s=cf8351721d50d7ea184d361053b602f5"
+      },
+      "character": {
+        "mal_id": 194179,
+        "name": "Beta",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/483022.jpg?s=c1d4738a9a77aba7fde64627ad62d62a",
+        "favorites": 444
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 64106,
+        "title": "5-toubun no Princess: Gensou to Shinen to Mahou Gakuin",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1559/157224.jpg?s=288a52a242a1d744749f3bec764910bd"
+      },
+      "character": {
+        "mal_id": 161471,
+        "name": "Nakano Itsuki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/437010.jpg?s=c7c02c4610d4df983a26a91ccc8edc65",
+        "favorites": 7878
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 61952,
+        "title": "Luo Xiaohei Zhanji 2",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1288/151853.jpg?s=cda6ffa4e78fb05a4ddc1a5276376831"
+      },
+      "character": {
+        "mal_id": 203272,
+        "name": "Nezha",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/458096.jpg?s=8c119c2d530785329907960be8be48ea",
+        "favorites": 6
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 56907,
+        "title": "Koujo Denka no Kateikyoushi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1445/150685.jpg?s=589d2aceb7edbaa37f3702e877f9a7cc"
+      },
+      "character": {
+        "mal_id": 268141,
+        "name": "Howard Stella",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/588145.jpg?s=0581eaa9695a2f13bb458ed347ede986",
+        "favorites": 20
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 57433,
+        "title": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1823/149858.jpg?s=3f1573b137cbee24463a10f3bb8d9bd9"
+      },
+      "character": {
+        "mal_id": 149616,
+        "name": "Makinohara Shouko",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/598437.jpg?s=c590ed7aed2544754b35bb718cf7a2e6",
+        "favorites": 1279
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 61840,
+        "title": "Yuanshen: Chen Jian Xing Lu",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1150/150547.jpg?s=a7311cb3f13eaabfc68742935859fca1"
+      },
+      "character": {
+        "mal_id": 248828,
+        "name": "de Fontaine Furina",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/549296.jpg?s=7d75cd282d64db9c0724ac68c8830c0a",
+        "favorites": 387
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 59466,
+        "title": "Aharen-san wa Hakarenai Season 2",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1501/148355.jpg?s=e9429028fe5c301e8b2d9ac7ca403d46"
+      },
+      "character": {
+        "mal_id": 150916,
+        "name": "Aharen Reina",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/7/370529.jpg?s=7d058ea329f9485c207ab8e65b854857",
+        "favorites": 684
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 59466,
+        "title": "Aharen-san wa Hakarenai Season 2",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1501/148355.jpg?s=e9429028fe5c301e8b2d9ac7ca403d46"
+      },
+      "character": {
+        "mal_id": 209025,
+        "name": "Aharen Ai",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/15/594322.jpg?s=93dc5c923b2f2d9e81f4997ff53a9d89",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 53447,
+        "title": "Tu Bian Yingxiong X",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1492/150628.jpg?s=f9507c2c7116ceaf7c67dccc92ffdcd6"
+      },
+      "character": {
+        "mal_id": 255841,
+        "name": "Lucky Cyan",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/627298.jpg?s=1aa17323e939a3bd2e6b042ad897dff9",
+        "favorites": 257
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 59843,
+        "title": "Aldnoah.Zero: Ame no Danshou - The Penultimate Truth",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1566/145506.jpg?s=a7f5cd141a47808ba31797f172834025"
+      },
+      "character": {
+        "mal_id": 109313,
+        "name": "Eddelrittuo",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/14/254975.jpg?s=23b02fa3c154599446bee05d3851b098",
+        "favorites": 16
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 60666,
+        "title": "Aldnoah.Zero (Re+)",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1090/148437.jpg?s=ca7d578692269e3c0a4e41f50a01e7b6"
+      },
+      "character": {
+        "mal_id": 109313,
+        "name": "Eddelrittuo",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/14/254975.jpg?s=23b02fa3c154599446bee05d3851b098",
+        "favorites": 16
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 59113,
+        "title": "Farmagia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1406/146839.jpg?s=1081ea8d254904116e6beb10fa233b76"
+      },
+      "character": {
+        "mal_id": 258873,
+        "name": "Chica",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/570300.jpg?s=4c867a4e443f75b42f370129ddf4d827",
+        "favorites": 1
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 58755,
+        "title": "5-toubun no Hanayome*",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1915/145336.jpg?s=dade8907bf780ec1e766965d660488e1"
+      },
+      "character": {
+        "mal_id": 161471,
+        "name": "Nakano Itsuki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/437010.jpg?s=c7c02c4610d4df983a26a91ccc8edc65",
+        "favorites": 7878
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 57066,
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1299/144738.jpg?s=16904a6a85d0b279a18cb09ef25827c0"
+      },
+      "character": {
+        "mal_id": 93273,
+        "name": "Hestia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/285883.jpg?s=ac2462a197c166e93f1be075e2f83986",
+        "favorites": 3760
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 60012,
+        "title": "Re:Zero kara Hajimeru Break Time 3rd Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1349/145863.jpg?s=01efeb42a6e9907dce82f01927854d90"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 54857,
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1706/144725.jpg?s=a1d7a0412d6c4c41f5d6ba574406cf78"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 53723,
+        "title": "Acro Trip",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1397/145153.jpg?s=83364269dee9376a60e64bfa52ee292b"
+      },
+      "character": {
+        "mal_id": 233059,
+        "name": "Noichigo Kaju",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/556694.jpg?s=a6d0e3c9e4dfca03c787c39afaa30654",
+        "favorites": 14
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 52367,
+        "title": "Isekai Shikkaku",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1252/143457.jpg?s=e54905cbbbdd698dd9916cb80df8c3fc"
+      },
+      "character": {
+        "mal_id": 252520,
+        "name": "Charlotte",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/555937.jpg?s=2a61d62d1ace80f2330bb927da433219",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 57614,
+        "title": "Shadowverse Flame: Arc-hen",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1826/140574.jpg?s=b7d7a2efcd518d8673145fd46e58275a"
+      },
+      "character": {
+        "mal_id": 226292,
+        "name": "Sinclair Hina",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/505584.jpg?s=60a9bf26b477cc1710ea7c69ab6c9a74",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 56738,
+        "title": "Shinigami Bocchan to Kuro Maid 3rd Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1988/142714.jpg?s=d2e8fd7807c4782108cf1c6501f195aa"
+      },
+      "character": {
+        "mal_id": 172654,
+        "name": "Viola",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/551230.jpg?s=8744dd091a15beab374e6941faf754ca",
+        "favorites": 21
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 53580,
+        "title": "Tensei shitara Slime Datta Ken 3rd Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1211/143476.jpg?s=99968d0b665dd1d43d896a29a93f261d"
+      },
+      "character": {
+        "mal_id": 243471,
+        "name": "Rozzo Maribel",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/560025.jpg?s=0c80b9d2fff305e91b30dadde44a6496",
+        "favorites": 5
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 54829,
+        "title": "Urusei Yatsura (2022) 2nd Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1517/140830.jpg?s=03c56d19d31d546ad64dddd73538e553"
+      },
+      "character": {
+        "mal_id": 60057,
+        "name": "Carla",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/550098.jpg?s=63dd45409c9c00765b0d3877268ed176",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 52482,
+        "title": "Sasaki to Pii-chan",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1624/139672.jpg?s=9fd2cfa1ba3a0ae3e42b23998972ea89"
+      },
+      "character": {
+        "mal_id": 237659,
+        "name": "Magical Pink",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/528416.jpg?s=f321def95420e6edb1a21aefb6611896",
+        "favorites": 2
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 49842,
+        "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... Movie",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1360/138828.jpg?s=519224130f7d9d66f848c0821cf022ee"
+      },
+      "character": {
+        "mal_id": 166526,
+        "name": "Ascart Sophia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/408580.jpg?s=f9129732c9a823c231a7d5b62d3ce1bc",
+        "favorites": 120
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 54870,
+        "title": "Seishun Buta Yarou wa Randoseru Girl no Yume wo Minai",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1937/138379.jpg?s=09dac56f509f2d9e870ce20fdc558f56"
+      },
+      "character": {
+        "mal_id": 149616,
+        "name": "Makinohara Shouko",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/598437.jpg?s=c590ed7aed2544754b35bb718cf7a2e6",
+        "favorites": 1279
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 57034,
+        "title": "Ple Ple Pleiades x Kagejitsu!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1880/139404.jpg?s=793dbbcb6f98cc02807b6797bbc0b788"
+      },
+      "character": {
+        "mal_id": 194179,
+        "name": "Beta",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/483022.jpg?s=c1d4738a9a77aba7fde64627ad62d62a",
+        "favorites": 444
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 56146,
+        "title": "Good Night World",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1330/137476.jpg?s=ce7e7953929f088efe17d0b8545155ba"
+      },
+      "character": {
+        "mal_id": 233097,
+        "name": "Arima Aya",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/527529.jpg?s=5fcf159d96061b997f5663898ccecbbc",
+        "favorites": 2
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 54743,
+        "title": "Dead Mount Death Play Part 2",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1005/139809.jpg?s=14eb0df0225558062e31d60aa2e4234f"
+      },
+      "character": {
+        "mal_id": 171845,
+        "name": "Sakimiya Misaki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/3/493506.jpg?s=50d9231ed801a67c9ece6d9dfe2d6182",
+        "favorites": 150
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 55894,
+        "title": "Bokura no Ame-iro Protocol",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1160/138465.jpg?s=860dda7c4df95dbd82e7aa8dd7565b9b"
+      },
+      "character": {
+        "mal_id": 232243,
+        "name": "Inatsuki Nozomi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/516567.jpg?s=6b6538e5e3a241122f7d5f310738e5da",
+        "favorites": 5
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 54595,
+        "title": "Kage no Jitsuryokusha ni Naritakute! 2nd Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1938/138295.jpg?s=0c4747dd5158af4c4c6fe12988d6c4e2"
+      },
+      "character": {
+        "mal_id": 194179,
+        "name": "Beta",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/483022.jpg?s=c1d4738a9a77aba7fde64627ad62d62a",
+        "favorites": 444
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 56842,
+        "title": "Kagejitsu! Second",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1512/138927.jpg?s=5046a3eec0c307af764d390a862f9958"
+      },
+      "character": {
+        "mal_id": 194179,
+        "name": "Beta",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/483022.jpg?s=c1d4738a9a77aba7fde64627ad62d62a",
+        "favorites": 444
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 51297,
+        "title": "Ragna Crimson",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1763/140359.jpg?s=f5ceacf70f361b1eb3c6dfa9d89123c3"
+      },
+      "character": {
+        "mal_id": 173161,
+        "name": "Leonica",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/519209.jpg?s=640c0dee68fd260827e7b3e422df3b1b",
+        "favorites": 27
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 54915,
+        "title": "5-toubun no Hanayome∽",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1567/135752.jpg?s=0003073c9a7f9da4eea8bb8b6a24638d"
+      },
+      "character": {
+        "mal_id": 161471,
+        "name": "Nakano Itsuki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/437010.jpg?s=c7c02c4610d4df983a26a91ccc8edc65",
+        "favorites": 7878
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 54947,
+        "title": "Spy Kyoushitsu 2nd Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1317/136666.jpg?s=a8cd0e5467cd9c596c7240ac80cd435d"
+      },
+      "character": {
+        "mal_id": 200187,
+        "name": "Erna",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/500788.jpg?s=fd3b823c6e21d4ce3f1a4fea95a8443a",
+        "favorites": 41
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 49858,
+        "title": "Shinigami Bocchan to Kuro Maid 2nd Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1078/136947.jpg?s=67f09dd115ac89bd4a19c10a77153c25"
+      },
+      "character": {
+        "mal_id": 172654,
+        "name": "Viola",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/551230.jpg?s=8744dd091a15beab374e6941faf754ca",
+        "favorites": 21
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 54854,
+        "title": "Shadowverse Flame: Seven Shadows-hen",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1070/134743.jpg?s=948c626ef196a5d89113a677aa0a70c5"
+      },
+      "character": {
+        "mal_id": 226292,
+        "name": "Sinclair Hina",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/505584.jpg?s=60a9bf26b477cc1710ea7c69ab6c9a74",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 51498,
+        "title": "Masamune-kun no Revenge R",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1667/135587.jpg?s=ebd7841933a5bde97b58f22a8733b3d5"
+      },
+      "character": {
+        "mal_id": 99233,
+        "name": "Koiwai Yoshino",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/261549.jpg?s=332b081501ac33f93b07aac4ec9703f9",
+        "favorites": 596
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 58696,
+        "title": "Yuanshen: Xuqu PV - Zhi Zhongmu de Huanyan",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1623/142653.jpg?s=51c912ee6ff92a105e9ea1ee2516a4b5"
+      },
+      "character": {
+        "mal_id": 248828,
+        "name": "de Fontaine Furina",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/549296.jpg?s=7d75cd282d64db9c0724ac68c8830c0a",
+        "favorites": 387
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 53613,
+        "title": "Dead Mount Death Play",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1930/133758.jpg?s=2836659ee2b8c796dd7f41be68b7b2dc"
+      },
+      "character": {
+        "mal_id": 171845,
+        "name": "Sakimiya Misaki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/3/493506.jpg?s=50d9231ed801a67c9ece6d9dfe2d6182",
+        "favorites": 150
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 45486,
+        "title": "Kuma Kuma Kuma Bear Punch!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1132/134608.jpg?s=6e0912463016cc795a7da943f9f46486"
+      },
+      "character": {
+        "mal_id": 168625,
+        "name": "Foschurose Shia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/375008.jpg?s=cfe8c60206cf85b5336b81cc72dd0aff",
+        "favorites": 16
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 53126,
+        "title": "Yamada-kun to Lv999 no Koi wo Suru",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1298/134178.jpg?s=ccb3f7181fe207eada4c27a06be7ce4e"
+      },
+      "character": {
+        "mal_id": 181418,
+        "name": "Kinoshita Akane",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/489090.jpg?s=b6069f31dec1cc20ab7f8eb1f219fb73",
+        "favorites": 687
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 48441,
+        "title": "The Legend of Heroes: Sen no Kiseki - Northern War",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1894/133297.jpg?s=f6e00909750965d7942beeb4b9c23ff7"
+      },
+      "character": {
+        "mal_id": 198027,
+        "name": "Orion Altina",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/464316.jpg?s=e7edee75608eacd7723b463c52c88ffd",
+        "favorites": 46
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 53111,
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Yakusai-hen",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1476/128693.jpg?s=9cba18a40e798afd9398a8f4b4d8e415"
+      },
+      "character": {
+        "mal_id": 93273,
+        "name": "Hestia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/285883.jpg?s=ac2462a197c166e93f1be075e2f83986",
+        "favorites": 3760
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 51252,
+        "title": "Spy Kyoushitsu",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1491/132864.jpg?s=a3b09a5b420913f96b0132357ab72546"
+      },
+      "character": {
+        "mal_id": 200187,
+        "name": "Erna",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/500788.jpg?s=fd3b823c6e21d4ce3f1a4fea95a8443a",
+        "favorites": 41
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 53406,
+        "title": "Kagejitsu!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1014/129578.jpg?s=5b944bf5d3a58708b144e911dcaff7e2"
+      },
+      "character": {
+        "mal_id": 194179,
+        "name": "Beta",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/483022.jpg?s=c1d4738a9a77aba7fde64627ad62d62a",
+        "favorites": 444
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 50275,
+        "title": "Sword Art Online: Progressive Movie - Kuraki Yuuyami no Scherzo",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1656/126446.jpg?s=5edf216dce2226afe8d65b0d26964d20"
+      },
+      "character": {
+        "mal_id": 194725,
+        "name": "Tozawa Misumi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/15/457713.jpg?s=c0e8ea1c7dedb50ca6930ee3396dd2f9",
+        "favorites": 79
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 51307,
+        "title": "Bokura no Yoake",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1411/127593.jpg?s=51fd18d5228098fcbc20e74f2fec9d6f"
+      },
+      "character": {
+        "mal_id": 214338,
+        "name": "Kawai Honoka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/484034.jpg?s=3ad8265a7fab867076b7785f2488bd07",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 48316,
+        "title": "Kage no Jitsuryokusha ni Naritakute!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1091/128729.jpg?s=6c2e3a63b2ef853b4ba13c29d3f372a3"
+      },
+      "character": {
+        "mal_id": 194179,
+        "name": "Beta",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/483022.jpg?s=c1d4738a9a77aba7fde64627ad62d62a",
+        "favorites": 444
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 50010,
+        "title": "Meitantei Conan: Hannin no Hanzawa-san",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1560/125527.jpg?s=d3433a689d3cb6424bdde6bcec6ee449"
+      },
+      "character": {
+        "mal_id": 216774,
+        "name": "Pometarou",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/491610.jpg?s=125b0cc784da9e8e74a73dbbca0e95da",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 49938,
+        "title": "Ame wo Tsugeru Hyouryuu Danchi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1263/124155.jpg?s=5229f249764a173fa61a3afaf10d82af"
+      },
+      "character": {
+        "mal_id": 209971,
+        "name": "Haba Reina",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/476593.jpg?s=3790b384d826e7f44a2a3f62984a84ea",
+        "favorites": 7
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 47164,
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1318/126474.jpg?s=b85641c8be10ef988736e7b73d53a000"
+      },
+      "character": {
+        "mal_id": 93273,
+        "name": "Hestia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/285883.jpg?s=ac2462a197c166e93f1be075e2f83986",
+        "favorites": 3760
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 52357,
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV Episode 0",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1707/125209.jpg?s=569d88fa7e20af6cc9ba92935c79a596"
+      },
+      "character": {
+        "mal_id": 93273,
+        "name": "Hestia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/285883.jpg?s=ac2462a197c166e93f1be075e2f83986",
+        "favorites": 3760
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 41084,
+        "title": "Made in Abyss: Retsujitsu no Ougonkyou",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1864/122519.jpg?s=f4e83135889eb0f1871c75d8c18923df"
+      },
+      "character": {
+        "mal_id": 151720,
+        "name": "Prushka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/471437.jpg?s=6673b0ef27695455da7ef68e25e896ef",
+        "favorites": 409
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 40590,
+        "title": "Utawarerumono: Futari no Hakuoro",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1516/123280.jpg?s=a06fff9cc7e1dc7b1b5b49a62136e45f"
+      },
+      "character": {
+        "mal_id": 129768,
+        "name": "Nekone",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/304518.jpg?s=8f2050efe030a1518319b9632632c813",
+        "favorites": 20
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 41567,
+        "title": "Isekai Quartet Movie: Another World",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1222/122000.jpg?s=ff51015257dc6804c4096b42c9d967cc"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 49722,
+        "title": "Karakai Jouzu no Takagi-san Movie",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1376/123398.jpg?s=511996d911e379c0ed93e82a19913f22"
+      },
+      "character": {
+        "mal_id": 210529,
+        "name": "Hana",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/489141.jpg?s=a2d921df6979417acf8472213cb92c39",
+        "favorites": 3
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 48548,
+        "title": "5-toubun no Hanayome Movie",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1037/122516.jpg?s=4adca3985d2ccc32a25e22421b61a9d8"
+      },
+      "character": {
+        "mal_id": 161471,
+        "name": "Nakano Itsuki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/437010.jpg?s=c7c02c4610d4df983a26a91ccc8edc65",
+        "favorites": 7878
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 49692,
+        "title": "Heroine Tarumono! Kiraware Heroine to Naisho no Oshigoto",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1311/120270.jpg?s=5b9b27bd8a29ea92636098c68fc7329e"
+      },
+      "character": {
+        "mal_id": 201308,
+        "name": "Suzumi Hiyori",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/7/452513.jpg?s=5706855dc24ac1012ccb39c8886169d6",
+        "favorites": 80
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 49520,
+        "title": "Aharen-san wa Hakarenai",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1612/120636.jpg?s=5e29d562c561ca4a5124a582541bd6f8"
+      },
+      "character": {
+        "mal_id": 150916,
+        "name": "Aharen Reina",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/7/370529.jpg?s=7d058ea329f9485c207ab8e65b854857",
+        "favorites": 684
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 49691,
+        "title": "Gunjou no Fanfare",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1769/122296.jpg?s=6dc95d03f12fcc41f5f36bdf3dc9f633"
+      },
+      "character": {
+        "mal_id": 204009,
+        "name": "Shimotsuki Eri",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/459737.jpg?s=006f741ac33d517338b875b1c39ce492",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 50060,
+        "title": "Shadowverse Flame",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1877/122972.jpg?s=189cb8d797b15bfe4a59816ad62ffb56"
+      },
+      "character": {
+        "mal_id": 226292,
+        "name": "Sinclair Hina",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/505584.jpg?s=60a9bf26b477cc1710ea7c69ab6c9a74",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 51439,
+        "title": "Heroine Tarumono! Kiraware Heroine to Naisho no Oshigoto Mini Anime",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1023/122211.jpg?s=30f23b381ee2a419a0d92740fbe07306"
+      },
+      "character": {
+        "mal_id": 201308,
+        "name": "Suzumi Hiyori",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/7/452513.jpg?s=5706855dc24ac1012ccb39c8886169d6",
+        "favorites": 80
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 51243,
+        "title": "Aharen-san wa Hakarenai Mini",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1478/129780.jpg?s=f25588af507e779ac635d4ff8430fb7f"
+      },
+      "character": {
+        "mal_id": 150916,
+        "name": "Aharen Reina",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/7/370529.jpg?s=7d058ea329f9485c207ab8e65b854857",
+        "favorites": 684
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 49114,
+        "title": "Vanitas no Karte Part 2",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1247/120579.jpg?s=a7c43b156b7ee3f44fbdbbb2f44b81de"
+      },
+      "character": {
+        "mal_id": 138393,
+        "name": "Jeanne",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/15/444730.jpg?s=f36ba7b9163a058dc62ede2fae4307d2",
+        "favorites": 2022
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 49738,
+        "title": "Heike Monogatari",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1282/119979.jpg?s=39ffee911509ee1ddefd006c0ac84ba0"
+      },
+      "character": {
+        "mal_id": 203465,
+        "name": "Shizuka Gozen",
+        "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 42670,
+        "title": "Princess Connect! Re:Dive Season 2",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1906/117145.jpg?s=57c2d6a29c4e0437e5e98869ae73b9d1"
+      },
+      "character": {
+        "mal_id": 205572,
+        "name": "Kasumi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/463448.jpg?s=7bc671fee3a2fd7d766986206773af09",
+        "favorites": 11
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 49930,
+        "title": "Genjitsu Shugi Yuusha no Oukoku Saikenki Part 2",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1088/120068.jpg?s=4c597cfa346f1bb7ef9d7bef6db40662"
+      },
+      "character": {
+        "mal_id": 160419,
+        "name": "Elfrieden Liscia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/432422.jpg?s=ce2f5e8eebde40022ef59c2838274c1a",
+        "favorites": 410
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 50768,
+        "title": "Vanitas no Karte: En Route Pour le Gévaudan",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1570/120423.jpg?s=2f469919cb880033618a509adce0a9ce"
+      },
+      "character": {
+        "mal_id": 138393,
+        "name": "Jeanne",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/15/444730.jpg?s=f36ba7b9163a058dc62ede2fae4307d2",
+        "favorites": 2022
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 50770,
+        "title": "Vanitas no Karte: Le Chemin Parcouru Depuis la Rencontre",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1401/120422.jpg?s=4bf9dd7418f82d0bd1608f7a316ee7f7"
+      },
+      "character": {
+        "mal_id": 138393,
+        "name": "Jeanne",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/15/444730.jpg?s=f36ba7b9163a058dc62ede2fae4307d2",
+        "favorites": 2022
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 49361,
+        "title": "Lord El-Melloi II-sei no Jikenbo: Rail Zeppelin Grace Note Special",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1845/120313.jpg?s=a431d1dd722d7b5b6d2e4d5524522130"
+      },
+      "character": {
+        "mal_id": 148705,
+        "name": "El-Melloi Archisorte Reines",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/384227.jpg?s=c4c2d5ccfd464ca27f7c5e62bdfe3e94",
+        "favorites": 212
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 49361,
+        "title": "Lord El-Melloi II-sei no Jikenbo: Rail Zeppelin Grace Note Special",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1845/120313.jpg?s=a431d1dd722d7b5b6d2e4d5524522130"
+      },
+      "character": {
+        "mal_id": 172674,
+        "name": "Trimmau",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/386637.jpg?s=cea503b53df65237964c8943eab4eb0b",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 42916,
+        "title": "Sword Art Online: Progressive Movie - Hoshi Naki Yoru no Aria",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1590/116274.jpg?s=5082047a12f29c6e6b7f81be41f59fb8"
+      },
+      "character": {
+        "mal_id": 194725,
+        "name": "Tozawa Misumi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/15/457713.jpg?s=c0e8ea1c7dedb50ca6930ee3396dd2f9",
+        "favorites": 79
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 48644,
+        "title": "Gyakuten Sekai no Denchi Shoujo",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1836/117774.jpg?s=ff73bf1facd3ffc016cdf047a429d682"
+      },
+      "character": {
+        "mal_id": 202444,
+        "name": "Tanaka Nastassja",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/455756.jpg?s=2b60dd2eda72ab311d11717c9666e069",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 49926,
+        "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1065/118763.jpg?s=d64564867e9cd53cc2efb83f2a9b7dd7"
+      },
+      "character": {
+        "mal_id": 209815,
+        "name": "Fuku",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/480325.jpg?s=0d8fc669d416a4e556c77530b85948ef",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 48556,
+        "title": "Takt Op. Destiny",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1449/117797.jpg?s=a612011cf4cb93fbb66bb0c8665a533c"
+      },
+      "character": {
+        "mal_id": 201459,
+        "name": "Heaven",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/453357.jpg?s=2e04732f6ba799f1308a592f03cf0d60",
+        "favorites": 50
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 49457,
+        "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... OVA",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1996/118848.jpg?s=b9c9fd9b73e0569b6a1cc2501d815348"
+      },
+      "character": {
+        "mal_id": 166526,
+        "name": "Ascart Sophia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/408580.jpg?s=f9129732c9a823c231a7d5b62d3ce1bc",
+        "favorites": 120
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 45961,
+        "title": "Assault Lily: Fruits",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1444/116888.jpg?s=8da59258eca622bb8158a24c3028acdc"
+      },
+      "character": {
+        "mal_id": 184958,
+        "name": "Mashima Moyu",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/415384.jpg?s=319a7ebf42e789663b665908e6ebec75",
+        "favorites": 6
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 41710,
+        "title": "Genjitsu Shugi Yuusha no Oukoku Saikenki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1297/118764.jpg?s=21e2aca46a4dcc0adfd1530a7bf53f33"
+      },
+      "character": {
+        "mal_id": 160419,
+        "name": "Elfrieden Liscia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/432422.jpg?s=ce2f5e8eebde40022ef59c2838274c1a",
+        "favorites": 410
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 47257,
+        "title": "Shinigami Bocchan to Kuro Maid",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1471/115593.jpg?s=bc5f3ee34805a1fe81eb03d31c8aaf6a"
+      },
+      "character": {
+        "mal_id": 172654,
+        "name": "Viola",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/551230.jpg?s=8744dd091a15beab374e6941faf754ca",
+        "favorites": 21
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 48580,
+        "title": "Vanitas no Karte",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1401/118483.jpg?s=11f81591bab3ebc4716cbe739ae34717"
+      },
+      "character": {
+        "mal_id": 138393,
+        "name": "Jeanne",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/15/444730.jpg?s=f36ba7b9163a058dc62ede2fae4307d2",
+        "favorites": 2022
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 42282,
+        "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... X",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1088/116439.jpg?s=202b929e13906bf45385cc6fb1fcb432"
+      },
+      "character": {
+        "mal_id": 166526,
+        "name": "Ascart Sophia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/408580.jpg?s=f9129732c9a823c231a7d5b62d3ce1bc",
+        "favorites": 120
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 42282,
+        "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... X",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1088/116439.jpg?s=202b929e13906bf45385cc6fb1fcb432"
+      },
+      "character": {
+        "mal_id": 182932,
+        "name": "Sasaki Atsuko",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/456577.jpg?s=62e1cca07fe78211d53b82c4300fedb5",
+        "favorites": 5
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 44983,
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III OVA",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1767/110800.jpg?s=09ca2d4aa77039324e30a39c18c67a61"
+      },
+      "character": {
+        "mal_id": 93273,
+        "name": "Hestia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/285883.jpg?s=ac2462a197c166e93f1be075e2f83986",
+        "favorites": 3760
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 43007,
+        "title": "Osananajimi ga Zettai ni Makenai Love Comedy",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1111/113327.jpg?s=dfc61d48c04fbacefdee32e4f83e335e"
+      },
+      "character": {
+        "mal_id": 187165,
+        "name": "Shida Kuroha",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/434565.jpg?s=395c983a5b3d4939d367f150bbb61759",
+        "favorites": 376
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 41307,
+        "title": "Tokyo 7th Sisters: Bokura wa Aozora ni Naru",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1757/114727.jpg?s=e55f992aae4aaffdd1e24d7655a95a3c"
+      },
+      "character": {
+        "mal_id": 139239,
+        "name": "Nanasaki Nicole",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/393760.jpg?s=36f63cd7d6f9a84da863bcec052a19cc",
+        "favorites": 6
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 41307,
+        "title": "Tokyo 7th Sisters: Bokura wa Aozora ni Naru",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1757/114727.jpg?s=e55f992aae4aaffdd1e24d7655a95a3c"
+      },
+      "character": {
+        "mal_id": 188697,
+        "name": "Rokusaki Coney",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/424464.jpg?s=8286d880e761bf8a1a434a354e6286c7",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 39783,
+        "title": "5-toubun no Hanayome ∬",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1775/109514.jpg?s=19cce03e7fe0b81d5c1fa048b666c992"
+      },
+      "character": {
+        "mal_id": 161471,
+        "name": "Nakano Itsuki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/437010.jpg?s=c7c02c4610d4df983a26a91ccc8edc65",
+        "favorites": 7878
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 42203,
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1724/117421.jpg?s=031e563f03efbb7070e2adb587c74888"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 38337,
+        "title": "Gochuumon wa Usagi desu ka? Bloom",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1900/109179.jpg?s=62bcda62ff1f00a1dd66defcf57a49b9"
+      },
+      "character": {
+        "mal_id": 94941,
+        "name": "Kafuu Chino",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/244251.jpg?s=bb39cac0cd04ea627f6eef347e77a2f9",
+        "favorites": 2223
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 41574,
+        "title": "Guraburu!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1870/119993.jpg?s=e61be21bba0f4752dbcc1b4ba790b0ca"
+      },
+      "character": {
+        "mal_id": 185227,
+        "name": "Diantha",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/467126.jpg?s=036a247e1196693b2a1ca9763c34595f",
+        "favorites": 2
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 40974,
+        "title": "Kuma Kuma Kuma Bear",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1413/110712.jpg?s=a9e7ee221f6f5a60ca9944bea7792d74"
+      },
+      "character": {
+        "mal_id": 168625,
+        "name": "Foschurose Shia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/375008.jpg?s=cfe8c60206cf85b5336b81cc72dd0aff",
+        "favorites": 16
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 40397,
+        "title": "Maoujou de Oyasumi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1448/108514.jpg?s=fa7427b9b2c8bc37fc5ea595eaa161bb"
+      },
+      "character": {
+        "mal_id": 144908,
+        "name": "Kaymin Aurora Suya Rhys",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/357875.jpg?s=d5b8c76f74d628ad008c8c40b615b24b",
+        "favorites": 1582
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 40397,
+        "title": "Maoujou de Oyasumi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1448/108514.jpg?s=fa7427b9b2c8bc37fc5ea595eaa161bb"
+      },
+      "character": {
+        "mal_id": 182752,
+        "name": "Debi Akuma",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/410195.jpg?s=14dc717d43a50c1ce505cea2c44c5b09",
+        "favorites": 144
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 40454,
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1523/108380.jpg?s=e7a368ff59d46c77df98a0b7e045c295"
+      },
+      "character": {
+        "mal_id": 93273,
+        "name": "Hestia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/285883.jpg?s=ac2462a197c166e93f1be075e2f83986",
+        "favorites": 3760
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 41911,
+        "title": "Hanyou no Yashahime: Sengoku Otogizoushi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1005/114781.jpg?s=254bd03b1a8a0118ec124dbdf7ba1c8e"
+      },
+      "character": {
+        "mal_id": 205104,
+        "name": "Tamano",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/462390.jpg?s=6a99bf0d5b89e7d63b0f17d3629542c5",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 40550,
+        "title": "Assault Lily: Bouquet",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1024/108413.jpg?s=8e87eacd906451d5f058d7ddb056f578"
+      },
+      "character": {
+        "mal_id": 184958,
+        "name": "Mashima Moyu",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/415384.jpg?s=319a7ebf42e789663b665908e6ebec75",
+        "favorites": 6
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 40529,
+        "title": "No Guns Life 2nd Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1477/106613.jpg?s=05fc9497c6300ba12240f88ef1cc1b2c"
+      },
+      "character": {
+        "mal_id": 174353,
+        "name": "Pepper",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/392299.jpg?s=d7a58f98bb9c063b507b152aae60f435",
+        "favorites": 10
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 39587,
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1444/108005.jpg?s=bf9c8dd563ff1566a1a15b1643031de2"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 42161,
+        "title": "Poketoon",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1941/117693.jpg?s=47be16203a3d26809d2c8a85e6419709"
+      },
+      "character": {
+        "mal_id": 200048,
+        "name": "Tsubomi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/450185.jpg?s=52bb70b5e4c0bf5a3a45003a1c1059de",
+        "favorites": 5
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 40942,
+        "title": "Gundam Build Divers Re:Rise 2nd Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1962/105909.jpg?s=9c8525cc436b8e66fd0eb9df0e5087d9"
+      },
+      "character": {
+        "mal_id": 183304,
+        "name": "Eve",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/411467.jpg?s=38d59c8c4bb99a748802a74ff3f4be7f",
+        "favorites": 5
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 40893,
+        "title": "Komatta Jiisan",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1801/116872.jpg?s=b04411a83da72e958d24838965c879fe"
+      },
+      "character": {
+        "mal_id": 182504,
+        "name": "Baa-san",
+        "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif",
+        "favorites": 0
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 38555,
+        "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta...",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1483/107061.jpg?s=11015fb7d02d1827437e552e0a0441b8"
+      },
+      "character": {
+        "mal_id": 166526,
+        "name": "Ascart Sophia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/408580.jpg?s=f9129732c9a823c231a7d5b62d3ce1bc",
+        "favorites": 120
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 38555,
+        "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta...",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1483/107061.jpg?s=11015fb7d02d1827437e552e0a0441b8"
+      },
+      "character": {
+        "mal_id": 182932,
+        "name": "Sasaki Atsuko",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/456577.jpg?s=62e1cca07fe78211d53b82c4300fedb5",
+        "favorites": 5
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 60421,
+        "title": "Yuanshen: Juese PVs",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1105/152259.jpg?s=cdca68690422bfb37023d45f58d55981"
+      },
+      "character": {
+        "mal_id": 248828,
+        "name": "de Fontaine Furina",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/549296.jpg?s=7d75cd282d64db9c0724ac68c8830c0a",
+        "favorites": 387
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 40453,
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II OVA",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1360/111696.jpg?s=d3da2b9f5c7484bc1286976aa46e8455"
+      },
+      "character": {
+        "mal_id": 93273,
+        "name": "Hestia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/285883.jpg?s=ac2462a197c166e93f1be075e2f83986",
+        "favorites": 3760
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 36862,
+        "title": "Made in Abyss Movie 3: Fukaki Tamashii no Reimei",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1803/117183.jpg?s=eaad660f933a24328b48a5eda3a49b4b"
+      },
+      "character": {
+        "mal_id": 151720,
+        "name": "Prushka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/471437.jpg?s=6673b0ef27695455da7ef68e25e896ef",
+        "favorites": 409
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 39988,
+        "title": "Isekai Quartet 2",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1030/103383.jpg?s=024f624d708f4e0793d462b803e6f0c5"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 52487,
+        "title": "Suzumi Hiyori no \"LIPxLIP\" Shuzai Report!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1124/125853.jpg?s=a5715d8302bdc0070a3e92bc48ab3246"
+      },
+      "character": {
+        "mal_id": 201308,
+        "name": "Suzumi Hiyori",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/7/452513.jpg?s=5706855dc24ac1012ccb39c8886169d6",
+        "favorites": 80
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 39575,
+        "title": "Somali to Mori no Kamisama",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1938/102796.jpg?s=0c9082709980e088e62f3e594048c55d"
+      },
+      "character": {
+        "mal_id": 146031,
+        "name": "Somali",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/7/316315.jpg?s=7e58c477e700329e3e9e11cab87f355b",
+        "favorites": 420
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 40659,
+        "title": "Senki Zesshou Symphogear XV: Senki Zesshou Shinai Symphogear",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1801/104039.jpg?s=8f3a3b11dbd4ada62fde9ab92ca209a3"
+      },
+      "character": {
+        "mal_id": 129793,
+        "name": "Malus Dienheim Carol",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/331662.jpg?s=027e2783a22a1ea94f04b35d25abd812",
+        "favorites": 82
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 38414,
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1238/104023.jpg?s=099481a5321be89aa84d4acfd6107993"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 37379,
+        "title": "Chihayafuru 3",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1898/110709.jpg?s=03e985e772ed1b9fb17d6cbe8378d689"
+      },
+      "character": {
+        "mal_id": 138372,
+        "name": "Tamaru Midori",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/539443.jpg?s=3155069591387ec887e5315888858e6d",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 38891,
+        "title": "Sora no Method: Mou Hitotsu no Negai",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1472/97902.jpg?s=bbd4f20f11a215219ebc7b84dec56532"
+      },
+      "character": {
+        "mal_id": 105177,
+        "name": "Noel",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/14/261605.jpg?s=f132be10921a8d00718525a708dd8865",
+        "favorites": 435
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 39539,
+        "title": "No Guns Life",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1531/102113.jpg?s=368c0cb0a7584f452683c7035c42ba5f"
+      },
+      "character": {
+        "mal_id": 174353,
+        "name": "Pepper",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/392299.jpg?s=d7a58f98bb9c063b507b152aae60f435",
+        "favorites": 10
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 40192,
+        "title": "Gundam Build Divers Re:Rise",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1011/109143.jpg?s=29a8bf8177d393f5147bf5d1ba1bcb87"
+      },
+      "character": {
+        "mal_id": 183304,
+        "name": "Eve",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/411467.jpg?s=38d59c8c4bb99a748802a74ff3f4be7f",
+        "favorites": 5
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 37268,
+        "title": "Z/X: Code Reunion",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1077/111410.jpg?s=37dda0d984850496ceb9a1091c7dab82"
+      },
+      "character": {
+        "mal_id": 181210,
+        "name": "Soranokawa Ena",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/460233.jpg?s=3ca80250d0c4aefbb66336845cfca96b",
+        "favorites": 2
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 38333,
+        "title": "Gochuumon wa Usagi desu ka?? Sing for You",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1684/101030.jpg?s=0ab05db17aa33d8702875cffe7cbcdbb"
+      },
+      "character": {
+        "mal_id": 94941,
+        "name": "Kafuu Chino",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/244251.jpg?s=bb39cac0cd04ea627f6eef347e77a2f9",
+        "favorites": 2223
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 40211,
+        "title": "Luo Xiaohei Zhanji (Movie)",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1583/108598.jpg?s=2e9fea786b27dc1cb09f84c8b695b4b2"
+      },
+      "character": {
+        "mal_id": 203272,
+        "name": "Nezha",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/458096.jpg?s=8c119c2d530785329907960be8be48ea",
+        "favorites": 6
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 37347,
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1730/101329.jpg?s=ec3a1d51050f5569aade9bb3869ebcc5"
+      },
+      "character": {
+        "mal_id": 93273,
+        "name": "Hestia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/285883.jpg?s=ac2462a197c166e93f1be075e2f83986",
+        "favorites": 3760
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 32843,
+        "title": "Senki Zesshou Symphogear XV",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1899/101966.jpg?s=c5c82a42258744890652ba6cbee75840"
+      },
+      "character": {
+        "mal_id": 129793,
+        "name": "Malus Dienheim Carol",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/331662.jpg?s=027e2783a22a1ea94f04b35d25abd812",
+        "favorites": 82
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 38959,
+        "title": "Lord El-Melloi II-sei no Jikenbo: Rail Zeppelin Grace Note",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1107/111530.jpg?s=98d649a883093b42af6e58b9826c0b0c"
+      },
+      "character": {
+        "mal_id": 148705,
+        "name": "El-Melloi Archisorte Reines",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/384227.jpg?s=c4c2d5ccfd464ca27f7c5e62bdfe3e94",
+        "favorites": 212
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 38959,
+        "title": "Lord El-Melloi II-sei no Jikenbo: Rail Zeppelin Grace Note",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1107/111530.jpg?s=98d649a883093b42af6e58b9826c0b0c"
+      },
+      "character": {
+        "mal_id": 172674,
+        "name": "Trimmau",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/386637.jpg?s=cea503b53df65237964c8943eab4eb0b",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 40064,
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II: Past & Future",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1007/101921.jpg?s=6f0dbe37f1fb975ad0f84fe31714a5f6"
+      },
+      "character": {
+        "mal_id": 93273,
+        "name": "Hestia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/285883.jpg?s=ac2462a197c166e93f1be075e2f83986",
+        "favorites": 3760
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 39198,
+        "title": "Kanata no Astra",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1784/106428.jpg?s=dad1232b7c1d10ed315b4d5498e81423"
+      },
+      "character": {
+        "mal_id": 154215,
+        "name": "Spring Aries",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/374219.jpg?s=f5b6a2e5b533acb9a5d32426c5df9a9b",
+        "favorites": 193
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 39198,
+        "title": "Kanata no Astra",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1784/106428.jpg?s=dad1232b7c1d10ed315b4d5498e81423"
+      },
+      "character": {
+        "mal_id": 173789,
+        "name": "Seira",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/389532.jpg?s=f377dc9bedd5e6642d06fd443775e2b1",
+        "favorites": 4
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 38329,
+        "title": "Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1613/102179.jpg?s=71d188d89a4fe8adb1e443c5b199f91b"
+      },
+      "character": {
+        "mal_id": 149616,
+        "name": "Makinohara Shouko",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/598437.jpg?s=c590ed7aed2544754b35bb718cf7a2e6",
+        "favorites": 1279
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 37262,
+        "title": "Ta ga Tame no Alchemist",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1257/116016.jpg?s=911764ada1d2489bdf35525866123055"
+      },
+      "character": {
+        "mal_id": 173522,
+        "name": "Kasumi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/457385.jpg?s=7d01635a62eb8bb3c1fbb997f1f46618",
+        "favorites": 1
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 38472,
+        "title": "Isekai Quartet",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1965/99667.jpg?s=c63141c140be92326a09957570954a43"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 38268,
+        "title": "Hangyakusei Million Arthur 2nd Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1277/100464.jpg?s=9303094032898cef4088ce05898bbefb"
+      },
+      "character": {
+        "mal_id": 164163,
+        "name": "Renkin Arthur",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/362684.jpg?s=426d65fdcba281e6dc66e2331edab209",
+        "favorites": 9
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 38672,
+        "title": "Precure Miracle Universe Movie",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1960/120792.jpg?s=261651dc02f90fa12907285be91bf7f7"
+      },
+      "character": {
+        "mal_id": 151493,
+        "name": "Kirahoshi Ciel",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/496103.jpg?s=8c9d3f3b82042ed0cc7229bbf59090e0",
+        "favorites": 26
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 37348,
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Movie: Orion no Ya",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1239/96949.jpg?s=8c3e73170914f1f651afad07d0b2ff88"
+      },
+      "character": {
+        "mal_id": 93273,
+        "name": "Hestia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/285883.jpg?s=ac2462a197c166e93f1be075e2f83986",
+        "favorites": 3760
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 38464,
+        "title": "Ashita Sekai ga Owaru toshitemo",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1683/111390.jpg?s=943049d2329be0dcc719d2f3afd8f30b"
+      },
+      "character": {
+        "mal_id": 152978,
+        "name": "Riko",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/335167.jpg?s=76127acfc3b9a71132ea4ee173b1d120",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 37515,
+        "title": "Made in Abyss Movie 2: Hourou Suru Tasogare",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1336/95168.jpg?s=7a588bf9d56504dff28b7d7eef153b63"
+      },
+      "character": {
+        "mal_id": 151720,
+        "name": "Prushka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/471437.jpg?s=6673b0ef27695455da7ef68e25e896ef",
+        "favorites": 409
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 38062,
+        "title": "Endro~!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1300/111361.jpg?s=0749063a75ddc2e1a4fcc9ebceadf5e1"
+      },
+      "character": {
+        "mal_id": 165160,
+        "name": "Endust Meiza",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/3/364777.jpg?s=8eec41fa5cbd91eafd7326c003cb0988",
+        "favorites": 64
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 38101,
+        "title": "5-toubun no Hanayome",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1819/97947.jpg?s=155ab3d82044500ddeaa11bbe0ccc842"
+      },
+      "character": {
+        "mal_id": 161471,
+        "name": "Nakano Itsuki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/437010.jpg?s=c7c02c4610d4df983a26a91ccc8edc65",
+        "favorites": 7878
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 37509,
+        "title": "W'z",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1770/99001.jpg?s=5c0a06725edbf1d415d703d4f4fb6c30"
+      },
+      "character": {
+        "mal_id": 167568,
+        "name": "Teshima Senri",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/372018.jpg?s=9e35fb9c9a4cb719c0556784b0c1b570",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 38936,
+        "title": "Lord El-Melloi II-sei no Jikenbo: Rail Zeppelin Grace Note - Hakamori to Neko to Majutsushi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1762/114436.jpg?s=5e1ac188ffc83d7ffe2af0b38cba2b27"
+      },
+      "character": {
+        "mal_id": 148705,
+        "name": "El-Melloi Archisorte Reines",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/384227.jpg?s=c4c2d5ccfd464ca27f7c5e62bdfe3e94",
+        "favorites": 212
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 34539,
+        "title": "Saint Seiya: Saintia Shou",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1022/93948.jpg?s=0bd36c8c8d3ee01b37d497f0948ff04d"
+      },
+      "character": {
+        "mal_id": 5628,
+        "name": "Kido Saori",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/291537.jpg?s=02a852336ffe4c77d8f6afd2575ae435",
+        "favorites": 70
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 38789,
+        "title": "One Room: Second Season Special",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1630/97029.jpg?s=466fd6b3a7e3480885ec1efbb4f638bc"
+      },
+      "character": {
+        "mal_id": 163077,
+        "name": "Amatsuki Mashiro",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/361178.jpg?s=6a5947679ecef2c7c4fc5047f85666be",
+        "favorites": 20
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 39993,
+        "title": "Isekai Quartet Relay PVs",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1761/101647.jpg?s=7ceaba5f903285db1f9c0ca9f2b838e6"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 37501,
+        "title": "Hug tto! Precure♡Futari wa Precure Movie: All Stars Memories",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1538/93935.jpg?s=229c682ad3f2ee859b1311ce74f36d50"
+      },
+      "character": {
+        "mal_id": 151493,
+        "name": "Kirahoshi Ciel",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/496103.jpg?s=8c9d3f3b82042ed0cc7229bbf59090e0",
+        "favorites": 26
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 37555,
+        "title": "Hangyakusei Million Arthur",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1679/96158.jpg?s=0ed154c95294c4b12730a18e50b2fe19"
+      },
+      "character": {
+        "mal_id": 164163,
+        "name": "Renkin Arthur",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/362684.jpg?s=426d65fdcba281e6dc66e2331edab209",
+        "favorites": 9
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 37232,
+        "title": "Merc Storia: Mukiryoku no Shounen to Bin no Naka no Shoujo",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1394/95704.jpg?s=4f696e273f5bf56e2dbd01a20eee7a20"
+      },
+      "character": {
+        "mal_id": 165044,
+        "name": "Merc",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/366199.jpg?s=a1b900806adba1e5a8bc3c23feef6426",
+        "favorites": 6
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 36286,
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1081/95707.jpg?s=0b21f37968b2ac7ae14262ca46c152b5"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 39921,
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow - Manner Movie",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1018/122070.jpg?s=64cd6b8c3e4b81055ec5f2e7b1b8aafd"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 37450,
+        "title": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1301/93586.jpg?s=3698ad2f2ca9b4a26edd3090ad2f4bd2"
+      },
+      "character": {
+        "mal_id": 149616,
+        "name": "Makinohara Shouko",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/598437.jpg?s=c590ed7aed2544754b35bb718cf7a2e6",
+        "favorites": 1279
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 33010,
+        "title": "FLCL Progressive",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1499/93700.jpg?s=ce96dc11aa75eddbafd42ed70911605a"
+      },
+      "character": {
+        "mal_id": 162636,
+        "name": "Hibajiri Hidomi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/371288.jpg?s=3e48234885ca16f70251141fa6de1115",
+        "favorites": 88
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 37968,
+        "title": "Kirakira Happy★Hirake! Cocotama",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1742/93170.jpg?s=e0b2bdf402d6cee9f144adb783695680"
+      },
+      "character": {
+        "mal_id": 170971,
+        "name": "Ribbon",
+        "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif",
+        "favorites": 0
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 37377,
+        "title": "Masamune-kun no Revenge: Uchi no Mama ni Kagitte/Tsunade Shima, Futatabi./12-Ji wo Sugita Cinderella",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1439/123818.jpg?s=7f9205e193fc6e9e08aa667e4e660a3d"
+      },
+      "character": {
+        "mal_id": 99233,
+        "name": "Koiwai Yoshino",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/261549.jpg?s=332b081501ac33f93b07aac4ec9703f9",
+        "favorites": 596
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 36927,
+        "title": "Pokemon Movie 21: Minna no Monogatari",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1580/90795.jpg?s=bf84157ecc90a7a7c3798b22f591f6d1"
+      },
+      "character": {
+        "mal_id": 214160,
+        "name": "Lily",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/481571.jpg?s=02ec5657f7c067be6b6d2f7c38ea009d",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 36431,
+        "title": "One Room: Second Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1098/93257.jpg?s=edfc61beec195e6c098488aacc6e936e"
+      },
+      "character": {
+        "mal_id": 163077,
+        "name": "Amatsuki Mashiro",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/361178.jpg?s=6a5947679ecef2c7c4fc5047f85666be",
+        "favorites": 20
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 37126,
+        "title": "Nobunaga no Shinobi: Anegawa Ishiyama-hen",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1651/91110.jpg?s=6b5d71d5e56b675fa50d8e61e0b7d207"
+      },
+      "character": {
+        "mal_id": 138425,
+        "name": "Chidori",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/14/300336.jpg?s=4ec92000635cd0166bff4ce37fd00e0d",
+        "favorites": 18
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 33733,
+        "title": "Inazuma Eleven: Ares no Tenbin",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1460/96891.jpg?s=11ad0e8b5e24a0ce0f99fe9f7d83aa9f"
+      },
+      "character": {
+        "mal_id": 181907,
+        "name": "Shiratoya Nae",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/408098.jpg?s=7d971c85ba71ce0fb9cf9f323d61e2e8",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 36470,
+        "title": "Tada-kun wa Koi wo Shinai",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1446/91841.jpg?s=471f342762bde88476e5d726521816db"
+      },
+      "character": {
+        "mal_id": 156094,
+        "name": "Tada Yui",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/350484.jpg?s=fad5fe18556a73ee698dac3c7415290e",
+        "favorites": 16
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 35857,
+        "title": "Lupin III: Part 5",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1235/91028.jpg?s=4c73ccb38444a0ead5eb48e1d0684477"
+      },
+      "character": {
+        "mal_id": 160614,
+        "name": "Enan Ami",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/356729.jpg?s=13cb978a3bc5f05310d439ee06fb2fb9",
+        "favorites": 23
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 36754,
+        "title": "Kakuriyo no Yadomeshi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1035/95056.jpg?s=d5f305d5fc1107fa962169926dc8ed06"
+      },
+      "character": {
+        "mal_id": 261683,
+        "name": "Umibouzu",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/574341.jpg?s=33b56ab6871f00214fd4549db049f216",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 37672,
+        "title": "Toji no Miko Recap",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1614/91864.jpg?s=3819354958b15dde772961aa3554a4bb"
+      },
+      "character": {
+        "mal_id": 152608,
+        "name": "Tsubakuro Yume",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/339689.jpg?s=9b041ff778bcd32152c2e77020b89417",
+        "favorites": 51
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 36995,
+        "title": "Precure Super Stars! Movie",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/4/89920.jpg?s=26259de988a564270ebfdd41bef36029"
+      },
+      "character": {
+        "mal_id": 151493,
+        "name": "Kirahoshi Ciel",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/496103.jpg?s=8c9d3f3b82042ed0cc7229bbf59090e0",
+        "favorites": 26
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 36593,
+        "title": "Hug tto! Precure",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1220/92883.jpg?s=63177593933cf8d9b4ac2dae1f29ea96"
+      },
+      "character": {
+        "mal_id": 151493,
+        "name": "Kirahoshi Ciel",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/496103.jpg?s=8c9d3f3b82042ed0cc7229bbf59090e0",
+        "favorites": 26
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 36298,
+        "title": "Robot Girls Z: Fukkatsu no Chika Teikoku!? Robot Girls Z vs. Nazo no Sandai Shuyaku Robo!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1372/95234.jpg?s=6d3b3d22be1dc61fc0b7bc85a524438b"
+      },
+      "character": {
+        "mal_id": 95591,
+        "name": "Great Mazinger",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/3/249763.jpg?s=94e13c57c066faddc9431c1e895833a0",
+        "favorites": 6
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 35964,
+        "title": "Basilisk: Ouka Ninpouchou",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/2/88384.jpg?s=164b08b5be67deb27da2c42fd2fe1e27"
+      },
+      "character": {
+        "mal_id": 155459,
+        "name": "Iga Hibiki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/350104.jpg?s=5b8ca33307bb7c5235f4c33495889670",
+        "favorites": 2
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 35540,
+        "title": "Slow Start",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/4/89982.jpg?s=ad15bc0e2eba8446c3111b01fa7c1c0a"
+      },
+      "character": {
+        "mal_id": 158447,
+        "name": "Takahashi Nanae",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/349207.jpg?s=0a9e92f842715f78e913a40145ed6a9f",
+        "favorites": 3
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 35330,
+        "title": "Poputepipikku",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/3/88816.jpg?s=b6403822e1f3b92a5b9c3e8dd8775649"
+      },
+      "character": {
+        "mal_id": 158687,
+        "name": "Tsukino Shizuku",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/15/350315.jpg?s=f96b46004510ddc9764dae8bb2f32410",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 35589,
+        "title": "Toji no Miko",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/13/89885.jpg?s=e24c6de0aef5f5c93fdc0f24760e3109"
+      },
+      "character": {
+        "mal_id": 152608,
+        "name": "Tsubakuro Yume",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/339689.jpg?s=9b041ff778bcd32152c2e77020b89417",
+        "favorites": 51
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 35839,
+        "title": "Sora yori mo Tooi Basho",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/6/89879.jpg?s=5623afddd93f595be437451b92f6d659"
+      },
+      "character": {
+        "mal_id": 157147,
+        "name": "Tamaki Mari",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/14/358826.jpg?s=4a70c6e973bf4fdf1210c6de2bfe4fac",
+        "favorites": 386
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 33280,
+        "title": "Gochuumon wa Usagi desu ka?? Dear My Sister",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/10/88182.jpg?s=9fcb71ee60e21f4c42c45a4117ff5572"
+      },
+      "character": {
+        "mal_id": 94941,
+        "name": "Kafuu Chino",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/244251.jpg?s=bb39cac0cd04ea627f6eef347e77a2f9",
+        "favorites": 2223
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 35206,
+        "title": "Kirakira☆Precure A La Mode Movie: Paritto! Omoide no Mille-Feuille!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/6/86547.jpg?s=d9da8c87525890c1f241fa815ac4c61a"
+      },
+      "character": {
+        "mal_id": 151493,
+        "name": "Kirahoshi Ciel",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/496103.jpg?s=8c9d3f3b82042ed0cc7229bbf59090e0",
+        "favorites": 26
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 35376,
+        "title": "Himouto! Umaru-chan R",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/10/89671.jpg?s=6b4b09acb3a9704723280b0c5ae763a4"
+      },
+      "character": {
+        "mal_id": 130890,
+        "name": "Kongou Hikari",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/3/287722.jpg?s=e81a6bba223b1cb8297309f67d99bb93",
+        "favorites": 42
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 35427,
+        "title": "Animegataris",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/12/89686.jpg?s=4a98b2cda1a9291a53ddcdba35e28251"
+      },
+      "character": {
+        "mal_id": 154150,
+        "name": "Asagaya Maaya",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/338586.jpg?s=1b715bad473c175b663d1bf0da32e7c4",
+        "favorites": 2
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 35838,
+        "title": "Shoujo Shuumatsu Ryokou",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/12/88321.jpg?s=f1d564ac54b4c12297c2f186d8d0ab30"
+      },
+      "character": {
+        "mal_id": 154098,
+        "name": "Chito",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/341027.jpg?s=5aa37620542b17429e8ce4de788069c1",
+        "favorites": 2127
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 36468,
+        "title": "Shoujo Shuumatsu Jugyou",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/10/88044.jpg?s=7dc02159e0fcb88c92531a50df2af83d"
+      },
+      "character": {
+        "mal_id": 154098,
+        "name": "Chito",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/341027.jpg?s=5aa37620542b17429e8ce4de788069c1",
+        "favorites": 2127
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 35079,
+        "title": "Kino no Tabi: The Beautiful World - The Animated Series",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/13/87235.jpg?s=9397a348306c986c7e30c504f1da5fd1"
+      },
+      "character": {
+        "mal_id": 155149,
+        "name": "Photo",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/341030.jpg?s=effd1a416141f2c54ec52aa482193689",
+        "favorites": 21
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 42776,
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow Announcement",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1905/126686.jpg?s=fbd45af4be5fdb10ca580deddfbc4618"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 35248,
+        "title": "18if",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/7/86743.jpg?s=82b5319d03591986dc7e7fbfd98c4999"
+      },
+      "character": {
+        "mal_id": 151916,
+        "name": "Nene",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/337648.jpg?s=4a0e566f57897b070a38e08fd19f3be5",
+        "favorites": 4
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 34902,
+        "title": "Tsurezure Children",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/12/86676.jpg?s=2549a08931b2bd397aad9b3899beac68"
+      },
+      "character": {
+        "mal_id": 139270,
+        "name": "Takano Chizuru",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/3/328821.jpg?s=d144074b7307eed77164961fcbf32a10",
+        "favorites": 230
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 34834,
+        "title": "Hina Logi: From Luck & Logic",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/11/86576.jpg?s=a1a9c7ea22f590f4571ec79920fbbf2d"
+      },
+      "character": {
+        "mal_id": 135632,
+        "name": "Asuha Mana",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/15/300529.jpg?s=7a75b78fea28e35ba7d3723702e7c0a7",
+        "favorites": 21
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 35315,
+        "title": "ChäoS;Child: Silent Sky",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/9/88031.jpg?s=bddbe98f1df063a1eb43926ae84df672"
+      },
+      "character": {
+        "mal_id": 144139,
+        "name": "Yamazoe Uki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/455264.jpg?s=97ce394df066efe1dbbc490d102d635f",
+        "favorites": 9
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 34943,
+        "title": "T7S Longing for Summer Again and Again: Harukaze",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/3/84343.jpg?s=033e11a56a900fe15f4712f4b790286b"
+      },
+      "character": {
+        "mal_id": 150504,
+        "name": "Suzuhara Kahoru",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/421650.jpg?s=8b84395d924ef3b285b9197b354e7582",
+        "favorites": 1
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 32887,
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1181/123312.jpg?s=d6913e22e9c1a0ba3591f2fa87671f69"
+      },
+      "character": {
+        "mal_id": 93273,
+        "name": "Hestia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/285883.jpg?s=ac2462a197c166e93f1be075e2f83986",
+        "favorites": 3760
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 33502,
+        "title": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/4/85260.jpg?s=3dd1ca28d7b15a1616b429fbae264abe"
+      },
+      "character": {
+        "mal_id": 148736,
+        "name": "Keh Desperatio Noft",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/327411.jpg?s=910f8dafedce28908936749b3689d17a",
+        "favorites": 4
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 34978,
+        "title": "Nobunaga no Shinobi: Ise Kanegasaki-hen",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/3/84890.jpg?s=72b7e6706d39c64e91d21240eed35791"
+      },
+      "character": {
+        "mal_id": 138425,
+        "name": "Chidori",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/14/300336.jpg?s=4ec92000635cd0166bff4ce37fd00e0d",
+        "favorites": 18
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 34561,
+        "title": "Re:Creators",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/11/85469.jpg?s=518192555deff0a1bab3485b55a72f26"
+      },
+      "character": {
+        "mal_id": 148511,
+        "name": "Österreich Meteora",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/322619.jpg?s=36cf153d7f4b203f02d366319cceec0d",
+        "favorites": 418
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 34494,
+        "title": "Sakura Quest",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/6/85222.jpg?s=caa35c5fcb8c128c0c38866325e5a629"
+      },
+      "character": {
+        "mal_id": 151175,
+        "name": "Sawano Moe",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/7/330290.jpg?s=755f9ea35c24547a12b2212a9abfed4d",
+        "favorites": 2
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 34566,
+        "title": "Boruto: Naruto Next Generations",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1091/99847.jpg?s=c6b0fe926d408dab4af7c1b7a5c91c59"
+      },
+      "character": {
+        "mal_id": 215744,
+        "name": "Yukiwari Kae",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/7/484766.jpg?s=48cf32ab00b541f924edac4b4033bd3d",
+        "favorites": 5
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 34290,
+        "title": "Kirakira☆Precure A La Mode",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/12/88612.jpg?s=4d49cac179f958fb9eba3f73952b92cb"
+      },
+      "character": {
+        "mal_id": 151493,
+        "name": "Kirahoshi Ciel",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/496103.jpg?s=8c9d3f3b82042ed0cc7229bbf59090e0",
+        "favorites": 26
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 34152,
+        "title": "Super Danganronpa 2.5: Komaeda Nagito to Sekai no Hakaisha",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/10/83150.jpg?s=33bcf379db523cefa32c785c991a6fdd"
+      },
+      "character": {
+        "mal_id": 140020,
+        "name": "Andou Ruruka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/303580.jpg?s=2a3bc7a50d9504d5f5cfcfbb9b1c4140",
+        "favorites": 32
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 30485,
+        "title": "ChäoS;Child",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1310/90137.jpg?s=72d02ec06966395f3932d46e99e58b6d"
+      },
+      "character": {
+        "mal_id": 144139,
+        "name": "Yamazoe Uki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/455264.jpg?s=97ce394df066efe1dbbc490d102d635f",
+        "favorites": 9
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 33731,
+        "title": "Gabriel DropOut",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/9/82590.jpg?s=8c726c5d229b6d8dea14d71c0b281ffa"
+      },
+      "character": {
+        "mal_id": 148397,
+        "name": "Sugarbell Chisaki Tapris",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/322390.jpg?s=2969dcd9ea425a55cb9c3e73fe654dcf",
+        "favorites": 79
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 33487,
+        "title": "Masamune-kun no Revenge",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/12/83709.jpg?s=8098658e214fa2b6a9d930ea2cfc9106"
+      },
+      "character": {
+        "mal_id": 99233,
+        "name": "Koiwai Yoshino",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/261549.jpg?s=332b081501ac33f93b07aac4ec9703f9",
+        "favorites": 596
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 32801,
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka OVA",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/9/81432.jpg?s=51d4fa2a9bac3d37774e602e71eed92f"
+      },
+      "character": {
+        "mal_id": 93273,
+        "name": "Hestia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/285883.jpg?s=ac2462a197c166e93f1be075e2f83986",
+        "favorites": 3760
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 37103,
+        "title": "Danganronpa 3: Monokuma Gekijou",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/8/90004.jpg?s=272b539db92c33ce4da2e8eeaf6c8987"
+      },
+      "character": {
+        "mal_id": 140020,
+        "name": "Andou Ruruka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/303580.jpg?s=2a3bc7a50d9504d5f5cfcfbb9b1c4140",
+        "favorites": 32
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 32829,
+        "title": "Nobunaga no Shinobi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/2/78715.jpg?s=ae91fe492bfece80336a753b18b767e4"
+      },
+      "character": {
+        "mal_id": 138425,
+        "name": "Chidori",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/14/300336.jpg?s=4ec92000635cd0166bff4ce37fd00e0d",
+        "favorites": 18
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 33003,
+        "title": "Mahou Shoujo Ikusei Keikaku",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/2/81087.jpg?s=b9a36d670915cdd80da54c8996797707"
+      },
+      "character": {
+        "mal_id": 141959,
+        "name": "Sakanagi Ayana",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/318840.jpg?s=d476d49cdac3431dacdbad7f67252c73",
+        "favorites": 78
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 33589,
+        "title": "ViVid Strike!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/2/82015.jpg?s=4e69d80129e304c685573c852502d80c"
+      },
+      "character": {
+        "mal_id": 143976,
+        "name": "Reventon Fuuka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/314867.jpg?s=c9642509ca9b7a4b1cab87612e001f85",
+        "favorites": 46
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 33314,
+        "title": "Digimon Universe: Appli Monsters",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1189/98841.jpg?s=30742e2d5bc0a43277cd35e17ae0878f"
+      },
+      "character": {
+        "mal_id": 153342,
+        "name": "Katsura Hajime",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/7/567950.jpg?s=62832c68512c46e88ec773ffd15fa5dd",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 33314,
+        "title": "Digimon Universe: Appli Monsters",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1189/98841.jpg?s=30742e2d5bc0a43277cd35e17ae0878f"
+      },
+      "character": {
+        "mal_id": 157794,
+        "name": "Mashiro Alice",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/567951.jpg?s=2ffad51b34375f1c2789f26aefdcbe34",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 33028,
+        "title": "Danganronpa 3: The End of Kibougamine Gakuen - Zetsubou-hen",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/4/80932.jpg?s=a54d8593d9dd4f5745249375c8ad8919"
+      },
+      "character": {
+        "mal_id": 140020,
+        "name": "Andou Ruruka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/303580.jpg?s=2a3bc7a50d9504d5f5cfcfbb9b1c4140",
+        "favorites": 32
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 32189,
+        "title": "Danganronpa 3: The End of Kibougamine Gakuen - Mirai-hen",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/10/80931.jpg?s=369e9e4652dfbafc2cbfce3ff146a87a"
+      },
+      "character": {
+        "mal_id": 140020,
+        "name": "Andou Ruruka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/303580.jpg?s=2a3bc7a50d9504d5f5cfcfbb9b1c4140",
+        "favorites": 32
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 31764,
+        "title": "Nejimaki Seirei Senki: Tenkyou no Alderamin",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/11/79531.jpg?s=ccdca7e5a72df0c88cd31b85155ce394"
+      },
+      "character": {
+        "mal_id": 135884,
+        "name": "Kitra Katjvanmaninik Chamille",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/308033.jpg?s=afaa916b1db2e550db52424fba25f18a",
+        "favorites": 238
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 33569,
+        "title": "Re:Petit kara Hajimeru Isekai Seikatsu",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/8/81281.jpg?s=0437718110e4fe42bfabc97b69f95f24"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 33142,
+        "title": "Re:Zero kara Hajimeru Break Time",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/8/81258.jpg?s=0cf4c97818e8c79c40984997586792a2"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 31404,
+        "title": "Netoge no Yome wa Onnanoko ja Nai to Omotta?",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/3/79414.jpg?s=3686698e81f5b2a7be800b0f17154b77"
+      },
+      "character": {
+        "mal_id": 132324,
+        "name": "Segawa Akane",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/302653.jpg?s=341ba5ace779c420ad805e16c2f60955",
+        "favorites": 85
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 31240,
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1522/128039.jpg?s=b321fbcc37de5ed636057ac9d868587f"
+      },
+      "character": {
+        "mal_id": 118763,
+        "name": "Rem",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/9/311327.jpg?s=e9af7eb14677c44d18d16a55897ea6f8",
+        "favorites": 47662
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 33021,
+        "title": "Ragnastrike Angels",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/2/79268.jpg?s=52ed159044db5a8c97eb7140d854f480"
+      },
+      "character": {
+        "mal_id": 139214,
+        "name": "Mihime Moka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/14/319814.jpg?s=5347081919f19ac4d8044a71998edc52",
+        "favorites": 1
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 31553,
+        "title": "Charlotte: Tsuyoimono-tachi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1709/98068.jpg?s=913943f40e9087be739c6fadfb0f3c8d"
+      },
+      "character": {
+        "mal_id": 139420,
+        "name": "Sekiguchi Iori",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/304183.jpg?s=f47f721f097713d53fb436e9ad6fe8e0",
+        "favorites": 24
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 33170,
+        "title": "Kokoro ga Sakebitagatterunda. x Sony Hi-Res \"Walkman\" and Headphone",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/12/79673.jpg?s=f74b153e341ca25fc438f3f6ec53aa4a"
+      },
+      "character": {
+        "mal_id": 127322,
+        "name": "Naruse Jun",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/444198.jpg?s=2c9f72210d741d36d055a88546a7b693",
+        "favorites": 610
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 34283,
+        "title": "Nobunaga no Shinobi: Nobunaga to Minarai Shinobi",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/8/82507.jpg?s=da0d7920f408731d128983a49f76d2f4"
+      },
+      "character": {
+        "mal_id": 138425,
+        "name": "Chidori",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/14/300336.jpg?s=4ec92000635cd0166bff4ce37fd00e0d",
+        "favorites": 18
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 30988,
+        "title": "Futsuu no Joshikousei ga \"Locodol\" Yattemita. OVA",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1809/148421.jpg?s=524ca69ce8ebbe16754d59f7018e4194"
+      },
+      "character": {
+        "mal_id": 105149,
+        "name": "Nazukari Mirai",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/257257.jpg?s=986468da97dac859b72a37f4ea7b01e1",
+        "favorites": 3
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 31173,
+        "title": "Akagami no Shirayuki-hime 2nd Season",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/12/77834.jpg?s=0eea1d5808f837eee7fd3e149a85e90a"
+      },
+      "character": {
+        "mal_id": 135881,
+        "name": "Shenazard Rona",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/332385.jpg?s=ca0f19642fdf18eb3a974431428e784b",
+        "favorites": 4
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 32083,
+        "title": "Luck & Logic",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/5/77134.jpg?s=55fec963543f99e883aaf82b80939530"
+      },
+      "character": {
+        "mal_id": 135632,
+        "name": "Asuha Mana",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/15/300529.jpg?s=7a75b78fea28e35ba7d3723702e7c0a7",
+        "favorites": 21
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 31710,
+        "title": "Divine Gate",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/5/77844.jpg?s=744ee1ca98e2c9a42d41003c095a5dab"
+      },
+      "character": {
+        "mal_id": 144280,
+        "name": "Shakespeare",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/7/337456.jpg?s=cfb1a7f8856115f56f2c5b4e905a3880",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 32151,
+        "title": "Senki Zesshou Symphogear GX: Senki Zesshou Shinai Symphogear",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/8/77264.jpg?s=9145eb85288b08d1b6d69ae95ac16a7d"
+      },
+      "character": {
+        "mal_id": 129793,
+        "name": "Malus Dienheim Carol",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/331662.jpg?s=027e2783a22a1ea94f04b35d25abd812",
+        "favorites": 82
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 29787,
+        "title": "Gochuumon wa Usagi desu ka??",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/8/76702.jpg?s=3de92b21de512b5eda06c4cc21098586"
+      },
+      "character": {
+        "mal_id": 94941,
+        "name": "Kafuu Chino",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/244251.jpg?s=bb39cac0cd04ea627f6eef347e77a2f9",
+        "favorites": 2223
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 28883,
+        "title": "Hidan no Aria AA",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/12/76700.jpg?s=b3643b19ea10b0d26bf55c4878144dca"
+      },
+      "character": {
+        "mal_id": 133451,
+        "name": "Mamiya Nonoka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/13/295145.jpg?s=9187b39e5c41a907a81f945452cc2fc8",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 30901,
+        "title": "Utawarerumono: Itsuwari no Kamen",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/8/75968.jpg?s=8766bec3f365cab4dd967e9a34a2858b"
+      },
+      "character": {
+        "mal_id": 129768,
+        "name": "Nekone",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/304518.jpg?s=8f2050efe030a1518319b9632632c813",
+        "favorites": 20
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 31318,
+        "title": "Comet Lucifer",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/3/76111.jpg?s=618c75b6e8e2d3f0a66f7a60719c5c9c"
+      },
+      "character": {
+        "mal_id": 131634,
+        "name": "Mo Ritika Tzetzes Ura",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/296718.jpg?s=52d71dd65cd89e00de5b444552bfb5ad",
+        "favorites": 5
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 27829,
+        "title": "Heavy Object",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/13/75940.jpg?s=d074253ea8dbd3d6ed051f15fc5ffaa2"
+      },
+      "character": {
+        "mal_id": 138821,
+        "name": "Cherryblossom Orihime",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/302433.jpg?s=e8478a6bcda1f282fa5a79d286036659",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 28725,
+        "title": "Kokoro ga Sakebitagatterunda.",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1245/112628.jpg?s=759293b6d3554828f340ad0efc0fdf07"
+      },
+      "character": {
+        "mal_id": 127322,
+        "name": "Naruse Jun",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/444198.jpg?s=2c9f72210d741d36d055a88546a7b693",
+        "favorites": 610
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 30919,
+        "title": "Sora no Method: Aru Shoujo no Kyuujitsu★",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/11/76251.jpg?s=081e8428c50d58db697c23f809f15231"
+      },
+      "character": {
+        "mal_id": 105177,
+        "name": "Noel",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/14/261605.jpg?s=f132be10921a8d00718525a708dd8865",
+        "favorites": 435
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 24765,
+        "title": "Gakkougurashi!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1798/91548.jpg?s=7f6d954f0fece69e813fdd65e65d8f76"
+      },
+      "character": {
+        "mal_id": 94189,
+        "name": "Takeya Yuki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/298482.jpg?s=a41ce6576146a23c4a4676a0e596f293",
+        "favorites": 958
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 29785,
+        "title": "Jitsu wa Watashi wa",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/8/74042.jpg?s=8775821cfdf8626b95c7dc42db3adf67"
+      },
+      "character": {
+        "mal_id": 110519,
+        "name": "Aizawa Nagisa",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/3/275390.jpg?s=7c050172ec2684572311b2d6d4ea1443",
+        "favorites": 139
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 21573,
+        "title": "Senki Zesshou Symphogear GX",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/9/86681.jpg?s=d9ffc288ff656fe4008c8aa2631137db"
+      },
+      "character": {
+        "mal_id": 129793,
+        "name": "Malus Dienheim Carol",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/12/331662.jpg?s=027e2783a22a1ea94f04b35d25abd812",
+        "favorites": 82
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 33512,
+        "title": "Animegatari x Koukaku Kidoutai Collab Eizou",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/9/80627.jpg?s=f89bb25c01a23822c1dc8f12b5f59a31"
+      },
+      "character": {
+        "mal_id": 127350,
+        "name": "Maya",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/346781.jpg?s=7ad8d208af1d33b8323d0b393f7453e4",
+        "favorites": 1
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 29035,
+        "title": "Robot Girls Z Plus",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/9/73636.jpg?s=8ec64ec6ae5a552c603d0e90ca71af38"
+      },
+      "character": {
+        "mal_id": 95591,
+        "name": "Great Mazinger",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/3/249763.jpg?s=94e13c57c066faddc9431c1e895833a0",
+        "favorites": 6
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 30617,
+        "title": "Animegatari",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/13/73567.jpg?s=8266e708f6876552173cc6d65e62d57f"
+      },
+      "character": {
+        "mal_id": 127350,
+        "name": "Maya",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/346781.jpg?s=7ad8d208af1d33b8323d0b393f7453e4",
+        "favorites": 1
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 28121,
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1172/148981.jpg?s=5c5fe32eca45193d2c857efba87dcadb"
+      },
+      "character": {
+        "mal_id": 93273,
+        "name": "Hestia",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/285883.jpg?s=ac2462a197c166e93f1be075e2f83986",
+        "favorites": 3760
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 30600,
+        "title": "Military!: Tamatama Shoumetsu Suru Shiroki Hikari!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/7/73505.jpg?s=335c512060e2cecf0af527588fd4023c"
+      },
+      "character": {
+        "mal_id": 118991,
+        "name": "Shakirov",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/15/270627.jpg?s=3576b98aed41fad6377f5c8b58dc49c2",
+        "favorites": 3
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 27655,
+        "title": "Aldnoah.Zero Part 2",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/10/71297.jpg?s=8aedd53dd1906c555600fd457b0b3394"
+      },
+      "character": {
+        "mal_id": 109313,
+        "name": "Eddelrittuo",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/14/254975.jpg?s=23b02fa3c154599446bee05d3851b098",
+        "favorites": 16
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 26085,
+        "title": "Military!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/4/68837.jpg?s=09d36cb1f6007117963e9c68a17195b2"
+      },
+      "character": {
+        "mal_id": 118991,
+        "name": "Shakirov",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/15/270627.jpg?s=3576b98aed41fad6377f5c8b58dc49c2",
+        "favorites": 3
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 36064,
+        "title": "Fate/Grand Order",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1554/110198.jpg?s=ec4263b1ad104ebf80537b2190f65b04"
+      },
+      "character": {
+        "mal_id": 148705,
+        "name": "El-Melloi Archisorte Reines",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/2/384227.jpg?s=c4c2d5ccfd464ca27f7c5e62bdfe3e94",
+        "favorites": 212
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 23273,
+        "title": "Shigatsu wa Kimi no Uso",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1405/143284.jpg?s=ab613485552fa33d32a86ec50deefdca"
+      },
+      "character": {
+        "mal_id": 116959,
+        "name": "Megu",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/574579.jpg?s=e5deb9258508efdec0b437e243e46aae",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 23273,
+        "title": "Shigatsu wa Kimi no Uso",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1405/143284.jpg?s=ab613485552fa33d32a86ec50deefdca"
+      },
+      "character": {
+        "mal_id": 120711,
+        "name": "Seto Koharu",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/276134.jpg?s=be22fd5b3cd184e92a9b111d365a81f7",
+        "favorites": 191
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 23209,
+        "title": "Sora no Method",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1112/130966.jpg?s=bbb9ee29ae0a7bc5268242e1ef78de0d"
+      },
+      "character": {
+        "mal_id": 105177,
+        "name": "Noel",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/14/261605.jpg?s=f132be10921a8d00718525a708dd8865",
+        "favorites": 435
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 23319,
+        "title": "Suisei no Gargantia: Meguru Kouro, Haruka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/10/67547.jpg?s=91911f4a00ad7f268f9ffe2a98756d36"
+      },
+      "character": {
+        "mal_id": 103925,
+        "name": "Reema",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/240743.jpg?s=36731ae9d24c2ca8dd5d186a0947776d",
+        "favorites": 1
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 25719,
+        "title": "Futsuu no Joshikousei ga \"Locodol\" Yattemita.: Nagarekawa, Annai Shitemita.",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/11/67619.jpg?s=f27aa38f39303abcecd3006edc7380a2"
+      },
+      "character": {
+        "mal_id": 105149,
+        "name": "Nazukari Mirai",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/257257.jpg?s=986468da97dac859b72a37f4ea7b01e1",
+        "favorites": 3
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 22729,
+        "title": "Aldnoah.Zero",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/7/60263.jpg?s=882b1827c6f0e176f514a117f130e0bf"
+      },
+      "character": {
+        "mal_id": 109313,
+        "name": "Eddelrittuo",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/14/254975.jpg?s=23b02fa3c154599446bee05d3851b098",
+        "favorites": 16
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 22189,
+        "title": "Futsuu no Joshikousei ga \"Locodol\" Yattemita.",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1687/148418.jpg?s=43110c311a7a9b710a44fc88e41d8a99"
+      },
+      "character": {
+        "mal_id": 105149,
+        "name": "Nazukari Mirai",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/257257.jpg?s=986468da97dac859b72a37f4ea7b01e1",
+        "favorites": 3
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 24763,
+        "title": "Robot Girls Z Specials",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/8/63697.jpg?s=0cdf95865edda5bafe97b97b64034b83"
+      },
+      "character": {
+        "mal_id": 95591,
+        "name": "Great Mazinger",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/3/249763.jpg?s=94e13c57c066faddc9431c1e895833a0",
+        "favorites": 6
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 21273,
+        "title": "Gochuumon wa Usagi desu ka?",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/6/79600.jpg?s=2cb5f22c97cb0987cdcf2f4f071c583e"
+      },
+      "character": {
+        "mal_id": 94941,
+        "name": "Kafuu Chino",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/244251.jpg?s=bb39cac0cd04ea627f6eef347e77a2f9",
+        "favorites": 2223
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 20787,
+        "title": "Black Bullet",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1292/94693.jpg?s=48cbc95df865ad4a0adbd3a365ac3871"
+      },
+      "character": {
+        "mal_id": 105001,
+        "name": "Mibu Asaka",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/253319.jpg?s=2327fcdacbf79278aa005db637e3599b",
+        "favorites": 5
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 21773,
+        "title": "Sugar*Soldier",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/9/57959.jpg?s=8854d6c16e0a5952ff3532e0c08ab680"
+      },
+      "character": {
+        "mal_id": 83371,
+        "name": "Kisaragi Makoto",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/283135.jpg?s=ca688bc8635fd823bc90b654ef125693",
+        "favorites": 6
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 21177,
+        "title": "Nobunaga the Fool",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/10/57803.jpg?s=80c6b6924a30c0ee64e6dbc00b09e68e"
+      },
+      "character": {
+        "mal_id": 106199,
+        "name": "Toku",
+        "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 19799,
+        "title": "Robot Girls Z",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/4/53141.jpg?s=3f933b92c380a68b367dd1eb651311f1"
+      },
+      "character": {
+        "mal_id": 95591,
+        "name": "Great Mazinger",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/3/249763.jpg?s=94e13c57c066faddc9431c1e895833a0",
+        "favorites": 6
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 25293,
+        "title": "Futago no Mahoutsukai Lico to Gli",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/4/78517.jpg?s=0100a4ba9402fa79f845e8d9480e1054"
+      },
+      "character": {
+        "mal_id": 111571,
+        "name": "Lico",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/6/255733.jpg?s=6532e283d3418dd71c0eb8bc85b1b949",
+        "favorites": 1
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 19841,
+        "title": "Super Seisyun Brothers",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/2/53807.jpg?s=0803a4f61a05ffd9870facd4822a3159"
+      },
+      "character": {
+        "mal_id": 96327,
+        "name": "Kohara Shiyo",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/227829.jpg?s=eac04d3e59873661ef1315a62dd70be7",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 16353,
+        "title": "Love Lab",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1900/147887.jpg?s=6b1d1a6595fa5f850786b2df96a81ebf"
+      },
+      "character": {
+        "mal_id": 74273,
+        "name": "Tanahashi Suzune",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/212615.jpg?s=30ab31e947ad22f6d4edb1d55e42bd84",
+        "favorites": 25
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 10321,
+        "title": "Uta no☆Prince-sama♪ Maji Love 1000%",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/6/30248.jpg?s=17754caba71eda993e5291b21005caf0"
+      },
+      "character": {
+        "mal_id": 40566,
+        "name": "Kurusu Shou",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/11/153331.jpg?s=8e7a6fad3ebd37059e252f94106008b8",
+        "favorites": 622
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 6974,
+        "title": "Seikimatsu Occult Gakuin",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/5/75257.jpg?s=fca45dc578ecb17947d01f9e709cd04f"
+      },
+      "character": {
+        "mal_id": 36863,
+        "name": "Okamoto Akari",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/8/100323.jpg?s=cf17c04244072784956ca93a7737f3f5",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 1960,
+        "title": "Sore Ike! Anpanman",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1902/111797.jpg?s=f8c83343febe1230c74e2433e34fe4d1"
+      },
+      "character": {
+        "mal_id": 113925,
+        "name": "Kiiro Piiman",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/260967.jpg?s=a3bf7d300f0d0df3dd6de508acb85cf3",
+        "favorites": 0
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 1960,
+        "title": "Sore Ike! Anpanman",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1902/111797.jpg?s=f8c83343febe1230c74e2433e34fe4d1"
+      },
+      "character": {
+        "mal_id": 196831,
+        "name": "Kumo no Moku-chan",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/10/442414.jpg?s=2e27bc3be65c63e3a39d8e4ec1083f3e",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 1960,
+        "title": "Sore Ike! Anpanman",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1902/111797.jpg?s=f8c83343febe1230c74e2433e34fe4d1"
+      },
+      "character": {
+        "mal_id": 220957,
+        "name": "Yellow Enpitsuman",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/4/591968.jpg?s=56c4a2c296225fa07177cb862b85b4b6",
+        "favorites": 1
+      },
+      "role": "Supporting"
+    },
+    {
+      "anime": {
+        "mal_id": 61115,
+        "title": "Gochuumon wa Usagi desu ka? Movie: We Are Family!",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1165/155775.jpg?s=9647a67a96ea05ac951ca19a9c690641"
+      },
+      "character": {
+        "mal_id": 94941,
+        "name": "Kafuu Chino",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/16/244251.jpg?s=bb39cac0cd04ea627f6eef347e77a2f9",
+        "favorites": 2223
+      },
+      "role": "Main"
+    },
+    {
+      "anime": {
+        "mal_id": 64104,
+        "title": "5-toubun no Hanayome: [Shunkashuutou]",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/anime/1589/157220.jpg?s=ff1cb39d8dff6a4bddd9de874cc60f5f"
+      },
+      "character": {
+        "mal_id": 161471,
+        "name": "Nakano Itsuki",
+        "image_url": "https://cdn.myanimelist.net/r/84x124/images/characters/5/437010.jpg?s=c7c02c4610d4df983a26a91ccc8edc65",
+        "favorites": 7878
+      },
+      "role": "Main"
+    }
+  ]
+}

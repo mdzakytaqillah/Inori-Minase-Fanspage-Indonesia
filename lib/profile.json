@@ -1,0 +1,30 @@
+{
+  "name": "水瀬いのり",
+  "name_romanized": "Minase Inori",
+  "nickname": "いのりん",
+  "nickname_romanized": "Inorin",
+  "name_global": "Inori Minase",
+  "birthday": "1995-12-02",
+  "height": "154 cm",
+  "blood_type": "B",
+  "agency": [
+    {
+      "name": "Axl-One",
+      "year_start": 2017,
+      "year_end": null
+    },
+    {
+      "name": "Sony Music Artists",
+      "year_start": 2010,
+      "year_end": 2017
+    }
+  ],
+  "label_music": [
+    {
+      "name": "King Amusement Creative",
+      "year_start": 2015,
+      "year_end": null
+    }
+  ],
+  "seiyuu_MALid": 11297
+}
