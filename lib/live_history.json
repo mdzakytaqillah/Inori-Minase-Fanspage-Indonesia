@@ -14,7 +14,12 @@
     "bluray_release": [],
     "audio_release": "",
     "image_path": [],
-    "buttons": []
+    "buttons": [
+      {
+        "name": "LIVE Info",
+        "href": "https://www.inoriminase.com/special/2026/SC/"
+      }
+    ]
   },
   {
     "name": "Inori Minase 10th ANNIVERSARY LIVE TOUR Travel Record",
