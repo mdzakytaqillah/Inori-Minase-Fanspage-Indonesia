@@ -1,101 +1,87 @@
 # Inori Minase Fanspage Indonesia
 
-Sebuah platform penggemar berbasis website yang didedikasikan untuk pengisi suara (seiyuu) dan penyanyi asal Jepang, [**Inori Minase (水瀬いのり/Minase Inori)**](https://www.inoriminase.com). Website ini berfungsi sebagai wadah bagi saya sebagai fans untuk membahas dan membagikan informasi tentang Inori Minase dari berbagai sumber.
+Platform situs web komunitas dan pusat informasi penggemar yang didedikasikan untuk pengisi suara (*Seiyuu*) sekaligus penyanyi asal Jepang, [**Inori Minase (水瀬いのり/Minase Inori)**](https://www.inoriminase.com). Situs web ini menyajikan profil perjalanan karier, katalog diskografi & riwayat konser bebas redundansi, blog terintegrasi media sosial, hingga statistik peran suara berbasis data [MyAnimeList (MAL)](https://myanimelist.net/people/11297).
+
+🔗 **Akses Website Live:** [https://inorifans-id.vercel.app](https://inorifans-id.vercel.app)
+
+---
 
 ## Fitur Utama
 
-- **Halaman Beranda:** Menampilkan foto Inori Minase, informasi pribadi Inori Minase, lini masa (timeline) vertikal interaktif perjalanan karir Inori Minase, disandingkan dengan kumpulan tautan resmi dan forum komunitas yang relevan. Terdapat pula fitur countdown hari ulang tahun Inori Minase yang aktif ketika mendekati hari ulang tahunnya (<= 90 hari)
-- **Halaman Diskografi:** Menampilkan daftar lengkap lagu yang dimiliki Inori Minase.
-  - Terdapat badge yang menampilkan kalkulasi jumlah lagu dengan menghindari perhitungan redudansi pada lagu yang dirilis dua kali atau lebih. Dapat diklik untuk melihat list lengkap lagu secara satuan.
-  - Fitur filter kategori dinamis untuk memisahkan tampilan antara **Semua Rilisan**, **Album**, dan **Single**.
-  - Manajemen daftar lagu (tracklist) yang dilengkapi sistem **Kredit Kreator** untuk melacak riwayat komposer, penulis lirik, dan aransemen secara akurat.
-  - Daftar lengkap LIVE Concerts yang menyajikan informasi statistik, nama LIVE Concerts, jadwal dan lokasi pelaksanaan, tracklist dari setiap pelaksanaan, dan informasi terkait perilisan Blu-Ray dan Audio.
-- **Halaman Blog:** Menyajikan blog dengan kontrol navigasi halaman (pagination) serta integrasi skrip pihak ketiga yang adaptif untuk merender embed YouTube, Facebook, Twitter, TikTok, dan Instagram.
-- **Halaman Voicing:** Menampilkan berbagai informasi berkaitan dengan Inori Minase sebagai seorang pengisi suara.
-  - Statistik Top Character yang diperankan Inori Minase, menampilkan karakter dengan jumlah favorit sebanyak >= 1000 dari pengguna [MyAnimeList (MAL)](https://myanimelist.net/people/11297).
-  - Statistik Top Genre Anime, menampilkan genre dari anime yang melibatkan Inori Minase, diurutkan berdasarkan jumlah terbanyak.
-  - Statistik Top Seiyuu, menampilkan Top 50 Seiyuu dengan jumlah favorit terbanyak dari pengguna [MyAnimeList (MAL)](https://myanimelist.net/people.php) dengan menetapkan kriteria seiyuu minimal memiliki peran 4 karakter berbeda.
-  - Informasi terkait peran karakter Inori Minase yang sedang dan/atau akan tayang dengan menyediakan informasi nama dan foto karakter serta nama dan waktu penayangan anime tersebut.
-    Data pada halaman ini berasal dari platform [MyAnimeList (MAL)](https://myanimelist.net) yang diperoleh dari penggabungan data dari sumber API resmi MAL (untuk data detail anime) dan penggunaan teknik website scraping (untuk data peran Inori Minase dan data Top Seiyuu).
+### 1. Halaman Beranda (Home)
+* Menampilkan profil personal Inori Minase, linimasa (*timeline*) vertikal interaktif perjalanan karier, serta direktori tautan resmi dan forum komunitas yang relevan.
+* **Conditional Birthday Countdown:** Fitur hitung mundur otomatis yang aktif ketika mendekati hari ulang tahun Inori Minase ($\le 90$ hari).
 
-Pembuatan MyAnimeList Scraper terinspirasi oleh [@nattadasu](https://github.com/nattadasu/miribyou) yang mereplikasi fungsi dari [Jikan API](https://github.com/jikan-me/jikan-rest) (Unofficial Public MyAnimeList API).
+### 2. Halaman Diskografi & Riwayat Konser (Discography & LIVE)
+* **Kalkulasi Lagu Unik Bebas Redundansi:** Dilengkapi *badge* penghitung jumlah lagu yang secara otomatis mengeliminasi perhitungan ganda pada lagu yang dirilis lebih dari satu kali (misalnya pada *Single* dan *Album*), serta dapat diklik untuk menampilkan daftar seluruh lagu satuan.
+* **Filter Kategori Dinamis:** Memisahkan tampilan rilisan berdasarkan **Semua Rilisan**, **Album**, dan **Single**.
+* **Manajemen Tracklist & Kredit Kreator:** Menampilkan daftar lagu di setiap rilisan lengkap dengan pencatatan riwayat **Penulis Lirik**, **Komposer**, dan **Aransemen**.
+* **Arsip Lengkap LIVE Concerts:** Menyajikan statistik konser, nama tur/konser, jadwal dan lokasi pelaksanaan, *setlist/tracklist* di setiap konser, serta informasi perilisan media *Blu-Ray* dan *Audio*.
 
-## Komponen Teknologi (Tech Stack)
+### 3. Halaman Blog Interaktif
+* Menyajikan artikel dan pembaruan informasi dengan sistem navigasi halaman (*pagination*).
+* **Integrasi Multi-Platform Embed Adaptif:** Memuat skrip pihak ketiga secara dinamis untuk merender tampilan *embed* dari **YouTube**, **Facebook**, **Twitter (X)**, **TikTok**, dan **Instagram**.
 
-- **Framework:** [Next.js](https://nextjs.org) (App Router) - dibangun dengan [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app)
-- **Bahasa Pemrograman:** TypeScript
-- **Styling:** Tailwind CSS
-- **Sumber Data:**
-  1. File JSON Lokal:
-  - [`profile.json`](lib/profile.json) untuk data personal Inorin sebagai data utama Website beserta ID MyAnimeList Inorin untuk keperluan pengambilan data.
-  - [`info.json`](lib/info.json) untuk data Halaman Beranda.
-  - [`blog.json`](lib/blog.json) untuk data Halaman Blog.
-  - [`discography.json`](lib/discography.json), [`live_history.json`](lib/live_history.json) untuk data Halaman Discography.
-  2. Penggabungan data dari [Official MyAnimeList API](https://myanimelist.net/apiconfig) dengan [MAL Website Scraping](lib/getDataMAL.ts) untuk data Halaman Voicing. Hasil Fetch API dan Website Scraping [disimpan](lib/syncBlob.ts) pada [Vercel Blob Storage](https://vercel.com/docs/vercel-blob):
-  - `person_db.json` (Sample data [disini](lib/person_db.json)) berisi data personal Inorin dan seluruh data karakter yang pernah dan akan ia perankan.
-  - `anime_db.json` (Sample data [disini](lib/anime_db.json)) berisi data lengkap dari seluruh anime dengan keberadaan peran Inorin.
-  - `topseiyuu_db.json` (Sample data [disini](lib/topseiyuu_db.json)) berisi peringkat Top Seiyuu.
+### 4. Halaman Analitik Pengisian Suara (Voicing Analytics)
+Menyajikan visualisasi dan pengolahan data peran suara Inori Minase yang bersumber dari penggabungan **Official MyAnimeList API** dan **Custom Web Scraper**:
+* **Statistik Top Character:** Menampilkan daftar karakter ikonik yang diperankan Inori Minase dengan jumlah favorit $\ge 1.000$ pengguna di MyAnimeList.
+* **Statistik Top Genre Anime:** Mengagregasi dan mengurutkan distribusi genre dari seluruh judul anime yang melibatkan Inori Minase.
+* **Leaderboard Top 50 Seiyuu:** Menampilkan peringkat 50 *Seiyuu* dengan jumlah favorit tertinggi di MyAnimeList menggunakan filter kelayakan minimal memiliki 4 peran karakter berbeda.
+* **Pelacak Anime Sedang & Akan Tayang (*Airing & Upcoming*):** Menampilkan informasi karakter dan jadwal penayangan anime terbaru yang sedang atau akan dibintangi oleh Inori Minase.
+  *(Data pada halaman ini berasal dari platform [MyAnimeList (MAL)](https://myanimelist.net) yang diperoleh dari penggabungan data dari sumber API resmi MAL (untuk data detail anime) dan penggunaan teknik website scraping (untuk data peran Inori Minase dan data Top Seiyuu). Pengembangan modul scraper MyAnimeList ini terinspirasi dari proyek [@nattadasu/miribyou](https://github.com/nattadasu/miribyou) yang mereplikasi fungsi [Jikan API](https://github.com/jikan-me/jikan-rest) (Unofficial Public MyAnimeList API)).*
+
+---
+
+## Tech Stack & Arsitektur Data
+
+* **Framework:** [Next.js](https://nextjs.org) (App Router)
+* **Bahasa Pemrograman:** TypeScript
+* **Styling:** Tailwind CSS
+* **Data Fetching & Parsing:** [Official MyAnimeList API](https://myanimelist.net/apiconfig) & [Cheerio (HTML Scraper)](lib/getDataMAL.ts)
+* **Cloud Storage:** [Vercel Blob Storage](https://vercel.com/docs/vercel-blob) (`@vercel/blob`) untuk [menyimpan](lib/syncBlob.ts) hasil fetch dan parsing
+* **Arsitektur Sumber Data:**
+  1. **Basis Data JSON Lokal (`lib/`):**
+     * [`profile.json`](lib/profile.json): Data profil utama dan ID MyAnimeList Inori Minase.
+     * [`info.json`](lib/info.json): Data linimasa karier dan tautan pada Halaman Beranda.
+     * [`blog.json`](lib/blog.json): Konten artikel dan sematan media pada Halaman Blog.
+     * [`discography.json`](lib/discography.json) & [`live_history.json`](lib/live_history.json): Katalog lagu, kredit kreator, dan riwayat konser pada Halaman Diskografi.
+  2. **Sinkronisasi Hybrid MAL API + Web Scraper ke Vercel Blob (`lib/getDataMAL.ts` & `lib/syncBlob.ts`):**
+     * `person_db.json`: Data profil *Seiyuu* dan daftar seluruh karakter yang diperankan (Sample data [disini](lib/person_db.json)).
+     * `anime_db.json`: Metadata lengkap seluruh anime terkait (status tayang, musim, tahun, dan daftar genre) (Sample data [disini](lib/anime_db.json)).
+     * `topseiyuu_db.json`: Data peringkat *Top 50 Seiyuu* (Sample data [disini](lib/topseiyuu_db.json)).
+
+---
 
 ## ⚠️ Disclaimer ⚠️
 
-Penggunaan API MyAnimeList dan Website Scraping MyAnimeList hanya dilakukan pada lingkup local development server dan hanya untuk memenuhi kebutuhan data pada website ini. Proses fetch API MyAnimeList dan Website Scraping MyAnimeList dilakukan secara manual.
+Penggunaan *Official API* dan teknik *website scraping* MyAnimeList hanya dijalankan secara manual pada lingkup *local development server* semata-mata untuk memperbarui basis data statis pada situs web ini.
 
-## Akses Website
+---
 
-Anda dapat mengaksesnya [disini](https://inorifans-id.vercel.app)
+## Panduan Deploy & Sinkronisasi Mandiri
 
-## Deploy Mandiri
-
-Pertama, clone repository ini pada direktori lokal perangkat anda
-
-```bash
-git clone https://github.com/mdzakytaqillah/Inori-Minase-Fanspage-Indonesia.git
-```
-
-Jalankan development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Pada umumnya, server akan berjalan pada localhost:3000. Buka [http://localhost:3000](http://localhost:3000) menggunakan browser anda.
-
-Untuk menunjang fungsi dari Halaman Voicing, anda perlu menyiapkan [Vercel Blob Storage](https://vercel.com/docs/vercel-blob). Ambil value BLOB_STORE_ID serta BLOB_READ_WRITE_TOKEN lalu simpan pada file `.env.local`. Selain itu, anda juga harus mendaftarkan akses [API MyAnimeList](https://myanimelist.net/apiconfig) untuk mendapatkan MAL_CLIENT_ID yang juga disimpan pada file `.env.local`.
-
-```bash
-BLOB_STORE_ID="YOUR_STORE_ID"
-BLOB_READ_WRITE_TOKEN="YOUR_BLOB_TOKEN"
-MAL_CLIENT_ID="YOUR_MAL_CLIENT_ID"
-```
-
-Jalankan proses fetch dan scraping data anime dengan membuka [http://localhost:3000/sync-data](http://localhost:3000/sync-data) pada browser.
-
-- **Sync Semua Anime:** Ini adalah proses pertama yang harus dilakukan untuk mendapatkan data pertama kali. Pengambilan data anime pertama kali akan memakan waktu cukup lama, untuk pengambilan data anime setelahnya dapat berlangsung lebih cepat karena hanya akan memperbarui anime yang sedang tayang dan akan tayang.
-- **Sync Top Seiyuu:** Ini adalah proses pengambilan data top seiyuu. Proses berlangsung cukup lama karena harus memeriksa data person satu persatu hingga didapatkan sejumlah seiyuu yang memenuhi kriteria.
-- **Sync Anime Manual:** Sinkronisasi data secara spesifik untuk satu anime. Proses akan dihentikan jika anime tersebut belum terdata dalam daftar peran, silahkan jalankan _Sync Semua Anime_ jika ini adalah peran baru.
-- **Backup Data ke Local:** Data yang tersimpan dapat diunduh dan akan tersimpan pada direktori [lib](lib/).
-
-## About Next.js (from Next.js Documentation)
-
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel (from Next.js Documentation)
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Kloning repositori ini ke perangkat lokal Anda:
+   ```bash
+   git clone https://github.com/mdzakytaqillah/Inori-Minase-Fanspage-Indonesia.git
+   cd Inori-Minase-Fanspage-Indonesia
+   ```
+2. Instal seluruh dependensi:
+   ```bash
+   npm install
+   ```
+3. Siapkan variabel lingkungan pada file `.env.local` dengan mendaftarkan [Vercel Blob Storage](https://vercel.com/docs/vercel-blob) dan [MyAnimeList API Client ID](https://myanimelist.net/apiconfig):
+   ```env
+   BLOB_STORE_ID="YOUR_STORE_ID"
+   BLOB_READ_WRITE_TOKEN="YOUR_BLOB_TOKEN"
+   MAL_CLIENT_ID="YOUR_MAL_CLIENT_ID"
+   ```
+4. Jalankan *development server*:
+   ```bash
+   npm run dev
+   ```
+   Pada umumnya, server akan berjalan pada localhost:3000. Buka [http://localhost:3000](http://localhost:3000) pada peramban Anda.
+5. Untuk melakukan sinkronisasi data Halaman Voicing, akses dasbor khusus di [http://localhost:3000/sync-data](http://localhost:3000/sync-data):
+   * **Sync Semua Anime:** Mengambil seluruh data awal anime (sinkronisasi pertama kali akan memakan waktu cukup lama, sinkronisasi berikutnya berjalan lebih cepat karena hanya memperbarui anime berstatus *currently airing* dan *upcoming*).
+   * **Sync Top Seiyuu:** Memindai dan menyaring peringkat *Seiyuu* terpopuler sesuai kriteria (sinkronisasi membutuhkan waktu cukup lama karena harus memeriksa data person satu persatu hingga didapatkan sejumlah seiyuu yang memenuhi kriteria).
+   * **Sync Anime Manual:** Memperbarui data satu judul anime secara spesifik berdasarkan ID (Proses akan dihentikan jika anime tersebut belum terdata dalam daftar peran, silahkan jalankan _Sync Semua Anime_ jika ini adalah peran baru).
+   * **Backup Data ke Local:** Mengunduh salinan data dari Vercel Blob ke direktori lokal [`lib/`](lib/).
