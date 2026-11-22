@@ -1,6 +1,35 @@
 {
   "single": [
     {
+      "id": "2445",
+      "title": "未解決で、ロマンスで。",
+      "numbering": "14th Single",
+      "stock_number": "KICM-2183",
+      "release_date": "2027-01-27",
+      "image_path": "https://inoriminase.com/wp/wp-content/uploads/2026/11/inori_MRJK_fix_re-scaled.jpg",
+      "description": "",
+      "trackList": [
+        {
+          "title": "未解決で、ロマンスで。",
+          "lyricist": ["Aira"],
+          "composer": ["Aira"],
+          "arranger": ["Aira"],
+          "note": "TVアニメ『ペンと手錠と事実婚』オープニングテーマ"
+        }
+      ],
+      "additional": "初回封入特典：特製トレカ",
+      "buttons": [
+        {
+          "text": "ご予約はこちら",
+          "href": "https://inoriminase.lnk.to/14thSG_CD_shop"
+        },
+        {
+          "text": "オリジナル特典",
+          "href": "https://inoriminase.com/feature/14th_single"
+        }
+      ]
+    },
+    {
       "id": "78",
       "title": "Summer Challenger",
       "numbering": "13th Single",
