@@ -15,6 +15,20 @@
           "composer": ["Aira"],
           "arranger": ["Aira"],
           "note": "TVアニメ『ペンと手錠と事実婚』オープニングテーマ"
+        },
+        {
+          "title": "snow globe factory",
+          "lyricist": ["渡辺 翔"],
+          "composer": ["渡辺 翔"],
+          "arranger": ["星 銀乃丈"],
+          "note": ""
+        },
+        {
+          "title": "ルルリフラクト",
+          "lyricist": ["櫻澤ヒカル"],
+          "composer": ["櫻澤ヒカル"],
+          "arranger": ["櫻澤ヒカル"],
+          "note": ""
         }
       ],
       "additional": "初回封入特典：特製トレカ",
@@ -28,6 +42,26 @@
           "href": "https://inoriminase.com/feature/14th_single"
         }
       ]
+    },
+    {
+      "id": "2552",
+      "title": "snow globe factory",
+      "numbering": "配信SINGLE",
+      "stock_number": "",
+      "release_date": "2026-12-25",
+      "image_path": "https://inoriminase.com/wp/wp-content/uploads/2026/11/32bf801793ed669e33f2a1b3be1d72d1.jpg",
+      "description": "",
+      "trackList": [
+        {
+          "title": "snow globe factory",
+          "lyricist": ["渡辺 翔"],
+          "composer": ["渡辺 翔"],
+          "arranger": ["星 銀乃丈"],
+          "note": ""
+        }
+      ],
+      "additional": "",
+      "buttons": []
     },
     {
       "id": "78",
